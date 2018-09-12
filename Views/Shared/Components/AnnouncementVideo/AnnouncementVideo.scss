@@ -1,0 +1,57 @@
+/** -------------------------------------------
+    Announcement Component
+    ------------------------------------------- **/
+
+@import '~Plugins/_swiper.scss';
+
+.video-swiper {
+    .swiper-wrapper { padding-bottom: 20px; }
+    .swiper-button-prev { left: 5px; }
+    .swiper-button-next { right: 5px; }
+    .swiper-pagination { bottom: -5px; }
+
+    .swiper-slide {
+        flex-wrap: wrap;
+        flex-direction: row;
+        display: flex;
+        width: 100% !important;
+    }
+
+    .video-container {
+        position: relative;
+        flex: 0 0 48%;
+        display: flex;
+        margin-right: 20px;
+
+        .video-play,
+        iframe,
+        object,
+        embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe,
+        object,
+        embed {
+            pointer-events: none;
+        }
+    }
+
+    .video-poster {
+        display: flex;
+        flex: 0 0 50%;
+
+        .poster {
+            margin: 5px 0 0;
+
+            img  { 
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}

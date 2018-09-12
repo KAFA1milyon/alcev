@@ -1,0 +1,1 @@
+import "./Aboutbox.scss";

@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Article Page";
+}
+
+<h2 class="page-title">
+    <div class="container">
+        Avantajlı Erken Kayıtlarımız Başlıyor
+    </div>
+</h1>
+
+<div class="article-breadcumbs">
+    <div class="container">
+        Anasayfa > Duyurular
+    </div>
+</div>
+
+<div class="container">
+    <div class="announcement-page">
+        <div class="video-slider">
+            @(await Component.InvokeAsync("AnnouncementVideo"))
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="announcement-detail">
+                    <h5 class="detail-title">
+                        Avantajlı Erken Kayıtlarımız Başlıyor
+                        <span class="detail-date">21.07.2018</span>    
+                    </h5>
+                
+                    <p class="detail-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet, libero in condimentum feugiat, massa eros porttitor augue, id sollicitudin nibh ligula in dolor. Phasellus finibus blandit quam, a viverra metus iaculis ut. Nunc id sem porttitor, tincidunt odio eleifend, facilisis neque. 
+                        <br>
+                        Curabitur consequat pellentesque est ac imperdiet. Maecenas et dolor non dolor ultrices dignissim ut in turpis. Mauris feugiat purus quis tempus commodo. Etiam euismod sagittis tellus, quis dignissim augue sagittis eget. Vivamus dui orci, blandit a sapien id, porttitor maximus neque. Mauris cursus venenatis eros eu feugiat. Nunc non nisl eget nunc rhoncus mattis sit amet at ipsum.
+                    </p>
+
+                    <div class="detail-button">
+                        <div class="button-like">
+                            <i class="icon icon-like"></i>
+                            <span class="count">3</span>
+                        </div>
+                        <div class="button-share">
+                            <i class="icon icon-share"></i>
+                            <span class="count">Paylaş</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+
+        <div class="announcement-container">
+            @(await Component.InvokeAsync("Announcement"))
+        </div>
+    </div>
+</div>

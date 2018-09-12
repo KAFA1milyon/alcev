@@ -1,0 +1,49 @@
+/** -------------------------------------------
+    Headline Component
+    ------------------------------------------- **/
+
+.headline-carousel {
+    .img-responsive {
+        width: 100%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 75px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        position: relative;
+        width: 80%;
+        padding: 50px 0;
+        background-color: rgba(83,82,82,.7);
+        background-size: 50% 50%;
+    }
+
+    .carousel-control-prev-icon {
+        border-radius: 0 65px 65px 0;
+        background-position: 35% center;
+        left: -15px;
+    }
+
+    .carousel-control-next-icon {
+        border-radius: 65px 0 0 65px;
+        background-position: 70% center;
+        right: -15px;
+    }
+
+    .carousel-item {
+        .slide-button {
+            position: absolute;
+            bottom: 15%;
+            left: 10%;
+
+            > .button {
+                padding: 20px 50px;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Eğitim Kadrosu";
+}
+
+<h2 class="page-title">
+    <div class="container">
+        Eğitim Öğretim Kadrosu
+    </div>
+</h1>
+
+<div class="container">
+    @(await Component.InvokeAsync("TeacherTab"))
+</div>

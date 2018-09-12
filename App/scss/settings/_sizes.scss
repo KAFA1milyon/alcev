@@ -1,0 +1,20 @@
+/** -------------------------------------------
+    Default size definitions
+------------------------------------------- **/
+
+$_width-fragments: ();
+
+
+/**
+    * Spacing in element
+    * Sets the padding sizes for an element
+*/
+$base-spacing: 1em !default;
+
+/**
+    * Border Widths
+*/
+$base-border-width: 1px !default;
+$base-button-border-radius: null !default;
+$base-field-border-radius: null !default;
+$base-border-radius: 5px !default;

@@ -1,0 +1,26 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "plugins": [],
+    "extends": ["eslint:recommended"],
+    "rules": {
+        "indent": ["error", 4],
+        "comma-dangle": ["error", {
+            "arrays": "never",
+            "objects": "never",
+            "imports": "never",
+            "exports": "never",
+            "functions": "ignore"
+        }],
+        "no-unused-vars": "warn",
+        "no-console": 1,
+        "no-unexpected-multiline": "warn"
+    }
+}

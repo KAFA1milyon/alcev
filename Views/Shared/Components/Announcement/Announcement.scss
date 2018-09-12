@@ -1,0 +1,116 @@
+/** -------------------------------------------
+    Announcement Component
+    ------------------------------------------- **/
+
+@import '~Plugins/_swiper.scss';
+
+.announcement {
+    &-slider {
+        .announcement-swiper {
+            padding-bottom: 60px;
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                top: auto;
+                height: 24px;
+                margin: 30px 0 0 0;
+            }
+
+            .swiper-button-next { left: 30px; }
+            .swiper-button-prev { left: 0; }
+        }
+    }
+
+    &-all-button {
+        float: right;
+        position: relative;
+        top: -30px;
+    }
+}
+
+.announcement-box {
+    background: $color-white;
+    border: 1px solid #EFEFEF;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.12);
+    border-radius: 4px;
+
+    .box-photos {
+        > img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .box-container {
+        padding: 15px;
+        color: $color-text;
+
+        .box-title {
+            font-size: 18px;
+            font-weight: 500;
+
+            .date {
+                display: block;
+                margin-top: 5px;
+                font-size: 12px;
+                font-weight: 300;
+            }
+
+            &:after {
+                content: '';
+                position: relative;
+                display: block;
+                width: 27px;
+                height: 3px;
+                margin-top: 15px;
+                background-color: #E0E0E0;
+            }
+        }
+
+        .box-content {
+            display: block;
+            margin: 15px 0;
+        }
+
+        .box-more {
+            display: block;
+            text-align: right;
+            
+            > a {
+                color: $color-secondary;
+            }
+
+            .icon {
+                position: relative;
+                top: 2px;
+            }
+        }
+    }
+
+    .box-bottom {
+        @include flex(flex);
+        @include flex-wrap(wrap);
+        @include flex-direction(row);
+
+        > div[class*="bottom-"] {
+            flex: 0 0 33.3333%;
+            @include flex(flex);
+            @include align-items(center);
+            @include justify-content(center);
+            box-shadow: inset 0px 0px 1px 0px #EFEFEF;
+            padding: 15px 0;
+
+            &:last-child { border : none; }
+
+            > .icon {
+                font-size: 28px;
+            }
+
+            > span {
+                margin-left: 10px;
+                color: #999999;
+                font-size: 12px;
+            }
+        }
+    }
+}

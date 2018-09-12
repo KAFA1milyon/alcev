@@ -1,0 +1,43 @@
+/** -------------------------------------------
+    Haeader Base
+    ------------------------------------------- **/
+
+.header {
+    flex: 1;
+    position: relative;
+    padding : $base-gutter 0;
+    width: 100%;
+    color: $color-white;
+    z-index: 1;
+
+    &-container {
+        @include flex(flex);
+        @include flex-wrap(wrap);
+        @include flex-direction(row);
+        
+        .head-name {
+            @include flex(flex);
+            @include align-items(center);
+            flex: 2;
+
+            > p {
+                margin: 0 0 0 20px;
+                font-size: 24px;
+            }
+        }
+    
+        .head-menu {
+            @include flex(flex);
+            @include align-items(center);
+            @include justify-content(flex-end);
+            flex: 2;
+
+            &-link {
+                margin: 0 15px;
+                //color: #535252;
+                color: $color-white;
+                font-size: 18px;
+            }
+        }
+    }    
+}

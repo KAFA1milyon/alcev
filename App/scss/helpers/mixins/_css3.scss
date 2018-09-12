@@ -1,0 +1,729 @@
+/** -------------------------------------------
+    Animation Related Mixins
+    ------------------------------------------- **/
+// Clearfix
+//
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+//    contenteditable attribute is included anywhere else in the document.
+//    Otherwise it causes space to appear at the top and bottom of elements
+//    that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+//    `:before` to contain the top-margins of child elements.
+//
+// Source: http://nicolasgallagher.com/micro-clearfix-hack/
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Placeholder text
+@mixin placeholder($color: $input-color-placeholder) {
+  // Firefox
+  &::-moz-placeholder {
+    color: $color;
+    opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+  }
+  &:-ms-input-placeholder { color: $color; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: $color; } // Safari and Chrome
+}
+
+/**
+ * CSS Opacity
+ *
+ * http://caniuse.com/#search=opacity
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+ * current spec, webkit browsers need prefixing
+ */
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    // IE8 filter
+    $opacity-ie: ($opacity * 100);
+    filter: alpha(opacity=$opacity-ie);
+  }
+
+/**
+ * CSS Box sizing 
+ *
+ * http://caniuse.com/#search=box-sizing 
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+ * current spec, webkit browsers need prefixing
+ */
+@mixin box-sizing($boxmodel) {
+    @include prefixer(box-sizing, $boxmodel, webkit moz);
+}
+
+/**
+ * CSS Animation
+ *
+ * Outputs CSS3 animation code with defined prefixes
+ * http://caniuse.com/#search=css3%20animation
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+ * Formal syntax: <single-animation-name> || <time> || <timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state>
+ * current spec, webkit browsers need prefixing
+ */
+@mixin animation($content...){
+    @include prefixer(animation, $content, webkit);
+}
+
+/**
+ * CSS Animation Delay
+ *
+ * Outputs CSS3 animation-delay code with defined prefixes
+ * http://caniuse.com/#search=css3%20animation
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay
+ * Formal syntax: <time>#
+ * current spec, webkit browsers need prefixing
+ */
+@mixin animation-delay($content...){
+    @include prefixer(animation-delay, $content, webkit);
+}
+
+/**
+ * CSS Animation Direction
+ *
+ * Outputs CSS3 animation-direction code with defined prefixes
+ * http://caniuse.com/#search=css3%20animation
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction
+ * Formal syntax: <single-animation-direction>#
+ * current spec, webkit browsers need prefixing
+ */
+@mixin animation-direction($content...){
+    @include prefixer(animation-direction, $content, webkit);
+}
+
+/**
+ * CSS Animation Duration
+ *
+ * Outputs CSS3 animation-duration code with defined prefixes
+ * http://caniuse.com/#search=css3%20animation
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration
+ * Formal syntax: <time>#
+ * current spec, webkit browsers need prefixing
+ */
+@mixin animation-duration($content...){
+    @include prefixer(animation-duration, $content, webkit);
+}
+
+/**
+ * CSS Animation Fill Mode
+ *
+ * Outputs CSS3 animation-fill-mode code with defined prefixes
+ * http://caniuse.com/#search=css3%20animation
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
+ * Formal syntax: <single-animation-fill-mode>#
+ * current spec, webkit browsers need prefixing
+ */
+@mixin animation-fill-mode($content...){
+    @include prefixer(animation-fill-mode, $content, webkit);
+}
+
+/**
+ * CSS Animation Iteration Count
+ *
+ * Outputs CSS3 animation-iteration-count code with defined prefixes
+ * http://caniuse.com/#search=css3%20animation
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count
+ * Formal syntax: <single-animation-iteration-count>#
+ * current spec, webkit browsers need prefixing
+ */
+@mixin animation-iteration-count($content...){
+    @include prefixer(animation-iteration-count, $content, webkit);
+}
+
+/**
+ * CSS Animation Name
+ *
+ * Outputs CSS3 animation-name code with defined prefixes
+ * http://caniuse.com/#search=css3%20animation
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name
+ * Formal syntax: <single-animation-name>#
+ * current spec, webkit browsers need prefixing
+ */
+@mixin animation-name($content...){
+    @include prefixer(animation-name, $content, webkit);
+}
+
+/**
+ * CSS Animation Play State
+ *
+ * Outputs CSS3 animation-play-state code with defined prefixes
+ * http://caniuse.com/#search=css3%20animation
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state
+ * Formal syntax: <single-animation-play-state>#
+ * current spec, webkit browsers need prefixing
+ */
+@mixin animation-play-state($content...){
+    @include prefixer(animation-play-state, $content, webkit);
+}
+
+/**
+ * CSS Animation Timing Function
+ *
+ * Outputs CSS3 animation-timing-function code with defined prefixes
+ * http://caniuse.com/#search=css3%20animation
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
+ * Formal syntax: <single-animation-timing-function>#
+ * current spec, webkit browsers need prefixing
+ */
+@mixin animation-timing-function($content...){
+    @include prefixer(animation-timing-function, $content, webkit);
+}
+
+/**
+ * CSS Keyframes
+ *
+ * Outputs CSS3 keyframes code with defined prefixes
+ * http://caniuse.com/#search=keyframes
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+ * @keyframes <identifier> {
+ * 	[ [ from | to | <percentage> ] [, from | to | <percentage> ]* block ]*
+ * }
+ * current spec, webkit browsers need prefixing
+ */
+@mixin keyframes($animation-name){
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }
+
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+/** -------------------------------------------
+    Background Gradient Mixins
+    ------------------------------------------- **/
+/**
+ * Simple Linear gradient
+ * Gets the linear gradient content as a parameter and outputs the prefixed version.
+ * For old browsers do not forget to add fallback color/image before mixin
+ * Uses new linear gradient version. Not supporting Safari 5 or older and IE9 and older versions
+ *
+ * @param string $content
+ */
+@mixin linear-gradient($content){
+    @include value-prefixer(background, linear-gradient, $content, webkit);
+}
+
+
+/**
+ * Simple Radial gradient
+ * Gets the radial gradient content as a parameter and outputs the prefixed version.
+ * For old browsers do not forget to add fallback color/image before mixin
+ * Uses new linear gradient version. Not supporting Safari 5 or older and IE9 and older versions
+ *
+ * @param $content
+ */
+@mixin radial-gradient($content){
+    @include value-prefixer(background, radial-gradient, $content, webkit);
+}
+
+/** -------------------------------------------
+    Box Shadow
+    ------------------------------------------- **/
+/**
+ * Simple Box shadow
+ *
+ * @param $content: box-shadow content
+ * http://caniuse.com/#search=box-shadow
+ * current spec, only Android browser 2.3 need -webkit prefix
+ * You can use standart CSS box shadow definition
+ */
+@mixin box-shadow($content...) {
+    @include prefixer(box-shadow, $content, webkit moz);
+}
+
+/** -------------------------------------------
+    Flex Mixins
+    ------------------------------------------- **/
+/**
+ * CSS Flex
+ *
+ * Outputs Flex code with defined prefixes
+ * http://caniuse.com/#search=flex
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+ * Formal syntax: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+ * current spec, webkit browsers need prefixing
+ */
+@mixin flex($value) {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+
+    @include prefixer(flex, $value, webkit ms);
+}
+
+/**
+ * CSS Flex Basis
+ *
+ * Outputs Flex-Basis code with defined prefixes
+ * http://caniuse.com/#search=flex
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
+ * Formal syntax: content | <'width'>
+ * Initial Value: auto
+ * current spec, webkit browsers need prefixing, however Safari is not supporting this feature
+ *
+ * Notes
+ * When a non-auto flex-basis is specified, Internet Explorer 10-11 (but not 12+) always
+ * uses a content-box box model to calculate the size of a flex item, even if
+ * box-sizing: border-box is applied to the element.
+ *
+ */
+@mixin flex-basis($content) {
+    @include prefixer(flex-basis, $content, webkit);
+}
+
+/**
+ * CSS Flex Direction
+ *
+ * Outputs Flex-Direction code with defined prefixes
+ * http://caniuse.com/#search=flex
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
+ * Formal syntax: content | [row | row-reverse | column | column-reverse]
+ * current spec, webkit browsers need prefixing, however Safari is not supporting this feature
+ */
+@mixin flex-direction($content) {
+    @include prefixer(flex-direction, $content, webkit ms);
+}
+
+/**
+ * CSS Flex Grow
+ *
+ * Outputs Flex-Grow code with defined prefixes
+ * http://caniuse.com/#search=flex
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
+ * Formal syntax: <number>
+ * Initial Value: 0
+ * Negative values are invalid.
+ * current spec, webkit browsers need prefixing, Internet explorer and Safari is
+ * not supporting this feature
+ */
+@mixin flex-grow($number) {
+    @include prefixer(flex-grow, $number, webkit);
+}
+
+/**
+ * CSS Flex Shrink
+ *
+ * Outputs Flex-Shrink code with defined prefixes
+ * http://caniuse.com/#search=flex
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink
+ * Formal syntax: <number>
+ * Initial Value: 1
+ * Negative values are invalid.
+ * current spec, webkit browsers need prefixing, Internet explorer and Safari is
+ * not supporting this feature
+ *
+ * Notes:
+ * Internet Explorer 10 uses 0 instead of 1 as the initial value for the flex-shrink property.
+ * A workaround is to always set an explicit value for flex-shrink.
+ */
+@mixin flex-shrink($number) {
+    @include prefixer(flex-shrink, $number, webkit);
+}
+
+/**
+ * CSS Flex Wrap
+ *
+ * Outputs Flex-Wrap code with defined prefixes
+ * http://caniuse.com/#search=flex
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
+ * Formal syntax: content | [nowrap | wrap | wrap-reverse]
+ * Initial Value: nowrap
+ * current spec, webkit browsers need prefixing
+ */
+@mixin flex-wrap($content) {
+    @include prefixer(flex-wrap, $content, webkit ms);
+}
+
+/**
+ * CSS Flex Align Content
+ *
+ * Outputs align-content code with defined prefixes
+ * http://caniuse.com/#search=flex
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
+ * Formal syntax: content | [flex-start | flex-end | center | space-between | space-around | stretch]
+ * Initial Value: strecth
+ * current spec, webkit browsers need prefixing
+ *
+ * Notes:
+ * Internet Explorer and Safari are not supporting this feature yet even with vendor prefix
+ */
+@mixin align-content($value) {
+    @include prefixer(align-content, $value, webkit);
+}
+
+/**
+ * CSS Flex Align Items
+ *
+ * Outputs align-items code with defined prefixes
+ * http://caniuse.com/#search=flex
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+ * Formal syntax: content | [flex-start | flex-end | center | baseline | stretch]
+ * Initial Value: strecth
+ * current spec, webkit browsers need prefixing
+ */
+@mixin align-items($value) {
+    $box: $value;
+    $ms: $value;
+    @if ($value == "flex-start") {
+        $box: "start";
+        $ms: "start";
+    }
+
+    @if ($value == "flex-end") {
+        $box: "end";
+        $ms: "end";
+    }
+
+    -ms-flex-align: #{$ms};
+    -webkit-box-align: #{$box};
+    @include prefixer(align-items, $value, webkit);
+}
+
+/**
+ * CSS Flex Align Self
+ *
+ * Outputs align-self code with defined prefixes
+ * http://caniuse.com/#search=flex
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/align-self
+ * Formal syntax: content | [auto | flex-start | flex-end | center | baseline | stretch]
+ * Initial Value: auto
+ * current spec, webkit browsers need prefixing
+ *
+ * Notes:
+ * Safari is not supporting this feature yet even with vendor prefix
+ */
+@mixin align-self($content) {
+    @include prefixer(align-self, $content, webkit);
+}
+
+/*
+ * CSS Justify Content
+ *
+ */
+@mixin justify-content($value) {
+    $box: $value;
+    $ms: $value;
+    @if ($value == "flex-start") {
+        $box: "start";
+        $ms: "start";
+    }
+
+    @if ($value == "flex-end") {
+        $box: "end";
+        $ms: "end";
+    }
+
+    @if ($value == "space-between" or $value == "space-around") {
+        $box: "justify";
+        $ms: "justify";
+    }
+    -ms-flex-pack: #{$ms};
+    -webkit-box-pack: #{$box};
+    @include prefixer(justify-content, $value, webkit);
+}
+
+/**
+ * Order
+ *
+ */
+@mixin _order($value) {
+    @include prefixer(order, $value, webkit moz);
+}
+
+
+
+/** -------------------------------------------
+    Text Gradient
+    ------------------------------------------- **/
+/**
+ * Gradient Text Color
+ * Add a gradient color to the text
+ */
+@mixin text-gradient($content){
+    @include linear-gradient($content);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/** -------------------------------------------
+    Transform Related Mixins
+    ------------------------------------------- **/
+/**
+ * CSS Transform
+ *
+ * Outputs CSS3 tranform code with defined prefixes
+ * http://caniuse.com/#search=transform
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+ * Formal syntax: none | <transform-function>+
+ * For transform functions see: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function
+ * current spec, Safari, Android browser and IE9 need vendor prefix
+ */
+@mixin transform($content...){
+    @include prefixer(transform, $content, webkit ms);
+}
+
+/**
+ * CSS Transform Origin
+ *
+ * Outputs CSS3 tranform-origin code with defined prefixes
+ * http://caniuse.com/#search=transform
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+ * Formal syntax: [ <percentage> | <length> | left | center | right | top | bottom] | [ [ <percentage> | <length> | left | center | right ] && [ <percentage> | <length> | top | center | bottom ] ] <length>?
+ * current spec, Safari, Android browser and IE9 need vendor prefix
+ */
+@mixin transform-origin($content...){
+    @include prefixer(transform-origin, $content, webkit ms);
+}
+
+/**
+ * CSS Transform Style
+ *
+ * Outputs CSS3 tranform-style code with defined prefixes
+ * http://caniuse.com/#search=transform
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style
+ * Formal syntax: flat | preserve-3d | inherit
+ * current spec, IE is not supported, webkit browsers need prefixing
+ */
+@mixin transform-style($style){
+    @include prefixer(transform-style, $style, webkit);
+}
+
+/** -------------------------------------------
+    Transition Related Mixins
+    ------------------------------------------- **/
+/**
+ * CSS Transition
+ *
+ * Outputs CSS3 transition code with defined prefixes
+ * http://caniuse.com/#search=transition
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+ * Formal syntax: [ none | <single-transition-property> ] || <time> || <timing-function> || <time>
+ * current spec, older Android browsers and Safari 5.1 need -webkit
+ */
+@mixin transition($content...){
+    @include prefixer(transition, $content, webkit);
+}
+
+/**
+ * CSS Transition Delay
+ * Outputs CSS3 transition-delay code with defined pferixes
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay
+ * Formal syntax: <time>#
+ */
+@mixin transition-delay($time){
+    @include prefixer(transition-delay, $time, webkit);
+}
+
+/**
+ * CSS Transition Duration
+ * Outputs CSS3 transition-duration code with defined pferixes
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration
+ * Formal syntax: <time>#
+ */
+@mixin transition-duration($time){
+    @include prefixer(transition-duration, $time, webkit);
+}
+
+/**
+ * CSS Transition Property
+ * Outputs CSS3 transition-property code with defined pferixes
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property
+ * Formal syntax: none | <single-transition-property>#  [ ‘,’ <single-transition-property># ]*
+ */
+@mixin transition-property($content...){
+    @include prefixer(transition-property, $content, webkit);
+}
+
+/**
+ * CSS Transition Timing
+ * Outputs CSS3 transition-timing-function code with defined pferixes
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
+ * Formal syntax: <timing-function>#
+ */
+@mixin transition-timing-function($content...){
+    @include prefixer(transition-timing-function, $content, webkit);
+}
+
+/**
+ * App Transition
+ *
+ * General transition definition for app
+ */
+@mixin app-transition(){
+    @include transition($base-duration $base-easing);
+}
+
+
+/** -------------------------------------------
+    Columns Related Mixins
+    ------------------------------------------- **/
+/**
+ * CSS Columns
+ *
+ * Outputs CSS3 Columns with defined prefixes
+ * http://caniuse.com/#search=column
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/columns
+ * Formal syntax: <'column-width'> || <'column-count'>
+ * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
+ */
+@mixin columns($content...){
+    @include prefixer(columns, $content, webkit moz);
+}
+
+
+/**
+ * CSS Column Count
+ *
+ * Outputs CSS3 Column Count
+ * http://caniuse.com/#search=column
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/column-count
+ * Formal syntax: <number> | auto
+ * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
+ */
+@mixin column-count($number){
+    @include prefixer(column-count, $number, webkit moz);
+}
+
+
+/**
+ * CSS Column Width
+ *
+ * Outputs CSS3 Column Width
+ * http://caniuse.com/#search=column
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/column-width
+ * Formal syntax: <length> | auto
+ * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
+ */
+@mixin column-width($width){
+    @include prefixer(column-width, $width, webkit moz);
+}
+
+
+/**
+ * CSS Column Gap
+ *
+ * Outputs CSS3 Column Gap
+ * http://caniuse.com/#search=column
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap
+ * Formal syntax: <length> | normal
+ * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
+ */
+@mixin column-gap($gap){
+    @include prefixer(column-gap, $gap, webkit moz);
+}
+
+
+/**
+ * CSS Column Rule
+ *
+ * Outputs CSS3 Column Rule, shorthand definition for column rule styles
+ * http://caniuse.com/#search=column
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule
+ * Formal syntax: <'column-rule-width'> || <'column-rule-style'> || <'column-rule-color'>
+ * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
+ */
+@mixin column-rule($rule){
+    @include prefixer(column-rule, $rule, webkit moz);
+}
+
+
+/**
+ * CSS Column Rule Color
+ *
+ * Outputs CSS3 Column Rule Color
+ * http://caniuse.com/#search=column
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-color
+ * Formal syntax: <color>
+ * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
+ */
+@mixin column-rule-color($color){
+    @include prefixer(column-rule-color, $color, webkit moz);
+}
+
+
+/**
+ * CSS Column Rule Style
+ *
+ * Outputs CSS3 Column Rule Style
+ * http://caniuse.com/#search=column
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-style
+ * Formal syntax: <style>
+ * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
+ */
+@mixin column-rule-style($style){
+    @include prefixer(column-rule-style, $style, webkit moz);
+}
+
+/**
+ * CSS Column Rule Width
+ *
+ * Outputs CSS3 Column Rule Width
+ * http://caniuse.com/#search=column
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-width
+ * Formal syntax: <br-width>
+ * Available values: thin || medium || thick || number px || number em
+ * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
+ */
+@mixin column-rule-width($width){
+    @include prefixer(column-rule-width, $width, webkit moz);
+}
+
+/**
+ * CSS Column Span
+ *
+ * Outputs CSS3 Column Span
+ * http://caniuse.com/#search=column
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/column-span
+ * Formal syntax: none | all
+ * Currently, except firefox, all vendors supporting this feature. Webkit browsers need prefix
+ */
+@mixin column-span($span){
+    @include prefixer(column-span, $span, webkit moz);
+}
+
+/**
+ * CSS Column Fill
+ *
+ * Outputs CSS3 Column Fill
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/column-fill
+ * Formal syntax: auto | balance
+ * Currently only firefox supports
+ */
+@mixin column-fill($fill){
+    @include prefixer(column-fill, $fill, webkit moz);
+}
+
+/**
+ * CSS Perspective
+ *
+ * http://caniuse.com/#search=perspective
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/perspective
+ * current spec, webkit browsers need prefixing
+ */
+ @mixin perspective($number) {
+    @include prefixer(perspective, $number, webkit);
+}
+
+/**
+ * CSS Perspective Origin
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin
+ */
+ @mixin perspective-origin($number, $value) {
+    @include prefixer(perspective, $number, webkit);
+    @include prefixer(perspective-origin, $value, webkit);
+}

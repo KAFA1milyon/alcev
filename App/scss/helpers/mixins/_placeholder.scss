@@ -1,0 +1,28 @@
+/** -------------------------------------------
+    Placeholder
+    ------------------------------------------- **/
+/**
+  * Styles input elements' placeholder.
+  * @param $self: true, if it is true, styles applied to class itself
+  *			if false, styles applied to the child elements
+  */
+
+@mixin placeholder($self: true) {
+    $_self: '&';
+
+    @if $self != true {
+        $_self: '';
+    }
+
+    #{$_self}::-webkit-input-placeholder {
+        @content;
+    }
+
+    #{$_self}::-moz-placeholder {
+        @content;
+    }
+
+    #{$_self}:-ms-input-placeholder {
+        @content;
+    }
+}

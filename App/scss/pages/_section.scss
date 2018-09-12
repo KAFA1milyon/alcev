@@ -1,0 +1,41 @@
+/** -------------------------------------------
+    GUI Layouts Import
+    ------------------------------------------- **/
+
+.section {
+    &-title {
+        color: $color-secondary;
+        font-size: 30px;
+        text-align: center;
+        
+        &:after {
+            content: '';
+            display: block;
+            margin: 10px auto;
+            width: 28px;
+            height: 3px;
+            background-color: $color-secondary;
+        }
+
+        &.white {
+            color: $color-white;
+
+            &:after {
+                background-color: $color-white;  
+            }
+        }
+    }
+
+    &-desc {
+        width: 80%;
+        margin: 20px auto 60px;
+        font-size: 18px;
+        font-weight: 300;
+        color: #696969;
+        text-align: center;
+
+        &.white {
+            color: $color-white;
+        }
+    }
+}

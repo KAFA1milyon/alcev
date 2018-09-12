@@ -1,0 +1,146 @@
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+@(await Component.InvokeAsync("Headline"));
+
+<div class="container">
+    @(await Component.InvokeAsync("Aboutbox"))
+
+    @(await Component.InvokeAsync("Schools"))
+
+    <hr class="my-5">
+
+    <div class="announcement-container">
+        <div class="section-title">Duyurular</div>
+        <div class="section-desc">
+            Okulumuzda eğitim ve öğretime önem verdiğimiz kadar öğrencilerimizin sosyal aktivitelerine de yoğunlaşır, onları toplumla bir olmuş özgüven sahibi bireyler olarak yetiştirmeyi amaçlarız.
+        </div>
+        @(await Component.InvokeAsync("Announcement"))
+
+        <div class="announcement-all-button">
+            <a href="" class="button tertiary-action">Tüm Duyuruları Görüntüle</a>
+        </div>
+    </div>
+</div>
+
+<div class="events-container">
+    <div class="section-title white">ETKİNLİKLER</div>
+    <div class="section-desc white">
+        Okulumuzda eğitim ve öğretime önem verdiğimiz kadar öğrencilerimizin sosyal aktivitelerine de yoğunlaşır, onları toplumla bir olmuş özgüven sahibi bireyler olarak yetiştirmeyi amaçlarız.
+    </div>
+    <div class="container">
+
+        @(await Component.InvokeAsync("Events"))
+
+        <div class="event-button">
+            <a href="" class="button tertiary-action">Tüm Duyuruları Görüntüle</a>
+        </div>
+    </div>
+</div>
+
+<div class="studentclub-container">
+    <div class="section-title">ÖĞRENCİ KULÜPLERİ</div>
+    <div class="section-desc">
+        Okulumuzda eğitim ve öğretime önem verdiğimiz kadar öğrencilerimizin sosyal aktivitelerine de yoğunlaşır, onları toplumla bir olmuş özgüven sahibi bireyler olarak yetiştirmeyi amaçlarız.
+    </div>
+    
+    @(await Component.InvokeAsync("StudentClub"))
+
+    <div class="container">
+        <div class="studentclub-button">
+            <a href="" class="button tertiary-action">Tümünü Görüntüle</a>
+        </div>
+    </div>
+</div>
+
+<div class="feedback-container">
+    <div class="section-title white">SİZLERİN GÖZÜNDEN ALÇEV</div>
+    <div class="section-desc white">
+        Velilerimizden, öğrencilerimizden ve öğretmenlerimizden ALÇEV hakkında yapılan yorumlar.
+    </div>
+
+    <div class="container">
+        <div class="feedback-box">
+            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+
+            <div class="feedback-user">
+                <i class="icon icon-user-man"></i>
+
+                <div class="userinfo">
+                    Erhan ERDOĞAN
+                    <span class="user-title">Müdür</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback-box">
+            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+
+            <div class="feedback-user">
+                <i class="icon icon-user-man"></i>
+
+                <div class="userinfo">
+                    Erhan ERDOĞAN
+                    <span class="user-title">Müdür</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback-box">
+            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+
+            <div class="feedback-user">
+                <i class="icon icon-user-man"></i>
+
+                <div class="userinfo">
+                    Erhan ERDOĞAN
+                    <span class="user-title">Müdür</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback-box">
+            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+
+            <div class="feedback-user">
+                <i class="icon icon-user-man"></i>
+
+                <div class="userinfo">
+                    Erhan ERDOĞAN
+                    <span class="user-title">Müdür</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback-box">
+            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+
+            <div class="feedback-user">
+                <i class="icon icon-user-man"></i>
+
+                <div class="userinfo">
+                    Erhan ERDOĞAN
+                    <span class="user-title">Müdür</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback-box">
+            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+
+            <div class="feedback-user">
+                <i class="icon icon-user-man"></i>
+
+                <div class="userinfo">
+                    Erhan ERDOĞAN
+                    <span class="user-title">Müdür</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
