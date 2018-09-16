@@ -19,9 +19,9 @@
 
                 <AnnouncementSlider />
 
-                <div class="section-button upscroll">
+                <!--<div class="section-button upscroll">
                     <a href="" class="button tertiary-action">Tüm Duyuruları Görüntüle</a>
-                </div>
+                </div>-->
             </section>
         </div>
 

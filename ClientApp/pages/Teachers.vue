@@ -20,65 +20,12 @@
                             <div class="col-12 col-sm-6 col-md-4">
                                 <div class="teacher">
                                     <div class="teacher-circle">
-                                        <img src="/images/hocalar/gulcin-ozkan.jpg" alt="">
-                                    </div>
-
-                                    <div class="teacher-info">
-                                        <span class="name">Gülçin Özkan</span>
-                                        <span class="title">TÜRKÇE ZÜMRE BAŞKANI</span>
-                                        <span class="email">isimsoyisim@gmail.com</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <div class="teacher">
-                                    <div class="teacher-circle">
-                                        <img src="/images/hocalar/ebru-eryalcin.jpg" alt="">
-                                    </div>
-
-                                    <div class="teacher-info">
-                                        <span class="name">Ebru Eryalçın</span>
-                                        <span class="title">TÜRKÇE ZÜMRE BAŞKANI</span>
-                                        <span class="email">isimsoyisim@gmail.com</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <div class="teacher">
-                                    <div class="teacher-circle">
-                                        <img src="/images/hocalar/mustafa-yasar.png" alt="">
-                                    </div>
-
-                                    <div class="teacher-info">
-                                        <span class="name">Mustafa Yaşar</span>
-                                        <span class="title">TÜRKÇE ZÜMRE BAŞKANI</span>
-                                        <span class="email">isimsoyisim@gmail.com</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <div class="teacher">
-                                    <div class="teacher-circle">
-                                        <img src="/images/hocalar/nuray-tasar.jpg" alt="">
-                                    </div>
-
-                                    <div class="teacher-info">
-                                        <span class="name">Nuray Tasar</span>
-                                        <span class="title">TÜRKÇE ZÜMRE BAŞKANI</span>
-                                        <span class="email">isimsoyisim@gmail.com</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <div class="teacher">
-                                    <div class="teacher-circle">
                                         <img src="/images/hocalar/ozlem-arisoy.png" alt="">
                                     </div>
 
                                     <div class="teacher-info">
-                                        <span class="name">Özlem Arisoy</span>
-                                        <span class="title">TÜRKÇE ZÜMRE BAŞKANI</span>
-                                        <span class="email">isimsoyisim@gmail.com</span>
+                                        <span class="name">Özlem Arısoy</span>
+                                        <span class="title">Türkçe Zümre Başkanı</span>                                       
                                     </div>
                                 </div>
                             </div>
@@ -90,29 +37,65 @@
 
                                     <div class="teacher-info">
                                         <span class="name">Sabri Sungur</span>
-                                        <span class="title">TÜRKÇE ZÜMRE BAŞKANI</span>
-                                        <span class="email">isimsoyisim@gmail.com</span>
+                                        <span class="title">Fen ve Teknoloji Zümre Başkanı</span>                                        
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-6 col-md-4">
                                 <div class="teacher">
                                     <div class="teacher-circle">
-                                        <img src="/images/hocalar/yonca-ardar.png" alt="">
+                                        <img src="/images/hocalar/gulcin-ozkan.jpg" alt="">
                                     </div>
 
                                     <div class="teacher-info">
-                                        <span class="name">Yonca Ardar</span>
-                                        <span class="title">TÜRKÇE ZÜMRE BAŞKANI</span>
-                                        <span class="email">isimsoyisim@gmail.com</span>
+                                        <span class="name">Gülçin Özkan</span>
+                                        <span class="title">Yabancı Diller Zümre Başkanı</span>                                        
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="teacher">
+                                    <div class="teacher-circle">
+                                        <img src="/images/hocalar/mustafa-yasar.png" alt="">
+                                    </div>
+
+                                    <div class="teacher-info">
+                                        <span class="name">Mustafa Yaşar</span>
+                                        <span class="title">Matematik Zümre Başkanı</span>                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="teacher">
+                                    <div class="teacher-circle">
+                                        <img src="/images/hocalar/nuray-tasar.jpg" alt="">
+                                    </div>
+
+                                    <div class="teacher-info">
+                                        <span class="name">Nuray Taşar</span>
+                                        <span class="title">İlkokul Zümre Başkanı</span>                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="teacher">
+                                    <div class="teacher-circle">
+                                        <img src="/images/hocalar/ebru-eryalcin.jpg" alt="">
+                                    </div>
+
+                                    <div class="teacher-info">
+                                        <span class="name">Ebru Eryalçın</span>
+                                        <span class="title">Anasınıfı Zümre Başkanı</span>                                        
+                                    </div>
+                                </div>
+                            </div>                           
                         </div>
                     </div>
 
                     <div class="tab-pane fade" id="brans" role="tabpanel" aria-labelledby="brans-tab">
-                        
+                        <div class="row">                         
+
+                        </div>
                     </div>
 
                     <div class="tab-pane fade" id="anasinifi" role="tabpanel" aria-labelledby="anasinifi-tab">
