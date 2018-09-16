@@ -1,0 +1,23 @@
+/** -------------------------------------------
+    Lists
+    ------------------------------------------- **/
+ol, ul {
+    list-style-position : inside;
+    position: relative;
+
+    li {
+        position      : relative;
+        display       : inline-block;
+        margin-bottom : 1em;
+
+        &:last-child { margin-bottom: 0; }
+    }
+}
+
+dl {
+    padding-left: $base-gutter;
+
+    dt {
+        font-weight: bold;
+    }
+}

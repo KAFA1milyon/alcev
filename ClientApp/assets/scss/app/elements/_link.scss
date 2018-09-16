@@ -1,0 +1,42 @@
+/** -------------------------------------------
+    Link & Nav Styles
+    ------------------------------------------- **/
+/**
+ * Links
+ */
+a {
+    display: inline-block;
+    padding: 0;
+    color: $color-link;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+
+    nav & { text-decoration: none; }
+    &.icon { text-decoration: none; }
+
+    &:disabled,
+    &[disabled],
+    &.disabled {
+        pointer-events: none;
+        cursor: default;
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        outline: 0;
+    }
+}
+
+/**
+ * Nav
+ */
+nav {
+    // reset unordered lists in navigation
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}

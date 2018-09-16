@@ -1,0 +1,35 @@
+/** -------------------------------------------
+    Generic Mixins
+    ------------------------------------------- **/
+/**
+ * Adds prefixed version of a property according to listed vendors
+ */
+@mixin prefixer($property, $value, $vendors: webkit moz o ms){
+    @if length($vendors) > 0 { // add prefixed versions if a vendor list is defined
+        @each $vendor in $vendors {
+            -#{$vendor}-#{$property}: #{$value};
+        }
+    }
+    #{$property}: #{$value}; // prefix free value at the end
+}
+
+
+/**
+ * Adds prefixed version of values in a property
+ */
+@mixin value-prefixer($property, $value, $content, $vendors: webkit moz o ms){
+    $p-open: "(";
+    $p-close: ")";
+    $_content : '';
+
+    @if(length($content) > 0){
+        $_content: #{$p-open}#{$content}#{$p-close};
+    }
+
+    @if length($vendors) > 0 {
+        @each $vendor in $vendors {
+            #{$property}: -#{$vendor}-#{$value}#{$_content};
+        }
+    }
+    #{$property}: #{$value}#{$_content};
+}

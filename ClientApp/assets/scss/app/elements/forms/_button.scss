@@ -1,0 +1,131 @@
+/**
+ * Button element field
+ */
+%button {
+    @include app-transition();
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: (3 * $base-button-spacing) (8 * $base-button-spacing);
+    line-height: normal;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: $base-border-radius;
+    outline:0;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+/**
+ * Native button elements
+ * Input button elements
+ */
+button,
+input[type="submit"],
+input[type="reset"],
+input.button {
+    @extend %button;
+    border: transparent;
+}
+
+/**
+ * Anchor and other elements
+ */
+.button {
+    @extend %button;
+
+    .icon { @extend %vertical; font-size: 100%; }
+
+    &.icon-left {
+        padding-left: $base-double-gutter;
+        .icon { left: 10px; top: 50%; }
+    }
+
+    &.icon-right {
+        padding-right: $base-double-gutter; 
+        .icon { right: 10px; top: 50%; }
+    }
+
+    &.selected,
+    &.active {
+        color: $color-primary;
+        border-color: $color-primary;
+
+        &:hover { color: $color-primary; }
+    }
+
+    &.button-small {
+        padding: 10px 15px;
+        font-size: 11px;
+
+        &.icon-right { padding-right: 25px; }
+        &.icon-left { padding-left: 25px;  }
+    }
+
+    &[readonly],
+    &.readonly,
+    &[disabled],
+    &.disabled {
+        color: $input-disable-text;
+        background: $input-disable-bg;
+        border: 1px solid $input-disable-border;
+        cursor: default;
+
+        &:hover {
+            background-color: $input-disable-bg;
+            color: $input-disable-text;
+        }
+
+        &.is-loading {
+            .btn-spinner:not(:required) {
+                border: 2px solid #000000;
+                border-right-color: transparent;
+            }
+        }
+    }
+}
+
+/**
+ * Action Buttons
+ * specificity increased in order to overwrite [class*="#{$action-button}"]:not([class*="#{$action-button-wrapper}"])
+ * without using !important rule. By this, it can easily modified `.some-class .primary-action` selector
+ */
+
+.#{$primary-button} {
+    color: $color-white;
+    background-image: linear-gradient(45deg, #FFBC5C 0%, #FF872F 100%);
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.12);
+    border-radius: $base-border-radius;
+
+    &:hover {
+        color: $color-white;
+        background-image: linear-gradient(-45deg, #FFBC5C 0, #FF872F 100%);
+    }
+}
+ 
+.#{$secondary-button} {
+    color: $color-secondary;
+    background: $color-white;
+    box-shadow: 0 12px 20px 0 rgba(255,135,47,0.12);
+    border-radius: $base-border-radius;
+    border: 1px solid $color-secondary;
+
+    &:hover {
+        color: $color-white;
+        background: $color-secondary;
+    }
+}
+ 
+.#{$tertiary-button} {
+    color: $color-white;
+    background: #999999;
+    border-radius: $base-border-radius;
+    border: 1px solid #999999;
+
+    &:hover {
+        color: $color-white;
+        background: #808080;
+    }
+}

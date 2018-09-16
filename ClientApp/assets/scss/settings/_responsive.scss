@@ -1,0 +1,32 @@
+/**
+ * Responsive Media Query
+ */
+
+$screen-phone               : 320px !default;
+$screen-phone-max           : 599px !default;
+$screen-portrait            : 600px !default;
+$screen-portrait-max        : 1023px !default;
+$screen-landscape           : 1024px !default;
+$screen-landscape-max       : 1239px !default;
+$screen-web                 : 1240px !default;
+$screen-web-max             : 1679px !default;
+$screen-desktop             : 1680px !default;
+
+/**
+ * Grid gutter and columns
+ */
+
+$base-gutter            : 15px;
+$base-double-gutter     : 2*$base-gutter;
+$base-grid-columns	    : 12 !default;
+$base-float-widths	    : true !default;
+
+/**
+ * Number to Name Conversions
+ */
+
+$numbers: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 !default;
+
+$ordinals: whole half third quarter fifth sixth seventh eighth ninth tenth eleventh twelfth !default;
+$ordinals-name: one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen !default;
+$ordinals-plural: whole half thirds quarters fifths sixths sevenths eighths ninths tenths elevenths twelfths !default;

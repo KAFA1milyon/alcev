@@ -1,0 +1,45 @@
+/** -------------------------------------------
+    Positions
+    ------------------------------------------- **/
+
+/**
+ * Aligns
+ */
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/**
+ * Float
+ */
+
+.float {
+    &-left {
+        float: left;
+    }
+
+    &-right {
+        float: right;
+    }
+
+    &-none {
+        float: none;
+    }
+}
+
+/**
+ * Position
+ */
+
+ .display-center {
+     @extend %center;
+ }

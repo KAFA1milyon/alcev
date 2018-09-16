@@ -1,0 +1,25 @@
+/** -------------------------------------------
+    Fonts
+    ------------------------------------------- **/
+/**
+ * Default font definitions
+ */
+$base-font-weight   : normal !default;
+$base-font-size     : 14px !default;
+$base-font-family   : 'Roboto', Helvetica, Arial, sans-serif;
+$base-line-height   : 1.5 !default;
+
+$base-mobile-font-size      : 13px !default;
+$base-portrait-font-size    : 14px !default;
+$base-landscape-font-size   : 14px !default;
+$base-web-font-size         : 15px !default;
+
+/**
+ * Headings font definitions
+ */
+$base-font-h1        : ($base-font-size * 2.6) !default;
+$base-font-h2        : ($base-font-size * 2.14) !default;
+$base-font-h3        : ($base-font-size * 1.7) !default;
+$base-font-h4        : ($base-font-size * 1.25) !default;
+$base-font-h5        : ($base-font-size) !default;
+$base-font-h6        : ($base-font-size * 0.85) !default;

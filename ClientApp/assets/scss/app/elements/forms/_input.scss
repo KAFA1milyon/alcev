@@ -1,0 +1,72 @@
+/** -------------------------------------------
+    Input Fields
+    ------------------------------------------- **/
+/**
+ * Text based (input[type=text] etc.) field styles
+ *
+ * .text-field class is added in order to styling other elements like a text field
+ */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+    -moz-appearance: number-input;
+}
+
+#{$_media_fields},
+#{$_text_fields},
+textarea,
+.text-field {
+    -webkit-appearance: none;
+    @extend %text-field;
+}
+
+
+/**
+ * Checkable (checkbox, radio) field styles
+ */
+#{$_checkable_fields} {
+    vertical-align: middle;
+
+    /**
+     * Fields and labels together
+     *
+        <label class="item-field">
+            <input type="checkbox" />
+            <span class="item-label">Label</span>
+        </label>
+     */
+    + .field-label,
+    + .item-label {
+        font-weight: normal;
+        vertical-align: middle;
+    }
+}
+
+
+/**
+ * Textarea
+ *
+ * Textareas are like input text fields in most cases, but they need additional styling
+ * since they are resizable and allows multiple lines
+ */
+textarea {
+    min-height: 3em;
+    resize: vertical; // keep the layout fixed. allow only vertical resizing
+    height: 100%;
+    
+    .item & {
+        display: block;
+    }
+
+    &[disabled] {
+        background-color: $input-disable-bg;
+    }
+}

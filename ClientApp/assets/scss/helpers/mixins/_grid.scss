@@ -1,0 +1,157 @@
+/** -------------------------------------------
+    Grid Columns
+    ------------------------------------------- **/
+
+/**
+ * Mixin for grid columns
+ */
+@mixin grid-columns($class) {
+    $column-width: 100 / $base-grid-columns;
+    $length: length($numbers);
+
+    @for $i from 1 through $base-grid-columns {
+        $width: $column-width * $i;
+        $classname: "#{$column-name}-#{$class}-#{nth($numbers, $i)}";
+
+        // globally modify the defined fragment list
+        $_width-fragments: map-merge($_width-fragments, ("#{$width}": $classname)) !global;
+
+        // placeholder class for width fragment for extending classes
+        .#{$classname} {
+            width: $width * 1% !important;
+        }
+    }
+}
+
+// Create grid for specific class
+@mixin make-grid($class) {
+    @include grid-columns($class);
+}
+
+@media only screen and (min-width: $screen-phone) {
+    [class*="col-m-2,5"] { width: 20%; }
+    
+    @include make-grid(m);
+}
+
+@media only screen and (min-width: $screen-portrait) {
+    [class*="col-p-2,5"] { width: 20%; }
+    
+    @include make-grid(p);
+}
+
+@media only screen and (min-width: $screen-landscape) {
+    [class*="col-l-2,5"] { width: 20%; }
+    
+    @include make-grid(l);
+}
+
+@media only screen and (min-width : $screen-web) {
+    [class*="col-w-2,5"] { width: 20%; }   
+
+    @include make-grid(w);
+}
+
+@media only screen and (min-width : $screen-desktop) {
+    [class*="col-d-2,5"] { width: 20%; }   
+
+    @include make-grid(d);
+}
+
+/**
+ * Offset settings for grid columns
+ */
+@mixin offset {
+    $column-width: 100/$base-grid-columns;
+    $last-offset: $base-grid-columns - 1;
+
+    @for $i from 1 through $last-offset {
+        .#{$namespace}offset-by-#{nth($numbers, $i)} {
+            margin-left: $column-width * $i * 1%;
+        }
+    }
+}
+@include offset;
+
+@mixin viewPort($min, $max: null) {
+    $breakpoints: (
+        mobile:  $screen-phone,
+        portrait: $screen-portrait,
+        landscape:  $screen-landscape,
+        web:  $screen-web,
+        desktop: $screen-desktop
+    ) !default;
+    
+    $breakpointsMax: (
+        mobile:  $screen-phone-max,
+        portrait: $screen-portrait-max,
+        landscape:  $screen-landscape-max,
+        web:  $screen-web-max,
+        desktop: $screen-desktop
+    ) !default;
+
+    @if $max {
+        @media (min-width: #{map-get($breakpoints, $min)}) and (max-width: #{map-get($breakpointsMax, $max)}) {
+            @content;
+        }
+    } @else {
+        @media (min-width: #{map-get($breakpoints, $min)}) {
+            @content;
+        }
+    }
+}
+
+@mixin mobile {
+    @media only screen and (min-width: $screen-phone) and (max-width: $screen-phone-max) {
+        @content;
+    }
+}
+
+@mixin portrait {
+    @media only screen and (min-width: $screen-portrait) and (max-width: $screen-portrait-max) {
+        @content;
+    }
+}
+
+@mixin landscape {
+    @media only screen and (min-width: $screen-landscape) and (max-width: $screen-landscape-max) {
+        @content;
+    }
+}
+
+@mixin web {
+    @media only screen and (min-width: $screen-web) and (max-width: $screen-web-max) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media only screen and (min-width: $screen-desktop) {
+        @content;
+    }
+}
+
+/**
+ * Columns
+ * Better controlling the width, gutter defined as right & left padding
+ */
+
+[class*="#{$column-name}-"] {
+    position: relative;
+    float: left;
+    padding: 0 $base-gutter;
+
+    &.#{$column-name}-parent {
+        // for nested columns, remove paddings for the parent grid column
+        padding: 0;
+    }
+
+    &.no-padding {
+        // for nested columns, remove paddings for the parent grid column
+        padding: 0;
+    }
+}
+
+[class*="#{$column-name}-reverse"] {
+    float: right;
+}

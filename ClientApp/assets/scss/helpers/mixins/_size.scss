@@ -1,0 +1,28 @@
+/** -------------------------------------------
+    Size Related Mixins
+    ------------------------------------------- **/
+/**
+ * Square or desired width-height for an element
+ */
+@mixin dims($width, $height: null) {
+    width: $width;
+    @if $height == null {
+        height: $width;
+    }
+    @else {
+        height: $height;
+    }
+}
+
+/**
+ * Square or desired margin-padding for an element
+ */
+@mixin mp($margin, $padding: null) {
+    margin: $margin;
+    @if $padding == null {
+        padding: $margin;
+    }
+    @else {
+        padding: $padding;
+    }
+}

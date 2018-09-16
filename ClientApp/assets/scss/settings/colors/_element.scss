@@ -1,0 +1,76 @@
+/** -------------------------------------------
+    Button Color Maps
+    ------------------------------------------- **/
+/**
+ * Primary Action Button
+ */
+$base-primary-bg        : #ff6900 !default;
+$base-primary-color     : $color-white !default;
+$base-primary-border    : #ff6900 !default;
+
+/**
+ * Secondary Action Button
+ */
+$base-secondary-bg      : $color-white !default;
+$base-secondary-color   : #ff6900 !default;
+$base-secondary-border  : #ff6900 !default;
+
+/**
+ * Tertiary Action Button
+ */
+$base-tertiary-bg      : $color-white !default;
+$base-tertiary-color   : #8193a1 !default;
+$base-tertiary-border  : #8193a1 !default;
+
+/**
+ * Cancel Action Button
+ */
+$base-cancel-bg         : $color-cancel !default;
+$base-cancel-color      : $color-white !default;
+$base-cancel-border     : $color-cancel !default;
+
+/**
+ * Color maps
+ */
+$base-colors: (
+    'primary-bg': $base-primary-bg,
+    'primary-color': $base-primary-color,
+    'primary-border': $base-primary-border,
+
+    'secondary-bg': $base-secondary-bg,
+    'secondary-color': $base-secondary-color,
+    'secondary-border': $base-secondary-border,
+
+    'tertiary-bg': $base-tertiary-bg,
+    'tertiary-color': $base-tertiary-color,
+    'tertiary-border': $base-tertiary-border,
+
+    'cancel-bg': $base-cancel-bg,
+    'cancel-color': $base-cancel-color,
+    'cancel-border': $base-cancel-border
+);
+
+/** -------------------------------------------
+    Input Color Maps
+    ------------------------------------------- **/
+
+/**z
+ * Default Input Color
+ */
+$input-default-text     : $color-input !default;
+$input-default-bg       : $color-white !default;
+$input-default-border   : $base-border-color !default;
+
+/**
+ * Disable Input Color
+ */
+$input-disable-text     : $color-input !default;
+$input-disable-bg       : rgba(0,0,0,.04) !default;
+$input-disable-border   : rgba(0,0,0,.04) !default;
+
+/**
+ * Link Color
+ */
+$color-link             : $color-primary !default;
+$color-link-hover       : $color-primary !default;
+$color-link-active      : $color-primary !default;

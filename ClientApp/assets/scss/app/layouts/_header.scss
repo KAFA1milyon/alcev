@@ -1,0 +1,48 @@
+/** -------------------------------------------
+    Header
+	------------------------------------------- **/
+
+.header {
+    will-change: transform;
+    padding: 20px 0;
+    background-color: $color-white;
+
+    &-router {
+        @include display-flex();
+        @include align-items(center);
+        @include justify-content(flex-end);
+
+        .router-link {
+            margin: 0 15px;
+            color: #535252;
+            font-size: 18px;
+
+            &:hover,
+            &.router-link-exact-active.router-link-active {
+                color: $color-link;
+            }
+        }
+    }
+
+    &.header-fixed {
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        background: transparent;
+
+        .router-link {
+            color: $color-white;
+            
+            &:hover,
+            &.router-link-exact-active.router-link-active {
+                color: $color-white;
+            }
+        }
+    } 
+
+    &.scroll-fixed {
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+    }
+}

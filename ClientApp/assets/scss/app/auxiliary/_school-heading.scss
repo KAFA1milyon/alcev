@@ -1,0 +1,29 @@
+/** -------------------------------------------
+    School Heading
+    ------------------------------------------- **/
+
+.school-heading {
+    @include display-flex();
+    @include flex-wrap(wrap);
+    @include flex-direction(row);
+    font-size: 24px;
+
+    .logo {
+        @include retina-image('logo/alcev-logo');
+        @include flex(0 0 100px);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 25px;
+    }
+    .name {
+        @include flex(0 0 calc(100% - 125px));
+        color: #535252;
+        font-weight: 500;
+
+        &.white,
+        .header-fixed & {
+            color: $color-white;
+        }
+    }
+}

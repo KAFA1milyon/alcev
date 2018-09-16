@@ -1,0 +1,47 @@
+/** -------------------------------------------
+    Colors
+    ------------------------------------------- **/
+
+$color-bg           : #ffffff;
+
+$color-primary      : #FF872F;
+$color-secondary    : #a1aabb;
+$color-tertiary     : #415373;
+$color-four         : #7f8ba4;
+
+$color-error        : #FF0000;
+$color-cancel       : $color-error;
+
+$color-text         : #777777;
+$color-input        : #415373;
+
+$color-gray         : #8E8E8E !default; //e1e1e1
+$color-dark-gray    : #747474 !default;
+$color-light-gray   : #eee !default;
+
+$color-white        : #FFFFFF;
+$color-black        : #323232;
+
+/**
+ * Border Colors
+ *
+ * @default $base-border-color: #ccc;
+ */
+$base-border-color      : #d1d2d4 !default;
+$base-border-box        : #AABFDB !default;
+$base-border-highlight  : $color-gray !default;
+$base-border-disabled   : $color-gray !default;
+$base-border-readonly   : $color-gray !default;
+
+/**
+ * Field Background Colors
+ */
+$base-field-background      : null !default;
+
+$named-colors: (
+    info: $color-primary,
+    success: #B0D2BC,
+    warn: #FAFFBA,
+    error: #AB433F,
+    tooltip: #808c9e
+);

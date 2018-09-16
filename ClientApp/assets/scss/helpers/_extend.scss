@@ -1,0 +1,131 @@
+/** -------------------------------------------
+    Helper Definitions
+    ------------------------------------------- **/
+/**
+ * Input element field
+ */
+%text-field {
+    @include app-transition();
+    @include box-shadow(inset 0px 0px 0px 1px $input-default-border);
+    outline: 0;
+    padding: 17px 10px;
+    border: 0;
+    color: $input-default-text;
+    background-color: $input-default-bg;
+    border-radius: $input-border-radius;
+
+    &::-webkit-input-placeholder { color:$input-default-text; }
+    &:-moz-placeholder { color:$input-default-text; } /* FF 4-18 */
+    &::-moz-placeholder { color:$input-default-text; } /* FF 19+ */
+    &:-ms-input-placeholder { color:$input-default-text; } /* IE 10+ */
+
+    font: { size: $input-font-size; weight: normal; }
+
+    + .item-label {
+        @extend %vertical;
+        color: $input-default-text;
+        font-size: $input-font-size;
+        padding-left: 10px;
+        visibility: hidden;
+    }
+
+    &[readonly],
+    &.readonly,
+    &[disabled],
+    &.disabled {
+        @include box-shadow(inset 0px 0px 0px 1px $input-disable-border);
+        color: $input-disable-text;
+        background: $input-disable-bg;
+        cursor: default;
+
+        &::-webkit-input-placeholder { color:$input-disable-text; }
+        &:-moz-placeholder { color:$input-disable-text; } /* FF 4-18 */
+        &::-moz-placeholder { color:$input-disable-text; } /* FF 19+ */
+        &:-ms-input-placeholder { color:$input-disable-text; } /* IE 10+ */
+    }
+
+    &:focus,
+    &:active {
+        @include box-shadow(inset 0px 0px 0px 1px $color-primary);
+
+        &::-webkit-input-placeholder { color:transparent; }
+        &:-moz-placeholder { color:transparent; } /* FF 4-18 */
+        &::-moz-placeholder { color:transparent; } /* FF 19+ */
+        &:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+        + .icon { color: $color-primary; }
+        + .item-label {
+            visibility: visible;
+            top: -10px;
+            padding: 0;            
+            font-size: 90%;
+            color: $color-primary;
+            -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease, padding 0.2s ease;
+            transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease, padding 0.2s ease;
+
+            + .icon { color: $color-primary; }
+        }
+    }
+
+    .has-error & {
+        @include box-shadow(inset 0px 0px 0px 1px $color-cancel);
+        
+        &::-webkit-input-placeholder { color:$color-cancel; }
+        &:-moz-placeholder { color:$color-cancel; } /* FF 4-18 */
+        &::-moz-placeholder { color:$color-cancel; } /* FF 19+ */
+        &:-ms-input-placeholder { color:$color-cancel; } /* IE 10+ */
+
+        &:focus {
+            &::-webkit-input-placeholder { color:transparent; }
+            &:-moz-placeholder { color:transparent; } /* FF 4-18 */
+            &::-moz-placeholder { color:transparent; } /* FF 19+ */
+            &:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+        }
+    }
+}
+
+/**
+ * Hard reset for an element
+ */
+ %reset {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    list-style: none;
+}
+
+
+/**
+ * Vertical Center
+ */
+%vertical {
+    @include transform(translate(0%, -50%));
+    position: absolute;
+    top: 50%;
+}
+
+
+/**
+ * Horizontal Center
+ */
+%horizontal {
+    @include transform(translate(-50%, 0%));
+    position: absolute;
+    left: 50%;
+}
+
+/**
+ * Center Alignment
+ */
+%center {
+    display: block;
+    margin: 0 auto;
+}
+
+/**
+ * Floats
+ */
+%column {
+    float: left;
+}

@@ -1,0 +1,43 @@
+/** -------------------------------------------
+    Heading Styles
+    ------------------------------------------- **/
+h1, h2, h3, h4, h5, h6 { font-weight: 400; margin-bottom: 1em; }
+h1 { font-size: $base-font-h1; }
+h2 { font-size: $base-font-h2; }
+h3 { font-size: $base-font-h3; }
+h4 { font-size: $base-font-h4; }
+h5 { font-size: $base-font-h5; }
+h6 { font-size: $base-font-h6; }
+
+@media only screen and (min-width: $screen-phone) and (max-width: $screen-phone-max) {
+    h1 { font-size: ($base-mobile-font-size * 2.6); }
+    h2 { font-size: ($base-mobile-font-size * 2.14); }
+    h3 { font-size: ($base-mobile-font-size * 1.7); }
+    h4 { font-size: ($base-mobile-font-size * 1.25); }
+    h5 { font-size: $base-mobile-font-size; }
+    h6 { font-size: ($base-mobile-font-size * 0.85); }
+}
+@media only screen and (min-width: $screen-portrait) and (max-width: $screen-portrait-max) {
+    h1 { font-size: ($base-portrait-font-size * 2.6); }
+    h2 { font-size: ($base-portrait-font-size * 2.14); }
+    h3 { font-size: ($base-portrait-font-size * 1.7); }
+    h4 { font-size: ($base-portrait-font-size * 1.25); }
+    h5 { font-size: $base-portrait-font-size; }
+    h6 { font-size: ($base-portrait-font-size * 0.85); }
+}
+@media only screen and (min-width: $screen-landscape) and (max-width: $screen-landscape-max) {
+    h1 { font-size: ($base-landscape-font-size * 2.6); }
+    h2 { font-size: ($base-landscape-font-size * 2.14); }
+    h3 { font-size: ($base-landscape-font-size * 1.7); }
+    h4 { font-size: ($base-landscape-font-size * 1.25); }
+    h5 { font-size: $base-landscape-font-size; }
+    h6 { font-size: ($base-landscape-font-size * 0.85); }
+}
+@media only screen and (min-width: $screen-web) and (max-width: $screen-web-max) {
+    h1 { font-size: ($base-web-font-size * 2.6); }
+    h2 { font-size: ($base-web-font-size * 2.14); }
+    h3 { font-size: ($base-web-font-size * 1.7); }
+    h4 { font-size: ($base-web-font-size * 1.25); }
+    h5 { font-size: $base-web-font-size; }
+    h6 { font-size: ($base-web-font-size * 0.85); }
+}
