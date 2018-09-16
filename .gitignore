@@ -5,6 +5,7 @@
 
 #js dependencies
 wwwroot/
+bin/
 ##already included
 #node_modules/
 *lock.json
@@ -206,7 +207,6 @@ _pkginfo.txt
 !*.[Cc]ache/
 
 # Others
-ClientBin/
 ~$*
 *~
 *.dbmdl
