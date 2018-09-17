@@ -42,6 +42,9 @@ import Muzik from '../pages/Kulupler/Muzik.vue'
 import TurkceTiyatro from '../pages/Kulupler/TurkceTiyatro.vue'
 import Voleybol from '../pages/Kulupler/Voleybol.vue'
 import Bilim from '../pages/Kulupler/Bilim.vue'
+import SanatSpor from '../pages/Kulupler/SanatSpor.vue'
+import BilisimTeknoloji from '../pages/Kulupler/BilisimTeknoloji.vue'
+
 
 
 Vue.use(VueRouter)
@@ -132,9 +135,11 @@ const router = new VueRouter({
             {
               path: 'bilim',
               component: Bilim
-            }
+            },
           ]
         },
+        { path: '/bilisim-ve-teknoloji', component: BilisimTeknoloji },
+        { path: '/sanat-ve-spor', component: SanatSpor },
         { path: '/iletisim', component: Contact },
         { path: "*", component: ErrorPage }
   ],

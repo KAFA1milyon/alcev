@@ -79,9 +79,9 @@
                         <div class="col-sm-12 col-md-3">
                             <h4>OKULDA YAŞAM</h4>
                             <ol>
-                                <li><router-link class="footer-link" to="/">Bilişim ve Teknoloji</router-link></li>
+                                <li><router-link class="footer-link" to="/bilisim-ve-teknoloji">Bilişim ve Teknoloji</router-link></li>
                                 <li><router-link class="footer-link" to="/kulupler">Kulüpler</router-link></li>
-                                <li><router-link class="footer-link" to="/">Sanat ve Spor</router-link></li>
+                                <li><router-link class="footer-link" to="/sanat-ve-spor">Sanat ve Spor</router-link></li>
                                 <li><router-link class="footer-link" to="/">Yemek Listesi</router-link></li>
                             </ol>
                         </div>

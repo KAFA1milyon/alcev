@@ -45,12 +45,12 @@
                                             <router-link class="router-link" to="/anaokulu">Anasınıfı</router-link>
                                             <router-link class="router-link" to="/">Beslenme Dostu Okul Projesi</router-link>
                                             <router-link class="router-link" to="/">Eko Okulları Projesi</router-link>
-                                            <router-link class="router-link" to="/">Bilişim ve Teknoloji</router-link>
+                                            <router-link class="router-link" to="/bilisim-ve-teknoloji">Bilişim ve Teknoloji</router-link>
                                             <router-link class="router-link" to="/">E-Bülten</router-link>
                                             <router-link class="router-link" to="/">Rehberlik ve Danışmanlık</router-link>
                                             <router-link class="router-link" to="/">Okul Kıyafetleri</router-link>
                                             <router-link class="router-link" to="/">Kütüphane</router-link>
-                                            <router-link class="router-link" to="/">Sanat ve Spor</router-link>
+                                            <router-link class="router-link" to="/sanat-ve-spor">Sanat ve Spor</router-link>
                                             <router-link class="router-link" to="/">Ulaşım İmkanları</router-link>
                                             <router-link class="router-link" to="/">Verimli Ders Çalışma</router-link>
                                         </div>
