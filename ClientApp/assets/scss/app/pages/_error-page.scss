@@ -1,0 +1,45 @@
+/** -------------------------------------------
+    Error Page
+    ------------------------------------------- **/
+
+.error-page {
+    position: relative;
+    padding: 40px 0;
+
+    &:before, &:after {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &:before {
+        @include retina-image('errorpage/left');
+        left: 0;
+        width: 250px;
+        height: 150px;
+    }
+
+    &:after {
+        @include retina-image('errorpage/right');
+        right: 0;
+        width: 255px;
+        height: 120px;
+    }
+
+    &-content {
+        width: 50%;
+        margin: 0 auto 80px;
+        font-size: 20px;
+        text-align: center;
+
+        h1{ font-weight: 500; color: $color-black; }
+        p { font-weight: 300; font-size: 20px; margin-bottom: 40px; }    
+    }
+}
+
+.error-footer {
+    @include retina-image('errorpage/desk');
+    width: 100%;
+    height: 70px;
+}

@@ -1,0 +1,147 @@
+/** -------------------------------------------
+    Schools
+    ------------------------------------------- **/
+
+.schools-page {
+    position: relative;
+
+    &.anaokul {
+        .school-header { background-image: linear-gradient(-90deg, #FF65E7 11%, #D96EC8 84%); }
+        .school-subheader {
+            background-color: rgba(250,101,231,.15);
+            color: #D96EC8;
+        }
+        .school-headerlink {
+            border-bottom: 1px solid #FF65E7;
+            a { 
+                color: #D96EC8; 
+                
+                
+            }
+        }
+        .school-menu {
+            .router-link {
+                &:hover,
+                &.router-link-exact-active.router-link-active {
+                    background-image: linear-gradient(-90deg, #FF65E7 11%, #D96EC8 84%);
+                    color: $color-white;
+                }
+            }
+        }
+    }
+    &.ilkokul {
+        .school-header { background-image: linear-gradient(-90deg, #7FF842 10%, #5BCE21 90%); }
+        .school-subheader {
+            background-color: rgba(127,248,66,.15);
+            color: #5BCE21;
+        }
+        .school-headerlink {
+            border-bottom: 1px solid #7FF842;
+
+            a { 
+                color: #5BCE21; 
+            }
+        }
+        .school-menu {
+            .router-link {
+                &:hover,
+                &.router-link-exact-active.router-link-active {
+                    background-image: linear-gradient(-90deg, #7FF842 10%, #5BCE21 90%);
+                    color: $color-white;
+                }
+            }
+        }
+    } 
+    &.ortaokul {
+        .school-header {  background-image: linear-gradient(-90deg, #53ECE1 12%, #0FCCBE 87%); }
+        .school-subheader {
+            background-color: rgba(83,236,225,.15);
+            color: #0FCCBE;
+        }
+        .school-headerlink {
+            border-bottom: 1px solid #53ECE1;
+
+            a { 
+                color: #0FCCBE; 
+            }
+        }
+        .school-menu {
+            .router-link {
+                &:hover,
+                &.router-link-exact-active.router-link-active {
+                    background-image: linear-gradient(-90deg, #53ECE1 12%, #0FCCBE 87%);
+                    color: $color-white;
+                }
+            }
+        }
+    }
+
+    .school-header {
+        padding-top: 30px;
+        color: $color-white;
+        font-size: 40px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .school-subheader {
+        font-size: 40px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .school-headerlink {
+        padding: 15px 0;
+        font-size: 16px;
+
+        a { margin-right: 10px; }
+    }
+
+    .school-nav {
+        position: relative;
+        margin-top: -200px;
+
+        .school-logo {
+            border-radius: 4px;
+            height: 215px;
+        }
+
+        nav.school-menu {
+            margin-top: 20px;
+
+            > a {
+                display: block;
+                padding: 15px 0;
+                margin: 0 auto;
+                margin-bottom: 10px;
+                text-align: center;
+                color: $color-white;
+                background-color: #999999;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .school-content {
+        position: relative;
+        padding: 40px 20px;
+
+        h3 { 
+            font-weight: 500;
+            color: #535252;
+            
+            &:after {
+                content: '';
+                display: block;
+                margin: 10px 0;
+                width: 28px;
+                height: 3px;
+                background-color: #D8D8D8;
+            }
+        }
+
+        h4 { color: #535252; font-weight: 300; }
+
+        p { margin: 1em 0; }
+    }
+}

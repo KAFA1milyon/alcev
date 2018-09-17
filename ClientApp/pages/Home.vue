@@ -189,7 +189,7 @@
         display: inline-block;
         width: 100%;
         padding: 30px 0;
-        background: url("/images/event-bg.png") 0 0 repeat, linear-gradient(45deg, #1E6CEF 0%, #42A5F8 100%);
+        background: url("images/event-bg.png") 0 0 repeat, linear-gradient(45deg, #1E6CEF 0%, #42A5F8 100%);
     }
 
     .studentclub-container {

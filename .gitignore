@@ -7,7 +7,6 @@
 wwwroot/
 bin/
 ##already included
-#node_modules/
 *lock.json
 *.[Dd]evelopment.json
 

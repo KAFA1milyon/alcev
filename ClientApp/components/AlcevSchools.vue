@@ -2,31 +2,31 @@
     <div class="alcev-schools">
         <swiper :options="swiperOption" ref="alcevSlider">
             <swiper-slide>
-                <a class="box pre-school">
+                <router-link class="box pre-school" to="/anaokulu">
                     <img class="box-bg img-fluid one-whole" src="/images/adolescence-adorable-baby-1089069.jpg" alt="anaokulu" />
                     <div class="box-content">
                         ALÇEV 
                         <p>ANAOKULU</p>
                     </div>
-                </a>
+                </router-link>
             </swiper-slide>
             <swiper-slide>
-                <a class="box grade-school">
+                <router-link class="box grade-school" to="/ilkokul">
                     <img class="box-bg img-fluid one-whole" src="/images/art-artistic-arts-and-crafts-1153895.jpg" alt="ilkokul" />
                     <div class="box-content">
                         ALÇEV
                         <p>İLKOKULU</p>
                     </div>
-                </a>
+                </router-link>
             </swiper-slide>
             <swiper-slide>
-                <a class="box middle-school">
+                <router-link class="box middle-school" to="/ortaokul">
                     <img class="box-bg img-fluid one-whole" src="/images/background-blank-close-up-998591.jpg" alt="ortaokul" />
                     <div class="box-content">
                         ALÇEV
                         <p>ORTAOKULU</p>
                     </div>
-                </a>
+                </router-link>
             </swiper-slide>
         </swiper>
     </div>

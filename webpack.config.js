@@ -53,7 +53,7 @@ module.exports = () => {
             scss: 'vue-style-loader!css-loader!resolve-url-loader!sass-loader'
           }
         }}, 
-        { test: /\.js$/, loader: 'babel-loader', exclude: file => (/node_modules/.test(file) && !/\.vue\.js/.test(file)) }, 
+        { test: /\.js$/, loader: 'babel-loader', exclude: file => (/node_modules/.test(file) && /node_modules(?!\/webpack-dev-server)/ && !/\.vue\.js/.test(file)) }, 
         { test: /\.css$/,
           oneOf: [{
               resourceQuery: /module/,
@@ -147,14 +147,11 @@ module.exports = () => {
         }
       ]
     },
-    performance: {
-      maxEntrypointSize: 300000,
-      hints: isProd ? 'warning' : false
-    },
     optimization: {
         minimizer: isProd ? [
           // we specify a custom UglifyJsPlugin here to get source maps in production
           new UglifyJsPlugin({
+            exclude: /\/node_modules/,
             cache: true,
             parallel: true,
             uglifyOptions: {
