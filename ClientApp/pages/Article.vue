@@ -78,14 +78,12 @@
         </div>
     </div> 
 </template>
-    
-<script>
-</script>
 
 <style lang="scss" scoped>
     .article-container {
+        @include display-flex();
         position: relative;
-        margin-top: 30px;
+        margin: 30px 0;
         color: $color-gray;
         font-size: 18px;
         font-weight: 400;
@@ -98,6 +96,7 @@
 
             .circle-image {
                 border-radius: 4px;
+                max-width: 500px;
             }
         }
 

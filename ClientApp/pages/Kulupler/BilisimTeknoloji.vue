@@ -40,7 +40,7 @@
                     </div>
                     <div class="content-layer right">
                         <p>Bilişim teknolojileri derslerinde öğrencilerimizi yönlendirmek ve teşvik etmek için;</p>
-                        <ol>
+                        <ol class="arrow">
                             <li>Projeler üzerinden öğrenmek,</li>
                             <li>Yaparak öğrenmek,</li>
                             <li>Akran aracılığı ile öğrenmek,</li>
@@ -57,7 +57,7 @@
                 <div class="article-content">
                     <div class="content-layer left">
                         <p>Öğrencilerimiz;</p>
-                        <ol>
+                        <ol class="arrow">
                             <li>Ödevlerini hazırlayabilecek, yazışmalar yapabilecek düzeyde Word programını kullanabilecek;</li>
                             <li>Hazırladığı projeleri etkili bir şekilde sunabilecek düzeyde Powerpoint programını kullanabilecek,</li>
                             <li>İnternet’i, hayatının her alanında, her yönüyle olumlu bir şekilde kullanabilecek,</li>
@@ -82,8 +82,9 @@
 
 <style lang="scss" scoped>
     .article-container {
+        @include display-flex();
         position: relative;
-        margin-top: 30px;
+        margin: 30px 0;
         color: $color-gray;
         font-size: 18px;
         font-weight: 400;
@@ -119,25 +120,7 @@
                 }
 
                 ol {
-                    list-style: none;
                     margin-top: 20px;
-                    padding-left: 20px;
-
-                    li {
-                        width: 100%;
-                        margin-bottom: .5em;
-
-                        &:before{
-                            @include dims(8px);
-                            content: '';
-                            position: absolute;
-                            border-right:1px solid black;
-                            border-bottom:1px solid black;
-                            top: calc(50% - 1px);
-                            left: -20px;
-                            transform: translateY(-50%) rotate(-45deg);
-                        }
-                    }
                 }
             }
         }

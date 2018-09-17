@@ -33,12 +33,12 @@
                                     <div class="tab-content" id="tabContent">
                                         <div class="tab-pane fade show active" id="alcev" role="tabpanel" aria-labelledby="alcev-tab">
                                             <router-link class="router-link" to="/ataturkun-hayati">Atatürk Köşesi</router-link>
-                                            <router-link class="router-link" to="/">ALÇEV Kurucu Üyeleri</router-link>
+                                            <router-link class="router-link" to="/alcev-kurucu-uyeleri">ALÇEV Kurucu Üyeleri</router-link>
                                             <router-link class="router-link" to="/misyon-ve-vizyonumuz">Misyon ve Vizyonumuz</router-link>
-                                            <router-link class="router-link" to="/">Vakıf Başkanın Mesajı</router-link>
-                                            <router-link class="router-link" to="/">Vakıf Başkanın Özgeçmişi</router-link>
-                                            <router-link class="router-link" to="/">Vakıf Tairhçe</router-link>
-                                            <router-link class="router-link" to="/">Yönetim Kurulu</router-link>
+                                            <router-link class="router-link" to="/vakif-baskaninin-mesaji">Vakıf Başkanın Mesajı</router-link>
+                                            <router-link class="router-link" to="/vakif-baskani-ozgecmisi">Vakıf Başkanın Özgeçmişi</router-link>
+                                            <router-link class="router-link" to="/vakif-tarihce">Vakıf Tarihçe</router-link>
+                                            <router-link class="router-link" to="/yonetim-kurulu">Yönetim Kurulu</router-link>
                                         </div>
                                         <div class="tab-pane fade" id="okul" role="tabpanel" aria-labelledby="okul-tab">
                                             <router-link class="router-link" to="/akademik-takvim">Akademik Takvim</router-link>

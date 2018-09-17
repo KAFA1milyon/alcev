@@ -23,13 +23,18 @@ import IlkokulHocalar from '../pages/Okullar/Ilkokul/Hocalar.vue'
 import OrtaokulSinif from '../pages/Okullar/Ortaokul/Siniflar.vue'
 import OrtaokulHocalar from '../pages/Okullar/Ortaokul/Hocalar.vue'
 
-
 // Static
 import AtaturkKosesi from '../pages/Static/AtaturkKosesi.vue'
 import AkademikTakvim from '../pages/Static/AkademikTakvim.vue'
 import EgitimModeli from '../pages/Static/EgitimModeli.vue'
 import MisyonVizyon from '../pages/Static/MisyonVizyon.vue'
 import OkulAileBirligi from '../pages/Static/OkulAileBirligi.vue'
+import AlcevKurucuUye from '../pages/Static/AlcevKurucuUye.vue'
+import VakifBaskanMesaj from '../pages/Static/VakifBaskanMesaj.vue'
+import VakifBaskanOzgecmis from '../pages/Static/VakifBaskanOzgecmis.vue'
+import VakifTarihce from '../pages/Static/VakifTarihce.vue'
+import VakifYK from '../pages/Static/VakifYK.vue'
+
 
 //Kulupler
 import Kulupler from '../pages/Kulupler/Kulupler.vue'
@@ -98,6 +103,11 @@ const router = new VueRouter({
         { path: '/egitim-modeli', component: EgitimModeli },
         { path: '/misyon-ve-vizyonumuz', component: MisyonVizyon },
         { path: '/okul-aile-birligi', component: OkulAileBirligi },
+        { path: '/alcev-kurucu-uyeleri', component: AlcevKurucuUye },
+        { path: '/vakif-baskaninin-mesaji', component: VakifBaskanMesaj },
+        { path: '/vakif-baskani-ozgecmisi', component: VakifBaskanOzgecmis },
+        { path: '/vakif-tarihce', component: VakifTarihce },
+        { path: '/yonetim-kurulu', component: VakifYK },
         { path: '/kulupler', component: Kulupler, 
           children: [
             {
