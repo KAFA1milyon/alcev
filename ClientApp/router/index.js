@@ -24,6 +24,13 @@ import OrtaokulSinif from '../pages/Okullar/Ortaokul/Siniflar.vue'
 import OrtaokulHocalar from '../pages/Okullar/Ortaokul/Hocalar.vue'
 
 
+// Static
+import AtaturkKosesi from '../pages/Static/AtaturkKosesi.vue'
+import AkademikTakvim from '../pages/Static/AkademikTakvim.vue'
+import EgitimModeli from '../pages/Static/EgitimModeli.vue'
+import MisyonVizyon from '../pages/Static/MisyonVizyon.vue'
+import OkulAileBirligi from '../pages/Static/OkulAileBirligi.vue'
+
 
 
 Vue.use(VueRouter)
@@ -32,17 +39,7 @@ const router = new VueRouter({
   mode: 'history',
   routes: [
         { path: '/', component: Home },
-        { path: '/duyurular', component: Announcement, 
-          children: [
-            {
-              path: 'profile',
-              component: Teachers
-            },
-            {
-              path: 'posts',
-              component: Activities
-            }
-          ]},
+        { path: '/duyurular', component: Announcement },
         { path: '/anaokulu', component: Anaokulu, 
           children: [
             {
@@ -82,6 +79,11 @@ const router = new VueRouter({
         { path: '/etkinlikler', component: Activities },
         { path: '/ogretmenler', component: Teachers },
         { path: '/makale', component: Article },
+        { path: '/ataturkun-hayati', component: AtaturkKosesi },
+        { path: '/akademik-takvim', component: AkademikTakvim },
+        { path: '/egitim-modeli', component: EgitimModeli },
+        { path: '/misyon-ve-vizyonumuz', component: MisyonVizyon },
+        { path: '/okul-aile-birligi', component: OkulAileBirligi },
         { path: '/iletisim', component: Contact },
         { path: "*", component: ErrorPage }
   ],

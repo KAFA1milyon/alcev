@@ -3,51 +3,91 @@
         <swiper :options="swiperOption" ref="studentClubSlider">
             <swiper-slide>
                 <div class="club-photo">
-                    <img src="/images/activity-art-art-class-730807.jpg" alt="">
+                    <img src="/images/kulupler/tiyatro.jpg" alt="">
                 </div>
                 <div class="club-content">
-                    <p>Fotoğraf Klubü 1</p>
-                    <a href="#" class="club-button">Detaylar</a>
+                    <p>Türkçe Tiyatro</p>
+                    <router-link class="club-button" to="/">Detaylar</router-link>
                 </div>
             </swiper-slide>
 
             <swiper-slide>
                 <div class="club-photo">
-                    <img src="/images/audience-crowd-event-301987.jpg" alt="">
+                    <img src="/images/kulupler/fotografcilik.jpg" alt="">
                 </div>
                 <div class="club-content">
-                    <p>Fotoğraf Klubü 1</p>
-                    <a href="#" class="club-button">Detaylar</a>
+                    <p>Fotoğrafçılık</p>
+                    <router-link class="club-button" to="/">Detaylar</router-link>
                 </div>
             </swiper-slide>
 
             <swiper-slide>
                 <div class="club-photo">
-                    <img src="/images/blue-jeans-boy-child-164835.jpg" alt="">
+                    <img src="/images/kulupler/muzik.jpg" alt="">
                 </div>
                 <div class="club-content">
-                    <p>Fotoğraf Klubü 1</p>
-                    <a href="#" class="club-button">Detaylar</a>
+                    <p>Müzik Kulübü</p>
+                    <router-link class="club-button" to="/">Detaylar</router-link>
                 </div>
             </swiper-slide>
 
             <swiper-slide>
                 <div class="club-photo">
-                    <img src="/images/ShowImage.jpeg" alt="">
+                    <img src="/images/kulupler/tiyatro.jpg" alt="">
                 </div>
                 <div class="club-content">
-                    <p>Fotoğraf Klubü 1</p>
-                    <a href="#" class="club-button">Detaylar</a>
+                    <p>İngilizce Tiyatro</p>
+                    <router-link class="club-button" to="/">Detaylar</router-link>
                 </div>
             </swiper-slide>
 
             <swiper-slide>
                 <div class="club-photo">
-                    <img src="/images/Top-acting-schools-for-children-in-London.jpg" alt="">
+                    <img src="/images/kulupler/gorsel-sanat.jpg" alt="">
                 </div>
                 <div class="club-content">
-                    <p>Fotoğraf Klubü 1</p>
-                    <a href="#" class="club-button">Detaylar</a>
+                    <p>Görsel Sanatlar</p>
+                    <router-link class="club-button" to="/">Detaylar</router-link>
+                </div>
+            </swiper-slide>
+
+            <swiper-slide>
+                <div class="club-photo">
+                    <img src="/images/kulupler/voleybol.jpg" alt="">
+                </div>
+                <div class="club-content">
+                    <p>Voleybol</p>
+                    <router-link class="club-button" to="/">Detaylar</router-link>
+                </div>
+            </swiper-slide> 
+
+            <swiper-slide>
+                <div class="club-photo">
+                    <img src="/images/kulupler/basketbol.jpg" alt="">
+                </div>
+                <div class="club-content">
+                    <p>Basketbol</p>
+                    <router-link class="club-button" to="/">Detaylar</router-link>
+                </div>
+            </swiper-slide>
+
+            <swiper-slide>
+                <div class="club-photo">
+                    <img src="/images/kulupler/halkoyunlari.jpg" alt="">
+                </div>
+                <div class="club-content">
+                    <p>Halk Oyunları</p>
+                    <router-link class="club-button" to="/">Detaylar</router-link>
+                </div>
+            </swiper-slide>
+
+            <swiper-slide>
+                <div class="club-photo">
+                    <img src="/images/kulupler/bilim.jpg" alt="">
+                </div>
+                <div class="club-content">
+                    <p>Bilim Kulübü</p>
+                    <router-link class="club-button" to="/">Detaylar</router-link>
                 </div>
             </swiper-slide>
         </swiper>

@@ -18,10 +18,11 @@
                 <div class="article-photo">
                     <img class="circle-image" src="/images/ataturk.png" alt="">
                 </div>
+                
 
                 <div class="article-content">
                     <div class="content-layer">
-                        <h5>Atatürk'ün Ailesi</h5>
+                        <h4>Atatürk'ün Ailesi</h4>
                         <p>
                             Kurtuluş Savaşı’mızın z ve Türkiye Cumhuriyetinin kurucusu Gazi Mustafa Kemal Atatürk, 1881 yılında Selânik’te Kocakasım Mahallesi, Islâhhâne Caddesindeki üç katlı pembe bir evde doğdu. Babası Selanik ilkokulu öğretmenlerinden Kırmızı Hafız sanıyla anılan Ahmet Efendi’nin oğlu Ali Rıza Efendi, annesi Sarıgüllü Hacı Sofu ailesinden Feyzullah Efendi’nin kızı Zübeyde Hanım’dır.
                             <br><br>
@@ -30,7 +31,7 @@
                     </div>
 
                     <div class="content-layer">
-                        <h5>Atatürk'ün Ailesi</h5>
+                        <h4>Atatürk'ün Ailesi</h4>
                         <p>
                             Kurtuluş Savaşı’mızın z ve Türkiye Cumhuriyetinin kurucusu Gazi Mustafa Kemal Atatürk, 1881 yılında Selânik’te Kocakasım Mahallesi, Islâhhâne Caddesindeki üç katlı pembe bir evde doğdu. Babası Selanik ilkokulu öğretmenlerinden Kırmızı Hafız sanıyla anılan Ahmet Efendi’nin oğlu Ali Rıza Efendi, annesi Sarıgüllü Hacı Sofu ailesinden Feyzullah Efendi’nin kızı Zübeyde Hanım’dır.
                             <br><br>
@@ -39,7 +40,7 @@
                     </div>
 
                     <div class="content-layer">
-                        <h5>Atatürk'ün Ailesi</h5>
+                        <h4>Atatürk'ün Ailesi</h4>
                         <p>
                             Kurtuluş Savaşı’mızın z ve Türkiye Cumhuriyetinin kurucusu Gazi Mustafa Kemal Atatürk, 1881 yılında Selânik’te Kocakasım Mahallesi, Islâhhâne Caddesindeki üç katlı pembe bir evde doğdu. Babası Selanik ilkokulu öğretmenlerinden Kırmızı Hafız sanıyla anılan Ahmet Efendi’nin oğlu Ali Rıza Efendi, annesi Sarıgüllü Hacı Sofu ailesinden Feyzullah Efendi’nin kızı Zübeyde Hanım’dır.
                             <br><br>
@@ -48,7 +49,7 @@
                     </div>
 
                     <div class="content-layer">
-                        <h5>Atatürk'ün Ailesi</h5>
+                        <h4>Atatürk'ün Ailesi</h4>
                         <p>
                             Kurtuluş Savaşı’mızın z ve Türkiye Cumhuriyetinin kurucusu Gazi Mustafa Kemal Atatürk, 1881 yılında Selânik’te Kocakasım Mahallesi, Islâhhâne Caddesindeki üç katlı pembe bir evde doğdu. Babası Selanik ilkokulu öğretmenlerinden Kırmızı Hafız sanıyla anılan Ahmet Efendi’nin oğlu Ali Rıza Efendi, annesi Sarıgüllü Hacı Sofu ailesinden Feyzullah Efendi’nin kızı Zübeyde Hanım’dır.
                             <br><br>
@@ -57,7 +58,7 @@
                     </div>
 
                     <div class="content-layer">
-                        <h5>Atatürk'ün Ailesi</h5>
+                        <h4>Atatürk'ün Ailesi</h4>
                         <p>
                             Kurtuluş Savaşı’mızın z ve Türkiye Cumhuriyetinin kurucusu Gazi Mustafa Kemal Atatürk, 1881 yılında Selânik’te Kocakasım Mahallesi, Islâhhâne Caddesindeki üç katlı pembe bir evde doğdu. Babası Selanik ilkokulu öğretmenlerinden Kırmızı Hafız sanıyla anılan Ahmet Efendi’nin oğlu Ali Rıza Efendi, annesi Sarıgüllü Hacı Sofu ailesinden Feyzullah Efendi’nin kızı Zübeyde Hanım’dır.
                             <br><br>
@@ -66,7 +67,7 @@
                     </div>
 
                     <div class="content-layer">
-                        <h5>Atatürk'ün Ailesi</h5>
+                        <h4>Atatürk'ün Ailesi</h4>
                         <p>
                             Kurtuluş Savaşı’mızın z ve Türkiye Cumhuriyetinin kurucusu Gazi Mustafa Kemal Atatürk, 1881 yılında Selânik’te Kocakasım Mahallesi, Islâhhâne Caddesindeki üç katlı pembe bir evde doğdu. Babası Selanik ilkokulu öğretmenlerinden Kırmızı Hafız sanıyla anılan Ahmet Efendi’nin oğlu Ali Rıza Efendi, annesi Sarıgüllü Hacı Sofu ailesinden Feyzullah Efendi’nin kızı Zübeyde Hanım’dır.
                             <br><br>
@@ -113,7 +114,7 @@
                     padding-top: 0;
                 }
 
-                > h5 {
+                > h5, > h4 {
                     margin-bottom: 10px;
                 }
 

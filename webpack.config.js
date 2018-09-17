@@ -9,7 +9,8 @@ const WebfontPlugin = require("webfont-webpack-plugin").default;
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const VueSSRClientPlugin = require('vue-server-renderer/client-plugin')
+const VueSSRClientPlugin = require('vue-server-renderer/client-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const entryPlus = require('webpack-entry-plus');
 const isProd = process.env.NODE_ENV === 'production'
@@ -165,6 +166,7 @@ module.exports = () => {
         ] : []
     },
     plugins: [
+      new CleanWebpackPlugin([path.resolve(__dirname, 'wwwroot')]),
       new FriendlyErrorsPlugin(),
       new VueLoaderPlugin(),
       new CopyWebpackPlugin([

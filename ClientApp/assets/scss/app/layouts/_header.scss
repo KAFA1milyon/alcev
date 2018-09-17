@@ -21,6 +21,12 @@
             &.router-link-exact-active.router-link-active {
                 color: $color-link;
             }
+
+            &.head-menu-link {
+                background: transparent;
+                padding: 0;
+                outline: none;
+            }
         }
     }
 
@@ -44,5 +50,66 @@
         position: fixed;
         z-index: 2;
         width: 100%;
+    }  
+}
+
+.header-menu-modal {
+    color: $color-white;
+    background-color: rgba(0,0,0,.75);
+
+    .modal-dialog {
+        max-width: 100%;
+        margin: 1.2rem auto;
+
+        .modal-content {
+            background-color: transparent;
+
+            .nav {
+                border-right: 1px solid $color-white;
+                padding-right: 10px;
+
+                a { color: $color-white; }
+            }
+
+            .tab-content {
+                a { 
+                    display: block;
+                    margin-bottom: 25px;
+                    color: $color-white; 
+                }
+            }
+
+            h4 {
+                font-weight: 500;
+                color: $color-white;
+            }
+        
+            ol {
+                list-style: none;
+                font-weight: 300;
+        
+                > li {
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: .5em;
+        
+                    .icon {
+                        display: inline-block;
+                        position: relative;
+                        top: 5px;
+                        width: 20px;
+                        text-align: center;
+                        vertical-align: top;
+                    }
+        
+                    > p {
+                        display: inline-block;
+                        width: calc(100% - (20% - 10px));
+                        margin-left: 10px;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
     }
 }

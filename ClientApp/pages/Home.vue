@@ -48,12 +48,6 @@
                 </div>
 
                 <StudentClubSlider />
-
-                <div class="container">
-                    <div class="section-button">
-                        <a href="" class="button tertiary-action">Tüm Duyuruları Görüntüle</a>
-                    </div>
-                </div>
             </section>
         </div>
 

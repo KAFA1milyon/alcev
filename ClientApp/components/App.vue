@@ -20,13 +20,13 @@
                             <router-link class="router-link" to="/iletisim">İletişim</router-link>
                             
                             
-                            <!-- <a class="router-link">
+                            <!--<a class="router-link">
                                 <i class="icon icon-search"></i>
-                            </a>
+                            </a>-->
 
-                            <button class="btn head-menu-link" data-target="#modalNavigation" data-toggle="modal" type="button">
+                            <button class="router-link head-menu-link" data-target="#modalNavigation" data-toggle="modal" type="button">
                                 <i class="icon icon-hamburger-menu"></i>
-                            </button>-->
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -70,19 +70,19 @@
                         <div class="col-sm-12 col-md-3">
                             <h4>ALÇEV</h4>
                             <ol>
-                                <li><a href="#" class="footer-link">Akademik Takvim</a></li>
-                                <li><a href="#" class="footer-link">Eğitim Modeli</a></li>
-                                <li><a href="#" class="footer-link">Misyon ve Vizyonumuz</a></li>
-                                <li><a href="#" class="footer-link">Okul Aile Birliği</a></li>
+                                <li><router-link class="footer-link" to="/akademik-takvim">Akademik Takvim</router-link></li>
+                                <li><router-link class="footer-link" to="/egitim-modeli">Eğitim Modeli</router-link></li>
+                                <li><router-link class="footer-link" to="/misyon-ve-vizyonumuz">Misyon ve Vizyonumuz</router-link></li>
+                                <li><router-link class="footer-link" to="/okul-aile-birligi">Okul Aile Birliği</router-link></li>
                             </ol>
                         </div>
                         <div class="col-sm-12 col-md-3">
                             <h4>OKULDA YAŞAM</h4>
                             <ol>
-                                <li><a href="#" class="footer-link">Bilişim ve Teknoloji</a></li>
-                                <li><a href="#" class="footer-link">Kulüpler</a></li>
-                                <li><a href="#" class="footer-link">Sanat ve Spor</a></li>
-                                <li><a href="#" class="footer-link">Yemek Listesi</a></li>
+                                <li><router-link class="footer-link" to="/">Bilişim ve Teknoloji</router-link></li>
+                                <li><router-link class="footer-link" to="/">Kulüpler</router-link></li>
+                                <li><router-link class="footer-link" to="/">Sanat ve Spor</router-link></li>
+                                <li><router-link class="footer-link" to="/">Yemek Listesi</router-link></li>
                             </ol>
                         </div>
                     </div>
@@ -95,14 +95,17 @@
                 </div>
             </div>
         </footer>
+
+        <HeaderModalMenu />
     </div>
 </template>
 
 <script>
+    import HeaderModalMenu from './HeaderModal'
     import FixedHeader from 'vue-fixed-header'
 
     export default {
-        components: { FixedHeader },
+        components: { FixedHeader, HeaderModalMenu },
         watch: {
             '$route': function (to, from) {
                 if(to.path === '/'){

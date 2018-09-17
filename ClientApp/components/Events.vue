@@ -5,7 +5,7 @@
                 <div class="col-4 col-md-3 col-lg-2">
                     <div class="box-date">
                         <div class="date-border">
-                            <span class="day">01</span>
+                            <span class="day">02</span>
                             <span class="mounth">Mayıs 2018</span>
                         </div>
                     </div>
@@ -13,7 +13,7 @@
                 <div class="col-8 col-md-9 col-lg-7">
                     <div class="box-container">
                         <div class="box-head">
-                            <h5>Resim Yarışmasında Türkiye 1.si Olduk</h5> 
+                            <h5>2017-2018 YILI 8.SINIFLAR AKADEMİK KURS</h5> 
                             <div class="time-pin">
                                 <span class="clock">
                                     <i class="icon icon-clock"></i>
@@ -22,18 +22,18 @@
                                 
                                 <span class="pinned">
                                     <i class="icon icon-pinned"></i>
-                                    Ankara
+                                    Balıkesir
                                 </span>
                             </div>
                         </div>
                         <div class="box-content">
-                            Ankara özel okul öncülüğünde Türkiye genelinde düzenlenen 6. Geleneksel ” Geleceği Gören Dürbünün Olsa ” konulu resim yarışmasında Alçev 4-A sınıfı öğrencimiz Zeynep YANIK; Türkiye 1.si olmuştur. 2-B sınıfı öğrencimiz İrem Nur AYDIN jüri özel ödülü, 2-B sınıfı öğrencimiz Ela İz ÖZDEMİR ve 3-B sınıfı öğrencimiz Egemen Ulus KARA sergileme ödülü kazanmıştır. Öğrencilerimizi yürekten kutluyor, başarılarının devamını diliyoruz.
+                            2017-2018 Eğitim-öğretim yılı yaz dönemi 8.sınıflar akademik kurs  olacaktır.Detaylı bilgi ve kayıt için okulumuzu arayabilirsiniz.
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 d-none d-lg-flex">
                     <div class="box-photos">
-                        <img src="/images/events-photo.png" alt="">
+                        <img src="/images/duyuru2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -44,15 +44,15 @@
                 <div class="col-4 col-md-3 col-lg-2">
                     <div class="box-date">
                         <div class="date-border">
-                            <span class="day">01</span>
-                            <span class="mounth">Mayıs 2018</span>
+                            <span class="day">30</span>
+                            <span class="mounth">Nisan 2018</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-8 col-md-9 col-lg-7">
                     <div class="box-container">
                         <div class="box-head">
-                            <h5>Resim Yarışmasında Türkiye 1.si Olduk</h5> 
+                            <h5>Proje Yarışmasında Finallerdeyiz</h5> 
                             <div class="time-pin">
                                 <span class="clock">
                                     <i class="icon icon-clock"></i>
@@ -66,52 +66,13 @@
                             </div>
                         </div>
                         <div class="box-content">
-                            Ankara özel okul öncülüğünde Türkiye genelinde düzenlenen 6. Geleneksel ” Geleceği Gören Dürbünün Olsa ” konulu resim yarışmasında Alçev 4-A sınıfı öğrencimiz Zeynep YANIK; Türkiye 1.si olmuştur. 2-B sınıfı öğrencimiz İrem Nur AYDIN jüri özel ödülü, 2-B sınıfı öğrencimiz Ela İz ÖZDEMİR ve 3-B sınıfı öğrencimiz Egemen Ulus KARA sergileme ödülü kazanmıştır. Öğrencilerimizi yürekten kutluyor, başarılarının devamını diliyoruz.
+                            Ortaokul öğrencilerini temel bilimlerde araştırmaya özendirmek ve bilime meraklı gençlerin yolunu açmak adına Manisa Fen Lisesi tarafından 18-19-20 Nisan 2018 tarihinde gerçekleştirilen proje yarışmasında Fen Bilimleri Öğretmenimiz Gözde ÇAĞATAY danışmanlığında, Mehmet Can Dikici “Kurtarıcı Su Kalkanı” projesi finalde sergilenmiş ve büyük ilgi görmüştür.
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 d-none d-lg-flex">
                     <div class="box-photos">
-                        <img src="/images/events-photo.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="event-box">
-            <div class="row">
-                <div class="col-4 col-md-3 col-lg-2">
-                    <div class="box-date">
-                        <div class="date-border">
-                            <span class="day">01</span>
-                            <span class="mounth">Mayıs 2018</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-8 col-md-9 col-lg-7">
-                    <div class="box-container">
-                        <div class="box-head">
-                            <h5>Resim Yarışmasında Türkiye 1.si Olduk</h5> 
-                            <div class="time-pin">
-                                <span class="clock">
-                                    <i class="icon icon-clock"></i>
-                                    08:30 - 17:00
-                                </span>
-                                
-                                <span class="pinned">
-                                    <i class="icon icon-pinned"></i>
-                                    Ankara
-                                </span>
-                            </div>
-                        </div>
-                        <div class="box-content">
-                            Ankara özel okul öncülüğünde Türkiye genelinde düzenlenen 6. Geleneksel ” Geleceği Gören Dürbünün Olsa ” konulu resim yarışmasında Alçev 4-A sınıfı öğrencimiz Zeynep YANIK; Türkiye 1.si olmuştur. 2-B sınıfı öğrencimiz İrem Nur AYDIN jüri özel ödülü, 2-B sınıfı öğrencimiz Ela İz ÖZDEMİR ve 3-B sınıfı öğrencimiz Egemen Ulus KARA sergileme ödülü kazanmıştır. Öğrencilerimizi yürekten kutluyor, başarılarının devamını diliyoruz.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-none d-lg-flex">
-                    <div class="box-photos">
-                        <img src="/images/events-photo.png" alt="">
+                        <img src="/images/etkinlik/fen-yarismasi.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -216,7 +177,7 @@
                 text-align: right;
 
                 > img {
-                    height: 100%;
+                    @include dims(100%);
                     text-align: right;
                 }
             }
