@@ -31,6 +31,17 @@ import EgitimModeli from '../pages/Static/EgitimModeli.vue'
 import MisyonVizyon from '../pages/Static/MisyonVizyon.vue'
 import OkulAileBirligi from '../pages/Static/OkulAileBirligi.vue'
 
+//Kulupler
+import Kulupler from '../pages/Kulupler/Kulupler.vue'
+import Basketbol from '../pages/Kulupler/Basketbol.vue'
+import Fotografcilik from '../pages/Kulupler/Fotografcilik.vue'
+import GorselSanat from '../pages/Kulupler/GorselSanat.vue'
+import Halkoyunlari from '../pages/Kulupler/Halkoyunlari.vue'
+import IngilizceTiyatro from '../pages/Kulupler/IngilizceTiyatro.vue'
+import Muzik from '../pages/Kulupler/Muzik.vue'
+import TurkceTiyatro from '../pages/Kulupler/TurkceTiyatro.vue'
+import Voleybol from '../pages/Kulupler/Voleybol.vue'
+import Bilim from '../pages/Kulupler/Bilim.vue'
 
 
 Vue.use(VueRouter)
@@ -84,6 +95,46 @@ const router = new VueRouter({
         { path: '/egitim-modeli', component: EgitimModeli },
         { path: '/misyon-ve-vizyonumuz', component: MisyonVizyon },
         { path: '/okul-aile-birligi', component: OkulAileBirligi },
+        { path: '/kulupler', component: Kulupler, 
+          children: [
+            {
+              path: 'turkce-tiyatro',
+              component: TurkceTiyatro
+            },
+            {
+              path: 'fotografcilik',
+              component: Fotografcilik
+            },
+            {
+              path: 'muzik',
+              component: Muzik
+            },
+            {
+              path: 'ingilizce-tiyatro',
+              component: IngilizceTiyatro
+            },
+            {
+              path: 'gorsel-sanatlar',
+              component: GorselSanat
+            },
+            {
+              path: 'voleybol',
+              component: Voleybol
+            },
+            {
+              path: 'basketbol',
+              component: Basketbol
+            },
+            {
+              path: 'halkoyunlari',
+              component: Halkoyunlari
+            },
+            {
+              path: 'bilim',
+              component: Bilim
+            }
+          ]
+        },
         { path: '/iletisim', component: Contact },
         { path: "*", component: ErrorPage }
   ],

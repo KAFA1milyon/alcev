@@ -1,0 +1,66 @@
+/** -------------------------------------------
+    Profile
+    ------------------------------------------- **/
+
+.userprofile {
+    @include display-flex();
+    @include flex-wrap(wrap);
+    @include align-items(center);
+    @include flex-direction(column);
+    
+    position:relative;
+    margin: 20px 0;
+    width: 100%;
+    
+    &-circle {
+        @include display-flex();
+        @include align-items(center);
+        @include dims(200px);
+        -webkit-border-radius: 99em;
+        -moz-border-radius: 99em;
+        border-radius: 99em;
+        border: 2px solid #FF872F;
+        background: #D8D8D8;
+        overflow: hidden;
+        
+        > img {
+            display: inline;
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+
+    &-square {
+        @include display-flex();
+        @include align-items(center);
+        @include dims(200px);
+        padding: 5px;
+        border: 1px solid $base-border-color;
+        border-radius: $base-border-radius;
+        margin-bottom: 5px;
+
+        > img {
+            @include dims(100%);
+        }
+    }
+
+    &-info {
+        @include display-flex();
+        @include flex-direction(column);
+        @include align-items(center);
+
+        > span { margin: 5px 0; }
+
+        .name {
+            color: #535252;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .title,
+        .email {
+            color: #6B6B6B;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}

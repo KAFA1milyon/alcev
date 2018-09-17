@@ -80,7 +80,7 @@
                             <h4>OKULDA YAŞAM</h4>
                             <ol>
                                 <li><router-link class="footer-link" to="/">Bilişim ve Teknoloji</router-link></li>
-                                <li><router-link class="footer-link" to="/">Kulüpler</router-link></li>
+                                <li><router-link class="footer-link" to="/kulupler">Kulüpler</router-link></li>
                                 <li><router-link class="footer-link" to="/">Sanat ve Spor</router-link></li>
                                 <li><router-link class="footer-link" to="/">Yemek Listesi</router-link></li>
                             </ol>
