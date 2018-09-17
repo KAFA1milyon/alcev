@@ -13,8 +13,8 @@
             </div>
         </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.556175831302!2d27.018075951254122!3d39.59215197936869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b0c825575ef171%3A0x1de15c6aa0f24289!2sAl%C3%A7ev+%C4%B0lkokulu+Ve+Ortaokulu!5e0!3m2!1str!2str!4v1536689187244" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.171786760804!2d26.742411904214137!3d39.57083899517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b096816a17f1a1%3A0x972642c63944ac97!2zw5Z6ZWwgQWx0xLFub2x1ayDDh2HEn2RhxZ8gRcSfaXRpbSBWYWtmxLEgRcSfaXRpbSBLdXJ1bWxhcsSx!5e0!3m2!1str!2str!4v1537218997089" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
         <div class="contact-container">
             <div class="container">
                 <div class="row">
