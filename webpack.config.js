@@ -67,7 +67,7 @@ module.exports = () => {
                   }
               }]
             }, {
-              use: ['vue-style-loader', 'css-loader']
+              use: ['vue-style-loader', 'css-loader?url=false']
             }
           ]
         }, {
@@ -166,7 +166,7 @@ module.exports = () => {
         ] : []
     },
     plugins: [
-      new CleanWebpackPlugin([path.resolve(__dirname, 'wwwroot')]),
+      new CleanWebpackPlugin([path.resolve(__dirname, './wwwroot')]),
       new FriendlyErrorsPlugin(),
       new VueLoaderPlugin(),
       new CopyWebpackPlugin([

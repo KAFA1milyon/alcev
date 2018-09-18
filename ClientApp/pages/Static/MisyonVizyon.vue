@@ -9,7 +9,7 @@
 
         <div class="breadcumbs">
             <div class="container">
-                Anasayfa > AMisyon Ve Vizyonumuz
+                Anasayfa > Misyon Ve Vizyonumuz
             </div>
         </div>
 
@@ -34,9 +34,6 @@
         </div>
     </div> 
 </template>
-    
-<script>
-</script>
 
 <style lang="scss" scoped>
     .article-container {

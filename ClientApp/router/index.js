@@ -34,6 +34,17 @@ import VakifBaskanMesaj from '../pages/Static/VakifBaskanMesaj.vue'
 import VakifBaskanOzgecmis from '../pages/Static/VakifBaskanOzgecmis.vue'
 import VakifTarihce from '../pages/Static/VakifTarihce.vue'
 import VakifYK from '../pages/Static/VakifYK.vue'
+import PersonelKadrosu from '../pages/Static/PersonelKadrosu.vue'
+import FizikiYapi from '../pages/Static/FizikiYapi.vue'
+import HizmetStandartlari from '../pages/Static/HizmetStandartlari.vue'
+import IdariYapi from '../pages/Static/IdariYapi.vue'
+import OkulTarihce from '../pages/Static/OkulTarihce.vue'
+import Mezunlarimiz from '../pages/Static/Mezunlarimiz.vue'
+import Kutuphane from '../pages/Static/Kutuphane.vue'
+import UlasimImkanlari from '../pages/Static/UlasimImkanlari.vue'
+import BeslenmeDostu from '../pages/Static/BeslenmeDostu.vue'
+import OkulKiyafetleri from '../pages/Static/OkulKiyafetleri.vue'
+
 
 
 //Kulupler
@@ -108,6 +119,16 @@ const router = new VueRouter({
         { path: '/vakif-baskani-ozgecmisi', component: VakifBaskanOzgecmis },
         { path: '/vakif-tarihce', component: VakifTarihce },
         { path: '/yonetim-kurulu', component: VakifYK },
+        { path: '/personel-kadrosu', component: PersonelKadrosu },
+        { path: '/fiziki-yapi', component: FizikiYapi }, 
+        { path: '/hizmet-standartlarimiz', component: HizmetStandartlari },
+        { path: '/idari-yapi', component: IdariYapi },
+        { path: '/okul-tarihce', component: OkulTarihce },
+        { path: '/mezunlarimiz', component: Mezunlarimiz },
+        { path: '/okul-kiyafetleri', component: OkulKiyafetleri },
+        { path: '/kutuphane', component: Kutuphane },
+        { path: '/ulasim-imkanlari', component: UlasimImkanlari },
+        { path: '/beslenme-dostu-okul-projesi', component: BeslenmeDostu },
         { path: '/kulupler', component: Kulupler, 
           children: [
             {

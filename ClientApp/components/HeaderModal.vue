@@ -43,28 +43,28 @@
                                         <div class="tab-pane fade" id="okul" role="tabpanel" aria-labelledby="okul-tab">
                                             <router-link class="router-link" to="/akademik-takvim">Akademik Takvim</router-link>
                                             <router-link class="router-link" to="/anaokulu">Anasınıfı</router-link>
-                                            <router-link class="router-link" to="/">Beslenme Dostu Okul Projesi</router-link>
-                                            <router-link class="router-link" to="/">Eko Okulları Projesi</router-link>
+                                            <router-link class="router-link" to="/beslenme-dostu-okul-projesi">Beslenme Dostu Okul Projesi</router-link>
+                                            <router-link class="router-link" to="/eko-okullar-projesi">Eko Okulları Projesi</router-link>
                                             <router-link class="router-link" to="/bilisim-ve-teknoloji">Bilişim ve Teknoloji</router-link>
-                                            <router-link class="router-link" to="/">E-Bülten</router-link>
-                                            <router-link class="router-link" to="/">Rehberlik ve Danışmanlık</router-link>
-                                            <router-link class="router-link" to="/">Okul Kıyafetleri</router-link>
-                                            <router-link class="router-link" to="/">Kütüphane</router-link>
+                                            <router-link class="router-link" to="/e-bulten">E-Bülten</router-link>
+                                            <router-link class="router-link" to="/rehberlik-ve-danismanlik">Rehberlik ve Danışmanlık</router-link>
+                                            <router-link class="router-link" to="/okul-kiyafetleri">Okul Kıyafetleri</router-link>
+                                            <router-link class="router-link" to="/kutuphane">Kütüphane</router-link>
                                             <router-link class="router-link" to="/sanat-ve-spor">Sanat ve Spor</router-link>
-                                            <router-link class="router-link" to="/">Ulaşım İmkanları</router-link>
-                                            <router-link class="router-link" to="/">Verimli Ders Çalışma</router-link>
+                                            <router-link class="router-link" to="/ulasim-imkanlari">Ulaşım İmkanları</router-link>
+                                            <router-link class="router-link" to="/verimli-ders-calisma">Verimli Ders Çalışma</router-link>
                                         </div>
                                         <div class="tab-pane fade" id="hakkinda" role="tabpanel" aria-labelledby="hakkinda-tab">
-                                            <router-link class="router-link" to="/">Eğitim Öğretim Kadrosu</router-link>
-                                            <router-link class="router-link" to="/">Personel Kadrosu</router-link>
+                                            <router-link class="router-link" to="/ogretmenler">Eğitim Öğretim Kadrosu</router-link>
+                                            <router-link class="router-link" to="/personel-kadrosu">Personel Kadrosu</router-link>
                                             <router-link class="router-link" to="/okul-aile-birligi">Okul Aile Birliği</router-link>
-                                            <router-link class="router-link" to="/">Fiziki Yapı</router-link>
+                                            <router-link class="router-link" to="/fiziki-yapi">Fiziki Yapı</router-link>
                                             <router-link class="router-link" to="/egitim-modeli">Eğitim Modeli</router-link>
-                                            <router-link class="router-link" to="/">Akademik Program</router-link>
-                                            <router-link class="router-link" to="/">Hizmet Standartlarımız</router-link>
-                                            <router-link class="router-link" to="/">İdari Yapı</router-link>
-                                            <router-link class="router-link" to="/">Tarihçe</router-link>
-                                            <router-link class="router-link" to="/">Mezunlarımız</router-link>
+                                            <router-link class="router-link" to="/akademik-program">Akademik Program</router-link>
+                                            <router-link class="router-link" to="/hizmet-standartlarimiz">Hizmet Standartlarımız</router-link>
+                                            <router-link class="router-link" to="/idari-yapi">İdari Yapı</router-link>
+                                            <router-link class="router-link" to="/okul-tarihce">Tarihçe</router-link>
+                                            <router-link class="router-link" to="/mezunlarimiz">Mezunlarımız</router-link>
                                         </div>
                                         <div class="tab-pane fade" id="duyuru" role="tabpanel" aria-labelledby="duyuru-tab">
 

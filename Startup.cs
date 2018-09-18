@@ -1,12 +1,15 @@
 ﻿
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Logging;
 
@@ -49,6 +52,13 @@ namespace Alcev
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
+            app.UseFileServer(new FileServerOptions(){
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(Directory.GetCurrentDirectory(), @"node_modules")), 
+                RequestPath = new PathString("/node_modules"),
+                EnableDirectoryBrowsing = true
+            });
 
             app.UseStaticFiles();
 

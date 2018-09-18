@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="article-content">
                     <div class="content-layer">
-                        <h4>Özel Altınoluk Çağdaş Eğitim Vakfı İlkokulu / Ortaokulu 2017 – 2018 Eğitim Öğretim Yılı</h4>
+                        <h3>Özel Altınoluk Çağdaş Eğitim Vakfı İlkokulu / Ortaokulu 2017 – 2018 Eğitim Öğretim Yılı</h3>
                         <br><br>
                     
                         <table class="table table-hover table-bordered">
@@ -52,7 +52,7 @@
                         </table>
                     </div>
 
-                    <div class="content-layer">                    
+                    <div class="content-layer">
                         <table class="table table-hover table-bordered">
                             <thead>
                                 <tr>
@@ -85,7 +85,7 @@
                         </table>
                     </div>
 
-                    <div class="content-layer">                    
+                    <div class="content-layer">
                         <table class="table table-hover table-bordered">
                             <thead>
                                 <tr>
@@ -110,7 +110,7 @@
                         </table>
                     </div>
 
-                    <div class="content-layer">                    
+                    <div class="content-layer">
                         <table class="table table-hover table-bordered">
                             <thead>
                                 <tr>
@@ -156,7 +156,7 @@
                     padding-top: 0;
                 }
 
-                > h4 {
+                > h3 {
                     margin-bottom: 10px;
                 }
 
