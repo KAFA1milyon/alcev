@@ -1,3 +1,13 @@
+<style lang="scss" scoped>
+    .gallery {
+        a {
+            width: 30%;
+
+            > img  { display:block; width: 100%; }
+        }
+    }
+</style>
+
 
 <template>
     <div>
@@ -14,7 +24,7 @@
         </div>
 
         <div class="container">
-            <div class="row">
+            <div class="gallery">
                 <vue-picture-swipe :options="{shareEl: false}" :items="items"></vue-picture-swipe>
             </div>
         </div>
@@ -24,20 +34,56 @@
 <script>
   import VuePictureSwipe from 'vue-picture-swipe';
   
+
   export default {
     components: { 'vue-picture-swipe': VuePictureSwipe },
     data() {
       return {
         items: [{
-          src: 'http://via.placeholder.com/600x400',
-          thumbnail: 'http://via.placeholder.com/64x64',
+          src: '/images/kiyafet/anaokul-esofman-alti.jpg',
+          thumbnail: '/images/kiyafet/anaokul-esofman-alti.jpg',
           w: 600,
           h: 400
         }, {
-          src: 'http://via.placeholder.com/1200x900',
-          thumbnail: 'http://via.placeholder.com/64x64',
-          w: 1200,
-          h: 900
+          src: '/images/kiyafet/anaokul-kapsonlu.jpg',
+          thumbnail: '/images/kiyafet/anaokul-kapsonlu.jpg',
+          w: 600,
+          h: 400
+        }, {
+          src: '/images/kiyafet/anaokul-sort.jpg',
+          thumbnail: '/images/kiyafet/anaokul-sort.jpg',
+          w: 600,
+          h: 400
+        }, {
+          src: '/images/kiyafet/anaokul-tisort.jpg',
+          thumbnail: '/images/kiyafet/anaokul-tisort.jpg',
+          w: 600,
+          h: 400
+        }, {
+          src: '/images/kiyafet/ilk-okul-lacoste.jpg',
+          thumbnail: '/images/kiyafet/ilk-okul-lacoste.jpg',
+          w: 600,
+          h: 400
+        }, {
+          src: '/images/kiyafet/ilk-okul-pantolon-etek.jpg',
+          thumbnail: '/images/kiyafet/ilk-okul-pantolon-etek.jpg',
+          w: 600,
+          h: 400
+        }, {
+          src: '/images/kiyafet/ilk-okul-takim.jpg',
+          thumbnail: '/images/kiyafet/ilk-okul-takim.jpg',
+          w: 600,
+          h: 400
+        }, {
+          src: '/images/kiyafet/ilk-okul-tisort.jpg',
+          thumbnail: '/images/kiyafet/ilk-okul-tisort.jpg',
+          w: 600,
+          h: 400
+        }, {
+          src: '/images/kiyafet/ilk-okul-uzun-kol-tisort.jpg',
+          thumbnail: '/images/kiyafet/ilk-okul-uzun-kol-tisort.jpg',
+          w: 600,
+          h: 400
         }
       ]};
     }
