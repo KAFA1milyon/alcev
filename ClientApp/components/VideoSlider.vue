@@ -12,16 +12,16 @@
                     <div class="col-5">
                         <div class="video-poster row">
                             <div class="poster col-sm-6">
-                                <img src="images/studentclub.png" alt="">
+                                <img src="/images/kulupler/basketbol.jpg" alt="">
                             </div>
                             <div class="poster col-sm-6">
-                                <img src="images/studentclub.png" alt="">
+                                <img src="/images/kulupler/gorsel-sanat.jpg" alt="">
                             </div>
                             <div class="poster col-sm-6">
-                                <img src="images/studentclub.png" alt="">
+                                <img src="/images/kulupler/tiyatro.jpg" alt="">
                             </div>
                             <div class="poster col-sm-6">
-                                <img src="images/studentclub.png" alt="">
+                                <img src="/images/kulupler/fotografcilik.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -31,23 +31,23 @@
             <swiper-slide>
                 <div class="row">
                     <div class="col-7">
-                        <div class="video-container">
-                            <youtube video-id="lG0Ys-2d4MA" width="100%" height="385px" ref="youtube"></youtube>
+                        <div class="video-poster">
+                            <img src="/images/kulupler/bilim.jpg" width="100%" height="385px" alt="">
                         </div>
                     </div>
                     <div class="col-5">
                         <div class="video-poster row">
                             <div class="poster col-sm-6">
-                                <img src="images/studentclub.png" alt="">
+                                <img src="/images/kulupler/basketbol.jpg" alt="">
                             </div>
                             <div class="poster col-sm-6">
-                                <img src="images/studentclub.png" alt="">
+                                <img src="/images/kulupler/gorsel-sanat.jpg" alt="">
                             </div>
                             <div class="poster col-sm-6">
-                                <img src="images/studentclub.png" alt="">
+                                <img src="/images/kulupler/tiyatro.jpg" alt="">
                             </div>
                             <div class="poster col-sm-6">
-                                <img src="images/studentclub.png" alt="">
+                                <img src="/images/kulupler/fotografcilik.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -87,11 +87,12 @@
 
         .video-poster {
             .poster {
+                overflow: hidden;
                 margin: 0 0 15px 0;
 
                 img  {
                     display: block;
-                    width: 100%;
+                    height: 185px;
                 }
             }
         }

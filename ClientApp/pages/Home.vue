@@ -59,47 +59,43 @@
                 </div>
 
                 <div class="container">
-                    <div v-masonry transition-duration="0.3s" item-selector=".feedback-box">
-                        <div v-masonry-tile class="feedback-box">
-                            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+                    <div class="feedback-box">
+                        2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
 
-                            <div class="feedback-user">
-                                <i class="icon icon-user-man"></i>
+                        <div class="feedback-user">
+                            <i class="icon icon-user-man"></i>
 
-                                <div class="userinfo">
-                                    Erhan ERDOĞAN
-                                    <span class="user-title">Müdür</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div v-masonry-tile class="feedback-box">
-                            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
-
-                            <div class="feedback-user">
-                                <i class="icon icon-user-man"></i>
-
-                                <div class="userinfo">
-                                    Erhan ERDOĞAN
-                                    <span class="user-title">Müdür</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div v-masonry-tile class="feedback-box">
-                            2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
-
-                            <div class="feedback-user">
-                                <i class="icon icon-user-man"></i>
-
-                                <div class="userinfo">
-                                    Erhan ERDOĞAN
-                                    <span class="user-title">Müdür</span>
-                                </div>
+                            <div class="userinfo">
+                                Erhan ERDOĞAN
+                                <span class="user-title">Müdür</span>
                             </div>
                         </div>
                     </div>
-                    
+                    <div class="feedback-box">
+                        2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+
+                        <div class="feedback-user">
+                            <i class="icon icon-user-man"></i>
+
+                            <div class="userinfo">
+                                Erhan ERDOĞAN
+                                <span class="user-title">Müdür</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feedback-box">
+                        2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+
+                        <div class="feedback-user">
+                            <i class="icon icon-user-man"></i>
+
+                            <div class="userinfo">
+                                Erhan ERDOĞAN
+                                <span class="user-title">Müdür</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
@@ -197,8 +193,12 @@
         padding: 30px 0;
         background: linear-gradient(45deg, #FFBC5C 0%, #FF872F 100%);
 
+        .container {
+            column-width: 320px;
+            column-gap: 15px;
+        }
+
         .feedback-box {
-            width: 31%;
             margin: 0 10px 10px;
             padding: 30px;
             background: $color-white;
@@ -208,6 +208,9 @@
             font-size: 18px;
             color: #696969;
             font-weight: 300;
+            -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+            break-inside: avoid;
 
             .feedback-user {
                 @include flex-wrap(wrap);

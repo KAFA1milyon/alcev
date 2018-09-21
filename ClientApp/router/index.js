@@ -44,6 +44,8 @@ import Kutuphane from '../pages/Static/Kutuphane.vue'
 import UlasimImkanlari from '../pages/Static/UlasimImkanlari.vue'
 import BeslenmeDostu from '../pages/Static/BeslenmeDostu.vue'
 import OkulKiyafetleri from '../pages/Static/OkulKiyafetleri.vue'
+import EkoOkullarProjesi from '../pages/Static/EkoOkullarProjesi.vue'
+import RehberlikDanismanlik from '../pages/Static/RehberlikDanismanlik.vue'
 
 
 
@@ -125,10 +127,12 @@ const router = new VueRouter({
         { path: '/idari-yapi', component: IdariYapi },
         { path: '/okul-tarihce', component: OkulTarihce },
         { path: '/mezunlarimiz', component: Mezunlarimiz },
-        { path: '/okul-kiyafetleri', component: OkulKiyafetleri },
+        //{ path: '/okul-kiyafetleri', component: OkulKiyafetleri },
         { path: '/kutuphane', component: Kutuphane },
         { path: '/ulasim-imkanlari', component: UlasimImkanlari },
         { path: '/beslenme-dostu-okul-projesi', component: BeslenmeDostu },
+        { path: '/eko-okullar-projesi', component: EkoOkullarProjesi },
+        { path: '/rehberlik-ve-danismanlik', component: RehberlikDanismanlik },
         { path: '/kulupler', component: Kulupler, 
           children: [
             {

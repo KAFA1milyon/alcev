@@ -57,6 +57,22 @@
     color: $color-white;
     background-color: rgba(0,0,0,.75);
 
+    .close {
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        text-shadow: none;
+        color: #fff;
+        opacity: 1;
+        font-weight: 300;
+        z-index: 2;
+
+        &:hover,
+        &:focus {
+            color: #fff !important;
+        }
+    }
+
     .modal-dialog {
         max-width: 100%;
         margin: 1.2rem auto;

@@ -6,11 +6,9 @@ import { app, router, store } from "./app";
 
 import Vue from "vue";
 import VueAwesomeSwiper from 'vue-awesome-swiper';
-import {VueMasonryPlugin} from 'vue-masonry';
 import VueYoutube from 'vue-youtube';
 
 Vue.use(VueAwesomeSwiper);
-Vue.use(VueMasonryPlugin);
 Vue.use(VueYoutube)
 
 store.replaceState(__INITIAL_STATE__);

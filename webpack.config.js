@@ -145,12 +145,14 @@ module.exports = () => {
                   name: "fonts/[name].[ext]"
                 }
             }
+        }, {
+          test: /[\/\\]node_modules[\/\\]some-module[\/\\]index\.js$/,
+          loader: "imports-loader?this=>window"
         }
       ]
     },
     optimization: {
         minimizer: isProd ? [
-          // we specify a custom UglifyJsPlugin here to get source maps in production
           new UglifyJsPlugin({
             exclude: /\/node_modules/,
             cache: true,
@@ -159,10 +161,9 @@ module.exports = () => {
               compress: false,
               ecma: 6,
               mangle: true
-            },
-            sourceMap: true
+            }
           }),
-          new OptimizeCSSAssetsPlugin({})
+          new OptimizeCSSAssetsPlugin()
         ] : []
     },
     plugins: [

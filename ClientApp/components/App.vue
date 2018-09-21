@@ -5,13 +5,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-7">
-                            <div class="school-heading">
+                            <router-link class="school-heading" to="/">
                                 <div class="logo"></div>
                                 <div class="name">
                                     Özel Altınoluk Çağdaş Eğitim Vakfı <br>
                                     İlköğretim Kurumları
                                 </div>
-                            </div>
+                            </router-link>
                         </div>
                         <div class="col-5 header-router">
                             <router-link class="router-link" to="/">Anasayfa</router-link>
