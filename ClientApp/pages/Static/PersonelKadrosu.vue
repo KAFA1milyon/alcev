@@ -65,7 +65,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <!--<div class="col-12 col-md-4">
                             <div class="userprofile">
                                 <div class="userprofile-circle">
                                     <img src="/images/personel/iftadiye-akbulut.jpg" alt="">
@@ -76,7 +76,7 @@
                                     <span class="title">Halkla İlişkiler</span>                                       
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="col-12 col-md-4">
                             <div class="userprofile">
                                 <div class="userprofile-circle">

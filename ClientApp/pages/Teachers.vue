@@ -19,7 +19,7 @@
                         <div class="row">
                             <div class="col-12 col-sm-6 col-md-4">
                                 <div class="userprofile">
-                                    <div class="userprofile-square">
+                                    <div class="userprofile-circle">
                                         <img src="/images/hocalar/ozlem-arisoy.png" alt="">
                                     </div>
 
