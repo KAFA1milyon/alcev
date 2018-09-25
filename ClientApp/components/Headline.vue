@@ -1,34 +1,34 @@
 <template>
     <swiper :options="swiperOption" ref="mySwiper">
         <!-- slides -->
-      
+
         <swiper-slide>
             <img src="/images/headline/headline1.jpg" alt="Headline" class="img-fluid one-whole" />
             <div class="headline-heading">
-                <div class="heading-title">GELECEĞİN MUTLU BİREYLERİ</div>
-                <div class="heading-content">ALÇEV’DE YETİŞİR!</div>   
-                <!--<a href="#" class="button primary-action heading-button">Ön Kayıt Formu</a>-->          
+                <div class="heading-title"></div>
+                <div class="heading-content"></div>
+                <!--<a href="#" class="button primary-action heading-button">Ön Kayıt Formu</a>-->
             </div>
         </swiper-slide>
         <swiper-slide>
             <img src="/images/headline/headline2.jpg" alt="Headline" class="img-fluid one-whole" />
             <div class="headline-heading">
-                <div class="heading-title">ALÇEV'DE ÇOCUKLAR MUTLU </div>
-                <div class="heading-content">YETİŞKİNLERE DÖNÜŞÜRLER </div>   
-                <!--<a href="#" class="button primary-action heading-button">Ön Kayıt Formu</a>-->          
-            </div>
-        </swiper-slide>
-        <swiper-slide>
-            <img src="/images/headline/headline3.jpg" alt="Headline" class="img-fluid one-whole" />
-            <div class="headline-heading">
-                <div class="heading-title">TÜRKİYE 1.si OLDUK</div>
+                <div class="heading-title"></div>
                 <div class="heading-content"></div>
                 <!--<a href="#" class="button primary-action heading-button">Ön Kayıt Formu</a>-->
             </div>
-        </swiper-slide> 
-            
-       
-     
+        </swiper-slide>
+        <!--<swiper-slide>
+        <img src="/images/headline/headline3.jpg" alt="Headline" class="img-fluid one-whole" />
+        <div class="headline-heading">
+            <div class="heading-title">TÜRKİYE 1.si OLDUK</div>
+            <div class="heading-content"></div>
+            <a href="#" class="button primary-action heading-button">Ön Kayıt Formu</a>
+        </div>
+        </swiper-slide> -->
+
+
+
         <!-- Optional controls -->
         <div class="swiper-button-prev" slot="button-prev"></div>
         <div class="swiper-button-next" slot="button-next"></div>

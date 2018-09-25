@@ -46,6 +46,7 @@ import BeslenmeDostu from '../pages/Static/BeslenmeDostu.vue'
 import OkulKiyafetleri from '../pages/Static/OkulKiyafetleri.vue'
 import EkoOkullarProjesi from '../pages/Static/EkoOkullarProjesi.vue'
 import RehberlikDanismanlik from '../pages/Static/RehberlikDanismanlik.vue'
+import YemekListesi from '../pages/Static/YemekListesi.vue'
 
 
 
@@ -133,6 +134,7 @@ const router = new VueRouter({
         { path: '/beslenme-dostu-okul-projesi', component: BeslenmeDostu },
         { path: '/eko-okullar-projesi', component: EkoOkullarProjesi },
         { path: '/rehberlik-ve-danismanlik', component: RehberlikDanismanlik },
+        { path: '/yemek-listesi', component: YemekListesi },
         { path: '/kulupler', component: Kulupler, 
           children: [
             {
