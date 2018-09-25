@@ -95,30 +95,38 @@ i[class*="icon-"] {
     content: "\ea0a";
 }
 
-.icon-pinned::before {
+.icon-personel::before {
     content: "\ea0b";
 }
 
-.icon-quote-left::before {
+.icon-pinned::before {
     content: "\ea0c";
 }
 
-.icon-search::before {
+.icon-quote-left::before {
     content: "\ea0d";
 }
 
-.icon-sertifika::before {
+.icon-search::before {
     content: "\ea0e";
 }
 
-.icon-share::before {
+.icon-sertifika::before {
     content: "\ea0f";
 }
 
-.icon-telefon::before {
+.icon-share::before {
     content: "\ea10";
 }
 
-.icon-user-man::before {
+.icon-telefon::before {
     content: "\ea11";
+}
+
+.icon-user-man::before {
+    content: "\ea12";
+}
+
+.icon-yemek::before {
+    content: "\ea13";
 }

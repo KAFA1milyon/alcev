@@ -9,7 +9,7 @@ import VueAwesomeSwiper from 'vue-awesome-swiper';
 import VueYoutube from 'vue-youtube';
 
 Vue.use(VueAwesomeSwiper);
-Vue.use(VueYoutube)
+Vue.use(VueYoutube);
 
 store.replaceState(__INITIAL_STATE__);
 
