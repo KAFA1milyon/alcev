@@ -5,36 +5,71 @@
             <swiper-slide>
                 <div class="box">
                     <div class="box-photos">
+                        <img src="/images/duyurucambridge.jpg" alt="cambridge sertifika töreni">
+                    </div>
+                    <div class="box-container">
+                        <h4 class="box-title">
+                            Öğrencilerimiz Cambridge Sertifikalarını Aldılar
+                            <span class="date">28 Eylül 2018</span>
+                        </h4>
+                        <div class="box-content">
+                            Okul müdürümüz Seda Güzeliş  ve Ingilizce öğretmenlerimiz  Cambridge sınavına giren  öğrencilerimize sertifikalarını teslim ettiler. Üstün başarı gösteren tüm öğrencilerimizi kutlar başarılarının devamını dileriz.
+                        </div>
+
+                        <!--   <div class="box-more">
+                    <a href="">Devamını Oku <i class="icon icon-chevron-double-right"></i></a>
+                </div>-->
+                    </div>
+                    <!--     <div class="box-bottom">
+                <div class="bottom-like">
+                    <i class="icon icon-like"></i>
+                    <span class="count">3</span>
+                </div>
+                <div class="bottom-comment">
+                    <i class="icon icon-comments"></i>
+                    <span class="count">3</span>
+                </div>
+                <div class="bottom-share">
+                    <i class="icon icon-share"></i>
+                    <span class="count">Paylaş</span>
+                </div>
+            </div>   -->
+                </div>
+            </swiper-slide>
+
+            <swiper-slide>
+                <div class="box">
+                    <div class="box-photos">
                         <img src="/images/duyuru1.jpg" alt="announcument">
                     </div>
-                        <div class="box-container">
-                            <h4 class="box-title">
-                                Notable Kursu Proje Sunumları
-                                <span class="date">07 Mayıs 2018</span>
-                            </h4>
-                            <div class="box-content">
-                                60 saatlik NOTABLE Kursu sonunda düzenlenen tören ile katılım belgelerini alan öğrencilerimiz proje sunumlarıyla göz doldurdular.
-                            </div>
+                    <div class="box-container">
+                        <h4 class="box-title">
+                            Notable Kursu Proje Sunumları
+                            <span class="date">07 Mayıs 2018</span>
+                        </h4>
+                        <div class="box-content">
+                            60 saatlik NOTABLE Kursu sonunda düzenlenen tören ile katılım belgelerini alan öğrencilerimiz proje sunumlarıyla göz doldurdular.
+                        </div>
 
-                            <!--   <div class="box-more">
-                            <a href="">Devamını Oku <i class="icon icon-chevron-double-right"></i></a>
-                        </div>-->
-                        </div>
-                        <!--     <div class="box-bottom">
-                        <div class="bottom-like">
-                            <i class="icon icon-like"></i>
-                            <span class="count">3</span>
-                        </div>
-                        <div class="bottom-comment">
-                            <i class="icon icon-comments"></i>
-                            <span class="count">3</span>
-                        </div>
-                        <div class="bottom-share">
-                            <i class="icon icon-share"></i>
-                            <span class="count">Paylaş</span>
-                        </div>
-                    </div>   -->
+                        <!--   <div class="box-more">
+                    <a href="">Devamını Oku <i class="icon icon-chevron-double-right"></i></a>
+                </div>-->
                     </div>
+                    <!--     <div class="box-bottom">
+                <div class="bottom-like">
+                    <i class="icon icon-like"></i>
+                    <span class="count">3</span>
+                </div>
+                <div class="bottom-comment">
+                    <i class="icon icon-comments"></i>
+                    <span class="count">3</span>
+                </div>
+                <div class="bottom-share">
+                    <i class="icon icon-share"></i>
+                    <span class="count">Paylaş</span>
+                </div>
+            </div>   -->
+                </div>
             </swiper-slide>
 
             <swiper-slide>
@@ -42,34 +77,34 @@
                     <div class="box-photos">
                         <img src="/images/duyuru2.jpg" alt="announcument">
                     </div>
-                        <div class="box-container">
-                            <h4 class="box-title">
-                                2017-2018 YILI 8.SINIFLAR AKADEMİK KURSU
-                                <span class="date">02 Mayıs 2018</span>
-                            </h4>
-                            <div class="box-content">
-                                2017-2018 Eğitim-öğretim yılı yaz dönemi 8.sınıflar akademik kurs olacaktır.Detaylı bilgi ve kayıt için okulumuzu arayabilirsiniz.
-                            </div>
+                    <div class="box-container">
+                        <h4 class="box-title">
+                            2017-2018 YILI 8.SINIFLAR AKADEMİK KURSU
+                            <span class="date">02 Mayıs 2018</span>
+                        </h4>
+                        <div class="box-content">
+                            2017-2018 Eğitim-öğretim yılı yaz dönemi 8.sınıflar akademik kurs olacaktır.Detaylı bilgi ve kayıt için okulumuzu arayabilirsiniz.
+                        </div>
 
-                            <!--   <div class="box-more">
-                            <a href="">Devamını Oku <i class="icon icon-chevron-double-right"></i></a>
-                        </div>   -->
-                        </div>
-                        <!--<div class="box-bottom">
-                        <div class="bottom-like">
-                            <i class="icon icon-like"></i>
-                            <span class="count">3</span>
-                        </div>
-                        <div class="bottom-comment">
-                            <i class="icon icon-comments"></i>
-                            <span class="count">3</span>
-                        </div>
-                        <div class="bottom-share">
-                            <i class="icon icon-share"></i>
-                            <span class="count">Paylaş</span>
-                        </div>
-                    </div>-->
+                        <!--   <div class="box-more">
+                    <a href="">Devamını Oku <i class="icon icon-chevron-double-right"></i></a>
+                </div>   -->
                     </div>
+                    <!--<div class="box-bottom">
+                <div class="bottom-like">
+                    <i class="icon icon-like"></i>
+                    <span class="count">3</span>
+                </div>
+                <div class="bottom-comment">
+                    <i class="icon icon-comments"></i>
+                    <span class="count">3</span>
+                </div>
+                <div class="bottom-share">
+                    <i class="icon icon-share"></i>
+                    <span class="count">Paylaş</span>
+                </div>
+            </div>-->
+                </div>
             </swiper-slide>
 
             <swiper-slide>
@@ -87,23 +122,23 @@
                         </div>
 
                         <!--<div class="box-more">
-                            <a href="">Devamını Oku <i class="icon icon-chevron-double-right"></i></a>
-                        </div>-->
+                    <a href="">Devamını Oku <i class="icon icon-chevron-double-right"></i></a>
+                </div>-->
                     </div>
                     <!--<div class="box-bottom">
-                        <div class="bottom-like">
-                            <i class="icon icon-like"></i>
-                            <span class="count">3</span>
-                        </div>
-                        <div class="bottom-comment">
-                            <i class="icon icon-comments"></i>
-                            <span class="count">3</span>
-                        </div>
-                        <div class="bottom-share">
-                            <i class="icon icon-share"></i>
-                            <span class="count">Paylaş</span>
-                        </div>
-                    </div>-->
+                <div class="bottom-like">
+                    <i class="icon icon-like"></i>
+                    <span class="count">3</span>
+                </div>
+                <div class="bottom-comment">
+                    <i class="icon icon-comments"></i>
+                    <span class="count">3</span>
+                </div>
+                <div class="bottom-share">
+                    <i class="icon icon-share"></i>
+                    <span class="count">Paylaş</span>
+                </div>
+            </div>-->
                 </div>
             </swiper-slide>
             <!-- Optional controls -->

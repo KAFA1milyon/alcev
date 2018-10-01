@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>Anaokulu Sınıflarımız Alçev’de Bir Muhteşem</h3>
+        <h3>Ortaokul</h3>
         <p>Alçev ailesi olarak çocuklarımızın içlerindeki kıvılcımları birer aleve dönüştürme hedefiyle çıktığımız bu yolda onların akademik ve sosyal yönden kendilerini ispatlamalarına destek olmak, gençliğe adım attıkları bu dönemde içlerindeki başarma arzusunu ve cesaretini eğitim öğretimle birleştirerek önlerine açılan pencerelere kültür ve bilginin ışığıyla bakmalarını sağlamak için buradayız.</p>
         <p> Yapacağımız yoğun akademik çalışmaların yanı sıra çocuklarımızın psikolojik ve sosyal yönlerini de besleyecek olan etkinliklerimizle onları gerek karşılaşacakları sınavlarda gerekse sosyal çevrelerinde daha başarılı, daha mutlu ve hayata daha pozitif bakan bireyler olarak yetiştirmeyi hedefliyoruz. </p>
     

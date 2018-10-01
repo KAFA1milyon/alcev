@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>Anaokulu Sınıflarımız Alçev’de Bir Muhteşem</h3>
+        <h3>Anaokulu</h3>
         <p>ALÇEV olarak miniklerimizi okula ve hayata hazırlamak, onların güçlü bir karakter sahibi olmasını sağlamak için anasınıfımızda titizlikle eğitim ve öğretime başlıyoruz. Anasınıfımız yaş gruplarına göre bölümlenmiş 4 adet şubeden oluşuyor. </p>
         <p>Şubelerimiz; 12 kişilik 4 yaş grubu, 19 kişilik 5 yaş grubu, 11 ve 12 kişilik 2 adet 6 yaş grubu bulunmaktadır. Her grubumuzda bir öğretmen olmak üzere 4 kişilik bir eğitim öğretim kadromuz mevcuttur.</p>
 

@@ -5,6 +5,45 @@
                 <div class="col-4 col-md-3 col-lg-2">
                     <div class="box-date">
                         <div class="date-border">
+                            <span class="day">28</span>
+                            <span class="mounth">Eylül 2018</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-9 col-lg-7">
+                    <div class="box-container">
+                        <div class="box-head">
+                            <h5>European Day of Languages</h5>
+                            <div class="time-pin">
+                                <span class="clock">
+                                    <i class="icon icon-clock"></i>
+                                    08:30 - 17:00
+                                </span>
+
+                                <span class="pinned">
+                                    <i class="icon icon-pinned"></i>
+                                    Balıkesir
+                                </span>
+                            </div>
+                        </div>
+                        <div class="box-content">
+                            Okulumuz bahçesinde  ilköğretim  öğrencilerimiz arasında düzenlenen yarışmalar ve etkinlikler ile  European Day of Languages coşkuyla kutlandı.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-flex">
+                    <div class="box-photos">
+                        <img src="/images/European Day of Languages 1.jpg" alt="European Day of Languages">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-box">
+            <div class="row">
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="box-date">
+                        <div class="date-border">
                             <span class="day">02</span>
                             <span class="mounth">Mayıs 2018</span>
                         </div>
@@ -13,13 +52,13 @@
                 <div class="col-8 col-md-9 col-lg-7">
                     <div class="box-container">
                         <div class="box-head">
-                            <h5>2017-2018 YILI 8.SINIFLAR AKADEMİK KURS</h5> 
+                            <h5>2017-2018 YILI 8.SINIFLAR AKADEMİK KURS</h5>
                             <div class="time-pin">
                                 <span class="clock">
                                     <i class="icon icon-clock"></i>
                                     08:30 - 17:00
                                 </span>
-                                
+
                                 <span class="pinned">
                                     <i class="icon icon-pinned"></i>
                                     Balıkesir
@@ -52,13 +91,13 @@
                 <div class="col-8 col-md-9 col-lg-7">
                     <div class="box-container">
                         <div class="box-head">
-                            <h5>Proje Yarışmasında Finallerdeyiz</h5> 
+                            <h5>Proje Yarışmasında Finallerdeyiz</h5>
                             <div class="time-pin">
                                 <span class="clock">
                                     <i class="icon icon-clock"></i>
                                     08:30 - 17:00
                                 </span>
-                                
+
                                 <span class="pinned">
                                     <i class="icon icon-pinned"></i>
                                     Ankara

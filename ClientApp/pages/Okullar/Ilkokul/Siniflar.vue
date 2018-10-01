@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>Anaokulu Sınıflarımız Alçev’de Bir Muhteşem</h3>
+        <h3>İlkokul</h3>
         <p>Biz anne babaların en büyük mutluluğudur çocuklarımızı gülerken görmek. Gözlerinin içi parlayan, keyif ve merakla dünyayı her açıdan keşfetme arayışında olan çocuklarımızın ulaştıkları her başarıda yüzlerinin gülmesi, hayattaki en büyük keyfimizdir.</p>
         <p>İlkokul çağında artarak ortaya çıkan bu merak ve öğrenme arzusu, güzel ve olumlu yönlendirmelerle çok iyi sonuçlar doğurarak çocuklarımızın kişiliklerinin oturmasında büyük katkılar sağlar. Bu dönemde onların kendine özgü yeteneklerini keşfedip, ilgi ve öğrenme arzularını perçinlemek, onların kendilerine olan özgüvenlerini bir kat daha arttıracaktır. İlgi ve meraklarını doyurmak ve bu konuda onlara destek olmak çocuklarımızın kendini güvende hissetmelerini sağladığı gibi, araştırmacı ve özgürlükçü ruhlarını da besleyecektir.</p>
 
