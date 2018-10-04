@@ -82,7 +82,7 @@
                                 <li><router-link class="footer-link" to="/bilisim-ve-teknoloji">Bilişim ve Teknoloji</router-link></li>
                                 <li><router-link class="footer-link" to="/kulupler">Kulüpler</router-link></li>
                                 <li><router-link class="footer-link" to="/sanat-ve-spor">Sanat ve Spor</router-link></li>
-                                <li><router-link class="footer-link" to="/">Yemek Listesi</router-link></li>
+                                <li><router-link class="footer-link" to="/yemek-listesi">Yemek Listesi</router-link></li>
                             </ol>
                         </div>
                     </div>

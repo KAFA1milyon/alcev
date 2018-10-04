@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="box-button">
-                        <a href="#" class="button secondary-action">Personelimiz</a>
+                        <router-link class="button secondary-action" to="/personel-kadrosu">Personelimiz</router-link>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="box-button">
-                        <a href="#" class="button secondary-action">Yemek Listesi</a>
+                        <router-link class="button secondary-action" to="/yemek-listesi">Yemek Listesi</router-link>
                     </div>
                 </div>
             </div>
