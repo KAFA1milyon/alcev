@@ -88,6 +88,116 @@
                                     <td>Ayran</td>
                                     <td>Salata Köşesi</td>
                                 </tr>
+                                <tr>
+                                    <td>
+                                        15.10.2018 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>Yayla Çorbası</td>
+                                    <td>Kaşarlı Fırın Tavuk</td>
+                                    <td>Kavurma Makarna</td>
+                                    <td>Yoğurt</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        16.10.2018 <br>
+                                        Salı
+                                    </td>
+                                    <td>Domates Çorbası</td>
+                                    <td>Etli Nohut</td>
+                                    <td>Bulgur Pilavı</td>
+                                    <td>Üzüm Hoşafı</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        17.10.2018 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>Ezogelin Çorbası</td>
+                                    <td>Patlıcan Musakka</td>
+                                    <td>Pirinç Pilavı</td>
+                                    <td>Cacık</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        18.10.2018 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>K.Tavuk Çorba</td>
+                                    <td>Z.Y Ispanak</td>
+                                    <td>Sebzeli Erişte</td>
+                                    <td>Yoğurt</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        19.10.2018 <br>
+                                        Cuma
+                                    </td>
+                                    <td>K.Havuç Çorba</td>
+                                    <td>Fırında Sebzeli Kebap</td>
+                                    <td>Yoğurtlu makarna</td>
+                                    <td>Supangle</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        22.10.2018 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>Mercimek Çorbası</td>
+                                    <td>Balık</td>
+                                    <td>Makarna</td>
+                                    <td>Helva</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        23.10.2018 <br>
+                                        Salı
+                                    </td>
+                                    <td>Tarhana Çorbası</td>
+                                    <td>Kadın Budu Köfte</td>
+                                    <td>Fırın Makarna</td>
+                                    <td>Sütlaç</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        24.10.2018 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>Telşehriye Çorbası</td>
+                                    <td>Kabak Dolma</td>
+                                    <td>Ispanaklı Börek</td>
+                                    <td>Meyve</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        25.10.2018 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>Anamaşı Çorbası</td>
+                                    <td>Orman Kebabı</td>
+                                    <td>Pirinç Pilavı</td>
+                                    <td>Cacık</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        26.10.2018 <br>
+                                        Cuma
+                                    </td>
+                                    <td>K.Sebze Çorbası</td>
+                                    <td>Mantı</td>
+                                    <td>Şakşuka</td>
+                                    <td>Meyve</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
                             </tbody>
                         </table>
 
