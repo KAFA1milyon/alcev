@@ -23,7 +23,7 @@
                         <img class="box-bg img-fluid school-logo" src="/images/background-blank-close-up-998591.jpg" alt="anaokulu" />
                         <nav class="school-menu">
                             <router-link class="router-link" to="/ortaokul">Sınıflarımız</router-link>
-                            <router-link class="router-link" to="/ortaokul/hocalar">Hocalarımız</router-link>
+                            <router-link class="router-link" to="/ortaokul/hocalar">Öğretmen Kadromuz</router-link>
                         </nav>
                     </div>
                 </div>

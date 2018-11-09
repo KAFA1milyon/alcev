@@ -87,7 +87,19 @@
                                         <span class="title">Anasınıfı Zümre Başkanı</span>                                        
                                     </div>
                                 </div>
-                            </div>                           
+                            </div>   
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="userprofile">
+                                    <div class="userprofile-circle">
+                                        <img src="/images/hocalar/ozge-Hacioglu.png" alt="">
+                                    </div>
+
+                                    <div class="userprofile-info">
+                                        <span class="name">Özge Hacıoğlu</span>
+                                        <span class="title">Rehberlik Öğretmeni</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 

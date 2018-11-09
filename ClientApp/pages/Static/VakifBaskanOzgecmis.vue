@@ -23,6 +23,7 @@
                     <div class="content-layer">
                         <h4>Vakıf Başkanının Özgeçmişi</h4>
                         <p>1955 Malatya doğumlu. Diyarbakır eğitim fakültesi matematik bölümü mezunudur. 16 yıl Balıkesir ilinin çeşitli okullarında matematik öğretmeni olarak görev yapmış ve mesleğinden ayrılarak inşaat sektöründe çalışmaya başlamıştır. Vakfımızın kuruluşunda kurucu üye olarak görev almıştır. Bu süre içinde vakıf yönetiminde yer almıştır.</p>
+                        <p>21 Mart 2015 tarihinde  vakıf başkanlığı görevine getirilmiştir.</p>
                     </div>
                 </div>
             </div>

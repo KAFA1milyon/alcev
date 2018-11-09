@@ -5,8 +5,8 @@
         <swiper-slide>
             <img src="/images/headline/headline1.jpg" alt="Headline" class="img-fluid one-whole" />
             <div class="headline-heading">
-                <div class="heading-title"></div>
-                <div class="heading-content"></div>
+                <div class="heading-title">ALÇEV ROBOTİK ve KODLAMA ATÖLYESİ AÇILDI</div>
+                <div class="heading-content"> </div>
                 <!--<a href="#" class="button primary-action heading-button">Ön Kayıt Formu</a>-->
             </div>
         </swiper-slide>

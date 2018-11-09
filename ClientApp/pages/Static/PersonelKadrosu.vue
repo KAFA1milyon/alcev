@@ -100,19 +100,7 @@
                                     <span class="title">Danışma</span>                                       
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="userprofile">
-                                <div class="userprofile-circle">
-                                    <img src="/images/personel/suat-yuksel.jpg" alt="">
-                                </div>
-
-                                <div class="userprofile-info">
-                                    <span class="name">Suat Yüksel</span>
-                                    <span class="title">Hizmetli</span>                                       
-                                </div>
-                            </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </div>

@@ -17,6 +17,7 @@ import Ilkokul from '../pages/Okullar/Ilkokul.vue'
 import Ortaokul from '../pages/Okullar/Ortaokul.vue'
 
 import AnaokuluSinif from '../pages/Okullar/Anaokulu/Siniflar.vue'
+import AnaokuluHakkinda from '../pages/Okullar/Anaokulu/Hakkinda.vue'
 import AnaokuluHocalar from '../pages/Okullar/Anaokulu/Hocalar.vue'
 import IlkokulSinif from '../pages/Okullar/Ilkokul/Siniflar.vue'
 import IlkokulHocalar from '../pages/Okullar/Ilkokul/Hocalar.vue'
@@ -78,6 +79,10 @@ const router = new VueRouter({
             {
               path: '',
               component: AnaokuluSinif
+            },
+            {
+              path: 'Hakkinda',
+              component: AnaokuluHakkinda
             },
             {
               path: 'hocalar',

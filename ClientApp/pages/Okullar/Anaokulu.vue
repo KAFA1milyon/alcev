@@ -9,9 +9,14 @@
         <div class="school-headerlink">
             <div class="container">
                 <span class="offset-3">
-                    <a href="#">Eğitim <br>Modülleri</a>
-                    <a href="#">İletişim <br>Standartlarımız</a>
-                    <a href="#">Ölçme ve <br>Değerlendirme</a>
+                    <a href="/anaokulu/Hakkinda">Anaokulumuz <br>Hakkında</a>
+                    <a href="#">Eğitim <br>Modelimiz</a>
+                    <a href="#">Rehberlik</a>
+                    <a href="#">İngilizce</a>
+                    <a href="#">Haftalık Öğrenme <br>Takvimi</a>
+                    <a href="#">Ders <br>Programı</a>
+                    <a href="#">Etkinlik <br>Takvimi</a>
+                    <a href="#">Galeri</a>
                 </span>
             </div>
         </div>
@@ -23,7 +28,7 @@
                         <img class="box-bg img-fluid school-logo" src="/images/adolescence-adorable-baby-1089069.jpg" alt="anaokulu" />
                         <nav class="school-menu">
                             <router-link class="router-link" to="/anaokulu">Sınıflarımız</router-link>
-                            <router-link class="router-link" to="/anaokulu/hocalar">Hocalarımız</router-link>
+                            <router-link class="router-link" to="/anaokulu/hocalar">Öğretmen Kadromuz</router-link>
                         </nav>
                     </div>
                 </div>

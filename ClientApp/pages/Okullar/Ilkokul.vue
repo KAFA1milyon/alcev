@@ -23,7 +23,7 @@
                         <img class="box-bg img-fluid school-logo" src="/images/art-artistic-arts-and-crafts-1153895.jpg" alt="anaokulu" />
                         <nav class="school-menu">
                             <router-link class="router-link" to="/ilkokul">Sınıflarımız</router-link>
-                            <router-link class="router-link" to="/ilkokul/hocalar">Hocalarımız</router-link>
+                            <router-link class="router-link" to="/ilkokul/hocalar">Öğretmen Kadromuz</router-link>
                         </nav>
                     </div>
                 </div>
