@@ -10,9 +10,9 @@
             <div class="container">
                 <span class="offset-3">
                     <a href="/anaokulu/Hakkinda">Anaokulumuz <br>Hakkında</a>
-                    <a href="#">Eğitim <br>Modelimiz</a>
-                    <a href="#">Rehberlik</a>
-                    <a href="#">İngilizce</a>
+                    <a href="/anaokulu/EgitimModeli">Eğitim <br>Modelimiz</a>
+                    <a href="/anaokulu/Rehberlik">Rehberlik</a>
+                    <a href="/anaokulu/ingilizce">İngilizce</a>
                     <a href="#">Haftalık Öğrenme <br>Takvimi</a>
                     <a href="#">Ders <br>Programı</a>
                     <a href="#">Etkinlik <br>Takvimi</a>

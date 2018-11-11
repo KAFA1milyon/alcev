@@ -18,6 +18,9 @@ import Ortaokul from '../pages/Okullar/Ortaokul.vue'
 
 import AnaokuluSinif from '../pages/Okullar/Anaokulu/Siniflar.vue'
 import AnaokuluHakkinda from '../pages/Okullar/Anaokulu/Hakkinda.vue'
+import Anaokuluingilizce from '../pages/Okullar/Anaokulu/ingilizce.vue'
+import AnaokuluRehberlik from '../pages/Okullar/Anaokulu/Rehberlik.vue'
+import AnaokuluEgitimModeli from '../pages/Okullar/Anaokulu/EgitimModeli.vue'
 import AnaokuluHocalar from '../pages/Okullar/Anaokulu/Hocalar.vue'
 import IlkokulSinif from '../pages/Okullar/Ilkokul/Siniflar.vue'
 import IlkokulHocalar from '../pages/Okullar/Ilkokul/Hocalar.vue'
@@ -43,6 +46,7 @@ import OkulTarihce from '../pages/Static/OkulTarihce.vue'
 import Mezunlarimiz from '../pages/Static/Mezunlarimiz.vue'
 import Kutuphane from '../pages/Static/Kutuphane.vue'
 import UlasimImkanlari from '../pages/Static/UlasimImkanlari.vue'
+import AlcevEtut from '../pages/Static/AlcevEtut.vue'
 import BeslenmeDostu from '../pages/Static/BeslenmeDostu.vue'
 import OkulKiyafetleri from '../pages/Static/OkulKiyafetleri.vue'
 import EkoOkullarProjesi from '../pages/Static/EkoOkullarProjesi.vue'
@@ -84,6 +88,18 @@ const router = new VueRouter({
               path: 'Hakkinda',
               component: AnaokuluHakkinda
             },
+            {
+              path: 'Rehberlik',
+              component: AnaokuluRehberlik
+            },
+            {
+              path: 'EgitimModeli',
+              component: AnaokuluEgitimModeli
+            },
+            {
+              path: 'ingilizce',
+              component: Anaokuluingilizce
+            },              
             {
               path: 'hocalar',
               component: AnaokuluHocalar
@@ -136,6 +152,7 @@ const router = new VueRouter({
         //{ path: '/okul-kiyafetleri', component: OkulKiyafetleri },
         { path: '/kutuphane', component: Kutuphane },
         { path: '/ulasim-imkanlari', component: UlasimImkanlari },
+        { path: '/AlcevEtut', component: AlcevEtut},
         { path: '/beslenme-dostu-okul-projesi', component: BeslenmeDostu },
         { path: '/eko-okullar-projesi', component: EkoOkullarProjesi },
         { path: '/rehberlik-ve-danismanlik', component: RehberlikDanismanlik },
