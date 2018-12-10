@@ -356,6 +356,18 @@
                                         <span class="title">İngilizce Öğretmeni</span>
                                     </div>
                                 </div>
+                            </div>     
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="userprofile">
+                                    <div class="userprofile-circle">
+                                        <img src="/images/hocalar/serif-ezber.jpg" alt="">
+                                    </div>
+
+                                    <div class="userprofile-info">
+                                        <span class="name">Şerif Ezber</span>
+                                        <span class="title">Din Kültürü Öğretmeni</span>
+                                    </div>
+                                </div>
                             </div>                            
                         </div>
                     </div>
@@ -393,6 +405,18 @@
 
                                     <div class="userprofile-info">
                                         <span class="name">Pınar Erdemir</span>
+                                        <span class="title">Anasınıfı Öğretmeni</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="userprofile">
+                                    <div class="userprofile-circle">
+                                        <img src="/images/hocalar/ayse-betul-koc.jpg" alt="">
+                                    </div>
+
+                                    <div class="userprofile-info">
+                                        <span class="name">Ayşe Betül Koç</span>
                                         <span class="title">Anasınıfı Öğretmeni</span>
                                     </div>
                                 </div>

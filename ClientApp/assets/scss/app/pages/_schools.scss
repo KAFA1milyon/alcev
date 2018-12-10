@@ -94,7 +94,37 @@
         padding: 15px 0;
         font-size: 16px;
 
-        a { margin-right: 10px; }
+        .school-nav-link {
+          display: -webkit-box; 
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex; 
+          display: flex;
+
+          a { 
+            text-align: center;
+            margin-right: 20px; 
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            display: -webkit-box; 
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex; 
+            display: flex;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+            flex-direction: row;
+            -webkit-flex-wrdirectionap: row; /* Safari 6.1+ */
+            font-size: 14px;
+
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
     }
 
     .school-nav {

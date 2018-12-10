@@ -8,10 +8,13 @@
         </div>
         <div class="school-headerlink">
             <div class="container">
-                <span class="offset-3">
-                    <a href="#">Eğitim <br>Modülleri</a>
-                    <a href="#">İletişim <br>Standartlarımız</a>
-                    <a href="#">Ölçme ve <br>Değerlendirme</a>
+                <span class="offset-3 school-nav-link">
+                    <a href="#">Eğitim <br>Standartlarımız</a>
+                    <a href="#">Etkinliklerimiz</a>
+                    <a href="#">Rehberlik</a>
+                    <a href="#">Yabancı <br>Dil</a>
+                    <a href="#">Haftasonu <br>Kurslarımız</a>
+                    <a href="#">Robotik Spor <br>Müzik ve Resim</a>
                 </span>
             </div>
         </div>

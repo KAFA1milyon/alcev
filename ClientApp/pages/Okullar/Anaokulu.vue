@@ -8,7 +8,7 @@
         </div>
         <div class="school-headerlink">
             <div class="container">
-                <span class="offset-3">
+                <span class="offset-3 school-nav-link">
                     <a href="/anaokulu/Hakkinda">Anaokulumuz <br>Hakkında</a>
                     <a href="/anaokulu/EgitimModeli">Eğitim <br>Modelimiz</a>
                     <a href="/anaokulu/Rehberlik">Rehberlik</a>

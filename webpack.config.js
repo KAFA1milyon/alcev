@@ -54,7 +54,7 @@ module.exports = () => {
             scss: 'vue-style-loader!css-loader!resolve-url-loader!sass-loader'
           }
         }}, 
-        { test: /\.js$/, loader: 'babel-loader', exclude: file => (/node_modules/.test(file) && /node_modules(?!\/webpack-dev-server)/ && !/\.vue\.js/.test(file)) }, 
+        { test: /\.js$/, loader: 'babel-loader', exclude: file => (/node_modules/.test(file) && /node_modules(?!\/webpack-dev-server)/ && !/\.vue\.js/.test(file)) },
         { test: /\.css$/,
           oneOf: [{
               resourceQuery: /module/,
@@ -154,14 +154,15 @@ module.exports = () => {
     optimization: {
         minimizer: isProd ? [
           new UglifyJsPlugin({
-            exclude: /\/node_modules/,
+            //exclude: /\/node_modules/,
             cache: true,
             parallel: true,
             uglifyOptions: {
               compress: false,
               ecma: 6,
               mangle: true
-            }
+            },
+	    sourceMap: true
           }),
           new OptimizeCSSAssetsPlugin()
         ] : []

@@ -103,9 +103,10 @@
 <script>
     import HeaderModalMenu from './HeaderModal'
     import FixedHeader from 'vue-fixed-header'
+    import VueGallerySlideshow from 'vue-gallery-slideshow'
 
     export default {
-        components: { FixedHeader, HeaderModalMenu },
+        components: { FixedHeader, HeaderModalMenu, VueGallerySlideshow },
         watch: {
             '$route': function (to, from) {
                 if(to.path === '/'){

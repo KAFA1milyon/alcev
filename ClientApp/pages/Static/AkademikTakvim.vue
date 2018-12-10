@@ -16,7 +16,7 @@
         <div class="article-container">
             <div class="container">
                 <div class="article-content">
-                    <img src="/images/akademik-takvim.png" alt="" />
+                    <img class="responsive-image" src="/images/akademik-takvim.jpg" alt="" />
                 </div>
             </div>
         </div>

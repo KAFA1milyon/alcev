@@ -6,10 +6,12 @@ import { app, router, store } from "./app";
 
 import Vue from "vue";
 import VueAwesomeSwiper from 'vue-awesome-swiper';
+import VueGallerySlideshow from 'vue-gallery-slideshow';
 import VueYoutube from 'vue-youtube';
 
 Vue.use(VueAwesomeSwiper);
 Vue.use(VueYoutube);
+Vue.component('vue-gallery-slideshow', VueGallerySlideshow);
 
 store.replaceState(__INITIAL_STATE__);
 
