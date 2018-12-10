@@ -16,7 +16,7 @@
         <div class="article-container">
             <div class="container">
                 <div class="article-photo">
-                    <img class="circle-image" src="/images/alcev-baskan.jpg" alt="">
+                    <img class="circle-image" src="/images/baskan-mesaji.jpg" alt="">
                 </div>
 
                 <div class="article-content">

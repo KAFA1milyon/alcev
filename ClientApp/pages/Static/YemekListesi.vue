@@ -35,12 +35,111 @@
                             <tbody>
                                 <tr>
                                     <td>
-                                        30.11.2018 <br>
+                                        14.12.2018 <br>
                                         Cuma
                                     </td>
-                                    <td>Ezogelin Çorba</td>
-                                    <td>Kabak dolma</td>
-                                    <td>Peynirli börek</td>
+                                    <td>K. Tavuk Çorbası</td>
+                                    <td>Mantı</td>
+                                    <td>Z.Y. Brokoli</td>
+                                    <td>Yoğurt</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        13.12.2018 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>Anadolu  Çorba</td>
+                                    <td>Ispanak</td>
+                                    <td>Sebzeli Erişte</td>
+                                    <td>Sütlaç</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12.12.2018 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>Arpa Şehriye Çorba</td>
+                                    <td>Etli Nohut</td>
+                                    <td>Bulgur pilavı</td>
+                                    <td>Cacık</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        11.12.2018 <br>
+                                        Salı
+                                    </td>
+                                    <td>K. Mısır Çorba</td>
+                                    <td>Piliç  öğreten </td>
+                                    <td>Pirinç pilavı</td>
+                                    <td>Meyve</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        10.12.2018 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>Ezogelin çorbası </td>
+                                    <td>Misket köfte </td>
+                                    <td>Spagetti makarna</td>
+                                    <td>Yoğurt</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        07.12.2018 <br>
+                                        Cuma
+                                    </td>
+                                    <td>Tarhana çorbası  </td>
+                                    <td>Et döner </td>
+                                    <td>Pirinç pilavı</td>
+                                    <td>Ayran</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        06.12.2018 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>Mercimek Çorbası  </td>
+                                    <td>Sebzeli kebap </td>
+                                    <td>Arpa şehriye pilavı</td>
+                                    <td>Kemal paşa tatlısı</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        05.12.2018 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>K. Havuç çorbası</td>
+                                    <td>K.Fasülye</td>
+                                    <td>Bulgur pilavı</td>
+                                    <td>Kayısı üzüm hoşafı</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        04.12.2018 <br>
+                                        Salı
+                                    </td>
+                                    <td>Anamaşı çorbası</td>
+                                    <td>Patlıcan musakka</td>
+                                    <td>Pirinç pilavı</td>
+                                    <td>Cacık</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        03.12.2018 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>K. Tavuk çorbası</td>
+                                    <td>Piliç Roti</td>
+                                    <td>Kavurma makarna</td>
                                     <td>Yoğurt</td>
                                     <td>Salata Köşesi</td>
                                 </tr>
