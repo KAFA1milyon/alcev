@@ -29,30 +29,34 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th>Selvihan BEŞEK</th>
+                                    <th>SUZAN AZATOĞLU</th>
                                     <td>Başkan</td>
                                 </tr>
                                 <tr>
-                                    <th>Gülseren ERK</th>
+                                    <th>ŞULE ULUDOĞAN</th>
                                     <td>Başkan Yardımcısı</td>
                                 </tr>
                                 <tr>
-                                    <th>Tülin GÜLTEKİN</th>
+                                    <th>SEVİLAY AL</th>
+                                    <td>Sayman</td>
+                                </tr>
+                                <tr>
+                                    <th>DEVRİM BAHTİYAR</th>
+                                    <td>Sekreter</td>
+                                </tr>
+                                <tr>
+                                    <th>AHMET TÖNGÜT</th>
                                     <td>Asil Üye</td>
                                 </tr>
                                 <tr>
-                                    <th>Özlem YEDİKAT</th>
-                                    <td>Asil Üye</td>
-                                </tr>
-                                <tr>
-                                    <th>Derya ERSAN</th>
+                                    <th>HAKAN KANDUR</th>
                                     <td>Asil Üye</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
 
-                    <div class="content-layer">
+                    <!--<div class="content-layer">
                         <table class="table table-hover table-bordered">
                             <thead>
                                 <tr>
@@ -125,7 +129,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>

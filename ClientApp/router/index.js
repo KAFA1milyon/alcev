@@ -54,6 +54,7 @@ import OkulKiyafetleri from '../pages/Static/OkulKiyafetleri.vue'
 import EkoOkullarProjesi from '../pages/Static/EkoOkullarProjesi.vue'
 import RehberlikDanismanlik from '../pages/Static/RehberlikDanismanlik.vue'
 import YemekListesi from '../pages/Static/YemekListesi.vue'
+import VerimliDersCalisma from '../pages/Static/VerimliDersCalisma.vue'
 
 
 
@@ -161,6 +162,7 @@ const router = new VueRouter({
         { path: '/eko-okullar-projesi', component: EkoOkullarProjesi },
         { path: '/rehberlik-ve-danismanlik', component: RehberlikDanismanlik },
         { path: '/yemek-listesi', component: YemekListesi },
+        { path: '/VerimliDersCalisma', component: VerimliDersCalisma },
         { path: '/kulupler', component: Kulupler, 
           children: [
             {

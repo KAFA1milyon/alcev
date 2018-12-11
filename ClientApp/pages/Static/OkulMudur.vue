@@ -22,7 +22,13 @@
                 <div class="article-content">
                     <div class="content-layer">
                         <h4>Sevgili Öğrenciler, Değerli Velilerimiz;</h4>
-                        <p>Bir ulusun geleceğinin güvencesi; en önemli dinamik gücü hiç kuşkusuz o ülkenin gençleridir.Gençlik ülkenin geleceğinin güvencesidir. Gençlerden beklenen kendisinin ve ülkesinin geleceğini kurma yolunda daha güzel bir dünyada yaşayabilmek işlevini gerçekleştirmektir. Bu ise ancak iyi bir eğitimle olur. Eğitim kurumlarının geleceğimizde önemli bir yeri vardır. Kurtuluş savaşının ardından büyük kurtarıcımız Mustafa Kemal Atatürk eğitim alanında devrimler başlatmıştır. O biliyordu ki medeni ulusların düzeyine çıkmanın tek yolu başta eğitimde devrim ile olacaktı. Ne yazık ki onun başlattığı devrimler ölümünden sonra kesintilere uğradı. Özellikle aydınlanma yolunda Anadolu’da çok büyük bir çığır açan köy enstitülülerinin kapatılması ile birlikte eğitim sistemimiz her geçen gün bozulmaya başlamıştır. Ne yazık ki bugün ülkemiz eğitimi alt yapısıyla ve sosyal üst yapısıyla hiç de iyi bir durumda değildi.</p>
+                        <p>Türkiye’ de çağdaş eğitim çizgisi ve kalitesinde Körfez’in ilk ve yıllardır bu çizgiden ödün vermeden en kaliteli eğitimi sunan okulunun bir ferdi olmaktan gurur duyuyorum. Okulumuza duyduğunuz güvenle teslim ettiğiniz hayattaki en değerli varlıklarınız önce evde sizlerin ama günlerinin en uzun saatlerini geçirdikleri okulda bizlerin çocuklarıdır.</p>
+                        <p>Amacımız ilk önce onlara okulu sevdirmek iyi ve sağlam arkadaşlıklar kurmalarına destek olmak ama her şeyden önemlisi mutlu bireyler olarak yetişmelerine olanak sağlamaktır.</p>
+                        <p>Tüm farklılıkları kabul etmeyi, hayattaki tüm renkleri görebilmeyi, kendini keşfetmeyi, var olan potansiyelinin üzerine çıkabilmeyi, bilgiye ulaşmayı, her bakış açısıyla problem çözebilen bireyler yetiştirmek hedefimiz.</p>
+                        <p>İstiyoruz ki güven ortamında yetişen çocuklarımız, sınırlamalarla değil, kurdukları hayallerle büyüsün. Hayallerine ulaşmak için öğrensin, öğrendikleriyle yepyeni dünyalar kursun. Bu dünyaları kurarken kendi öz değerlerini bilsin, Atatürk’e, onun kurduğu bu ülkeye ilke ve inkılaplarına sahip çıksın. Okusun, okuduğunu anlasın ve bireysel farklılıklarını keşfeden bir birey olsun.</p>
+                        <p>Bizler ALÇEV olarak Atatürk’ün yolunda çocuklarımızın daha ilk adımlarında onların ellerinden tutarak, tüm kadromuzla el ele birlikte yürüyoruz. Gelecekte ülkemizi emanet edeceğimiz öğrenciler yetiştiriyoruz.</p>
+                        <p>Onlara tüm kalbimle başarılar diliyorum.</p>
+                        <p>H. Seda GÜZELİŞ</p>
                     </div>
                 </div>
             </div>
