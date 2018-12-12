@@ -52,7 +52,7 @@
                                             <router-link class="router-link" data-dismiss="modal" to="/sanat-ve-spor">Sanat ve Spor</router-link>
                                             <router-link class="router-link" data-dismiss="modal" to="/ulasim-imkanlari">Ulaşım İmkanları</router-link>
                                             <router-link class="router-link" data-dismiss="modal" to="/AlcevEtut">ALÇEV' de Etüt</router-link>
-                                            <router-link class="router-link" data-dismiss="modal" to="/verimli-ders-calisma">Verimli Ders Çalışma</router-link>
+                                            <router-link class="router-link" data-dismiss="modal" to="/verimliderscalisma">Verimli Ders Çalışma</router-link>
                                         </div>
                                         <div class="tab-pane fade" id="hakkinda" role="tabpanel" aria-labelledby="hakkinda-tab">
                                             <router-link class="router-link" data-dismiss="modal" to="/ogretmenler">Eğitim Öğretim Kadrosu</router-link>
