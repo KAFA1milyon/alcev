@@ -25,7 +25,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Ahmet Bilgiç</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -37,19 +37,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Ahmet Özdemir</span>
-                                    <span class="title">Kurucu Üye</span>                                       
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="userprofile">
-                                <div class="userprofile-square">
-                                    <img src="/images/kurucu-uye/ali-cam.png" alt="">
-                                </div>
-
-                                <div class="userprofile-info">
-                                    <span class="name">Ali Çam</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +49,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Ali Seyri</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +61,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Aysel Cebeci</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +73,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Hasan Özpolat</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +85,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Hüseyin Altıntaş</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +97,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">İbrahim Kesen</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +109,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">İsmail Aynur</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +121,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Mahmut Öztürk</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -145,7 +133,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Mehmet Akif Önal</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +145,19 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Mehmet Çiftçi</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="userprofile">
+                                <div class="userprofile-square">
+                                    <img src="/images/kurucu-uye/mehmet-durmaz.jpg" alt="">
+                                </div>
+
+                                <div class="userprofile-info">
+                                    <span class="name">Mehmet Durmaz</span>
+                                    <span class="title">Yönetim Kurulu Üyesi</span>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Mehmet Ören</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Mustafa Erim</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +193,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Ramazan Çengel</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Tahir Taner İnce</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Tümdeniz Çelebi</span>
-                                    <span class="title">Kurucu Üye</span>                                       
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>

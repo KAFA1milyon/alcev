@@ -65,18 +65,18 @@
                                 </div>
                             </div>
                         </div>
-                        <!--<div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4">
                             <div class="userprofile">
                                 <div class="userprofile-circle">
-                                    <img src="/images/personel/iftadiye-akbulut.jpg" alt="">
+                                    <img src="/images/personel/fatma-colak-oflak.jpg" alt="">
                                 </div>
 
                                 <div class="userprofile-info">
-                                    <span class="name">İftadiye Akbulut</span>
-                                    <span class="title">Halkla İlişkiler</span>                                       
+                                    <span class="name">Fatma Çolak Oflak</span>
+                                    <span class="title">Yazı İşleri</span>                                       
                                 </div>
                             </div>
-                        </div>-->
+                        </div>
                         <div class="col-12 col-md-4">
                             <div class="userprofile">
                                 <div class="userprofile-circle">

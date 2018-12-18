@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="article-content">
                     <div class="content-layer">
-                        <h3>Özel Altınoluk Çağdaş Eğitim Vakfı İlkokulu / Ortaokulu 2017 – 2018 Eğitim Öğretim Yılı</h3>
+                        <h3>Özel Altınoluk Çağdaş Eğitim Vakfı İlkokulu / Ortaokulu 2018 – 2019 Eğitim Öğretim Yılı</h3>
                         <br><br>
                     
                         <table class="table table-hover table-bordered">

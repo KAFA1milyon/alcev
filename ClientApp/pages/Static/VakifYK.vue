@@ -40,31 +40,44 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Elif Burcu İnce Ünsal</span>
-                                    <span class="title">Yönetim Kurulu Üyesi</span>                                       
+                                    <span class="title">Yönetim Kurulu Üyesi</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-2">
-                            <div class="userprofile">
-                                <div class="userprofile-square">
-                                    <img src="/images/kurucu-uye/mehmet-durmaz.jpg" alt="">
-                                </div>
 
-                                <div class="userprofile-info">
-                                    <span class="name">Mehmet Durmaz</span>
-                                    <span class="title">Yönetim Kurulu Üyesi</span>                                       
-                                </div>
-                            </div>
-                        </div>
                         <div class="col-12 col-md-2">
                             <div class="userprofile">
                                 <div class="userprofile-square">
-                                  <img src="/images/kurucu-uye/yavuz-agacdelen.jpg" alt="">
+                                    <img src="/images/kurucu-uye/yavuz-agacdelen.jpg" alt="">
                                 </div>
 
                                 <div class="userprofile-info">
                                     <span class="name">Yavuz Ağaçdelen</span>
-                                    <span class="title">Yönetim Kurulu Üyesi</span>                                       
+                                    <span class="title">Yönetim Kurulu Üyesi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="userprofile">
+                                <div class="userprofile-square">
+                                    <img src="/images/kurucu-uye/mehmet-oren.png" alt="">
+                                </div>
+
+                                <div class="userprofile-info">
+                                    <span class="name">Mehmet Ören</span>
+                                    <span class="title">Kurucu Üye</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="userprofile">
+                                <div class="userprofile-square">
+                                    <img src="/images/kurucu-uye/ali-cam.png" alt="">
+                                </div>
+
+                                <div class="userprofile-info">
+                                    <span class="name">Ali Çam</span>
+                                    <span class="title">Kurucu Üye</span>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +89,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Ramazan Çengel</span>
-                                    <span class="title">Yönetim Kurulu Üyesi</span>                                       
+                                    <span class="title">Yönetim Kurulu Üyesi</span>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +101,7 @@
 
                                 <div class="userprofile-info">
                                     <span class="name">Mustafa Erim</span>
-                                    <span class="title">Yönetim Kurulu Üyesi</span>                                       
+                                    <span class="title">Yönetim Kurulu Üyesi</span>
                                 </div>
                             </div>
                         </div>

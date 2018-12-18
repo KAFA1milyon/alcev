@@ -35,6 +35,116 @@
                             <tbody>
                                 <tr>
                                     <td>
+                                        28.12.2018 <br>
+                                        Cuma
+                                    </td>
+                                    <td>Tavuk Çorbası</td>
+                                    <td>Hot dog sandviç</td>
+                                    <td>Patates cips</td>
+                                    <td>Meyve suyu</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        27.12.2018 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>Alaca Çorba</td>
+                                    <td>Kabak dolma</td>
+                                    <td>Peynirli börek</td>
+                                    <td>Meyve</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        26.12.2018 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>Kremalı Havuç çorba</td>
+                                    <td>Piliç kavurma</td>
+                                    <td>Bulgur Pilavı</td>
+                                    <td>Muzlu puding</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        25.12.2018 <br>
+                                        Salı
+                                    </td>
+                                    <td>Etli Çorba</td>
+                                    <td>Kuru Fasülye</td>
+                                    <td>Pilav</td>
+                                    <td>Cacık</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        24.12.2018 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>Ezogelin Çorbası</td>
+                                    <td>Balık</td>
+                                    <td>Makarna</td>
+                                    <td>Helva</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        21.12.2018 <br>
+                                        Cuma
+                                    </td>
+                                    <td>K.domates çorba</td>
+                                    <td>Pizza</td>
+                                    <td>Dilim Patates</td>
+                                    <td>Ayran</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        20.12.2018 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>Anamaşı Çorba</td>
+                                    <td>Kış Türlüsü</td>
+                                    <td>Makarna</td>
+                                    <td>Meyve</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        19.12.2018 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>Tarhana çorbası</td>
+                                    <td>Fırın Baget</td>
+                                    <td>Pilav</td>
+                                    <td>Tel Kadayıf</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        18.12.2018 <br>
+                                        Salı
+                                    </td>
+                                    <td>Kremalı Mantar Çorbası</td>
+                                    <td>Yeşil Mercimek</td>
+                                    <td>Kuskus Pilavı</td>
+                                    <td>Cacık</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        17.12.2018 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>Mercimek çorbası</td>
+                                    <td>Rosto Köfte</td>
+                                    <td>Püre</td>
+                                    <td>Yoğurt</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
                                         14.12.2018 <br>
                                         Cuma
                                     </td>
