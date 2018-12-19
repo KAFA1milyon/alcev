@@ -45,7 +45,7 @@
             <li>Çocukların evlerinden getirdikleri ve kendi seçtikleri eşyaları, nesneleri grup önünde arkadaşlarına göstermesini ve onunla ilgili bir tanıtım yapmalarını kapsamaktadır.</li>
             <li>Amacı çocuğun ev ile okul arasında bağlantı kurmasını sağlamak, bir nesne, fotoğraf ya da oyuncak yoluyla grup önünde kendini ifade etmesine, başkalarını dinleme, sorular üretme ve karşılaştırmalar yapabilmesine, dil gelişiminin desteklenmesine fırsat tanımaktır.</li>
             <li>Göster – Anlat çocuğunun arkadaşlarına getirdiği eşyayı önce; göstermesi, uygunsa elden ele geçirilerek dokundurması, ilgili özelliklerini tanıtması, arkadaşlarına soru sorması, onların sorularına cevap vermesi, tanıtımdan sonra bu eşyanın ayrılan “özel” yerde sergilenmesi şeklinde gerçekleşir.</li>
-            <li>Velilerimiz “Haftalık Öğrenme Takvimi” aracılığıyla etkinlik sıralarını takip ederler. </li>
+            <li>Velilerimiz <router-link class="router-link" to="/anaokulu/ogrenme-takvimi">“Haftalık Öğrenme Takvimi”</router-link> aracılığıyla etkinlik sıralarını takip ederler. </li>
         </ol>
 
         <h5>MATEMATİK ETKİNLİĞİ BASAMAKLARI MTW (Math Their Way),</h5>
@@ -133,7 +133,7 @@
 
         <h5>HAFTALIK ÖĞRENME TAKVİMİ</h5>
         <ol class="arrow">
-            <li>Her Cuma öğrencilerimizle siz velilerimize gönderdiğimiz Haftalık Öğrenme Takvimi aracılığıyla; </li>
+            <li>Her Cuma öğrencilerimizle siz velilerimize gönderdiğimiz <router-link class="router-link" to="/anaokulu/ogrenme-takvimi">Haftalık Öğrenme Takvimi</router-link> aracılığıyla</li>
             <li>Bir sonraki hafta hangi temanın işleneceğini, hangi etkinliklerin yapılacağını görebilir, çocuğunuzun okula gelirken getirmesi gerekenleri takip edebilirsiniz.</li>
         </ol>
 
