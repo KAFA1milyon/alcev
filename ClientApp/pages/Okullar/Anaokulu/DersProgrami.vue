@@ -3,13 +3,13 @@
     <div>
         <h2 class="page-title">
             <div class="container">
-                Haftalık Öğrenme Takvimi
+                Anaokulu Ders Programı
             </div>
         </h2>
 
         <div class="breadcumbs">
             <div class="container">
-                Anasayfa > Haftalık Öğrenme Takvimi
+                Anasayfa > Anaokulu Ders Programı
             </div>
         </div>
 
@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="article-content">
                     <div class="content-layer">
-                        <h4>Özel Altınoluk Çağdaş Eğitim Vakfı Haftalık Öğrenme Takvimi</h4>
+                        <h4>Özel Altınoluk Çağdaş Eğitim Vakfı Anaokulu Ders Programı</h4>
                         <br><br>
                         <p>Yeşil Sınıf</p>
                         <p>Sınıf Öğretmeni : Aysun Kara</p>
@@ -199,6 +199,100 @@
                                     <td>Sanatsal Etkinlikler</td>
                                     <td>Müzik<br />B. Köseley</td>
                                     <td>Eğlenceli Matematik</td>
+                                    <td>Okuma Yazmaya <br />Hazırlık Çlş.</td>
+                                    <td>Öğrenme Merkezli<br />Oyun</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <br />
+                        <p>Sarı Sınıf</p>
+                        <p>Sınıf Öğretmeni : Yeşim Bektaş</p>
+                        <br />
+
+                        <table class="table table-hover table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Günler</th>
+                                    <th>1. Ders <br />09.00<br />09.40</th>
+                                    <th>2. Ders <br />09.50<br />10.30</th>
+                                    <th>3. Ders <br />10.40<br />11.20</th>
+                                    <th>4. Ders <br />11.30<br />12.10</th>
+                                    <th>5. Ders <br />12.50<br />13.30</th>
+                                    <th>6. Ders <br />13.40<br />14.20</th>
+                                    <th>7. Ders <br />14.30<br />15.10</th>
+                                    <th>8. Ders <br />15.20<br />16.00</th>
+                                    <th>9. Ders <br />16.10<br />16.40</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Pazartesi
+                                    </td>
+                                    <td>Güne Merhaba<br />Rutin Etkinlikler</td>
+                                    <td>Türkçe Dil<br />Etkinliği</td>
+                                    <td>Müzik<br />B. Köseley</td>
+                                    <td>Matematik</td>
+                                    <td>İngilizce<br />F. Özer</td>
+                                    <td>İngilizce<br />F. Özer</td>
+                                    <td>Okuma Yazmaya<br />Hazırlık Çlş.</td>
+                                    <td>Drama</td>
+                                    <td>Öğrenme Merkezli<br />Oyun</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Salı
+                                    </td>
+                                    <td>Güne Merhaba<br />Rutin Etkinlikler</td>
+                                    <td>Bilişim Teknolojileri<br />M. Karahan</td>
+                                    <td>Sanat Etkinliği</td>
+                                    <td></td>
+                                    <td>Matematik</td>
+                                    <td>Türkçe Dil<br />Etkinliği</td>
+                                    <td>Bale<br />M. A. </td>>
+                                    <td>Müzik<br />Orff</td>
+                                    <td>Öğrenme Merkezli<br />Oyun</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Çarşamba
+                                    </td>
+                                    <td>Güne Merhaba<br />Rutin Etkinlikler</td>
+                                    <td>İngilizce<br />F. Özer</td>
+                                    <td>Türkçe Dil <br />Etkinliği</td>
+                                    <td>Satranç<br />A. Aksal</td>
+                                    <td>Sanat Etkinliği</td>
+                                    <td>Okuma Yazmaya <br />Hazırlık Çlş.</td>
+                                    <td>Bale<br /> M.A.</td>
+                                    <td>Müzik <br />Orff</td>
+                                    <td>Öğrenme Merkezli<br />Oyun</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Perşembe
+                                    </td>
+                                    <td>Güne Merhaba<br />Rutin Etkinlikler</td>
+                                    <td>Beden Eğitimi<br />B. Çavlıca</td>
+                                    <td>Beden Eğitimi<br />B. Çavlıca</td>
+                                    <td>İngilizce<br />F. Özer</td>
+                                    <td>Görsel Sanatlar<br />T.Ö.</td>
+                                    <td>Matematik</td>
+                                    <td>Okuma Yazmaya <br />Hazırlık Çlş.</td>
+                                    <td>Müzik<br />Orff</td>
+                                    <td>Öğrenme Merkezli<br />Oyun</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Cuma
+                                    </td>
+                                    <td>Güne Merhaba<br />Rutin Etkinlikler</td>
+                                    <td>Türkçe Dil<br />Etkinliği</td>
+                                    <td>İngilizce<br />F. Özer</td>
+                                    <td>İngilizce<br />F. Özer</td>
+                                    <td>Bilimsel Aktivte</td>
+                                    <td>Drama<br />İ. Ç.</td>
+                                    <td>Matematik</td>
                                     <td>Okuma Yazmaya <br />Hazırlık Çlş.</td>
                                     <td>Öğrenme Merkezli<br />Oyun</td>
                                 </tr>

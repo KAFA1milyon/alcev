@@ -56,7 +56,7 @@
                                         </div>
                                         <div class="tab-pane fade" id="hakkinda" role="tabpanel" aria-labelledby="hakkinda-tab">
                                             <router-link class="router-link" data-dismiss="modal" to="/ogretmenler">Eğitim Öğretim Kadrosu</router-link>
-                                            <router-link class="router-link" data-dismiss="modal" to="/okul-mudur">Müdür</router-link>
+                                            <router-link class="router-link" data-dismiss="modal" to="/okul-mudur">Okul Müdürü</router-link>
                                             <router-link class="router-link" data-dismiss="modal" to="/okul-mudur-yardimcilari">Müdür Yardımcıları</router-link>
                                             <router-link class="router-link" data-dismiss="modal" to="/personel-kadrosu">Personel Kadrosu</router-link>
                                             <router-link class="router-link" data-dismiss="modal" to="/okul-aile-birligi">Okul Aile Birliği</router-link>
