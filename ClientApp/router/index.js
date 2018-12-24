@@ -17,13 +17,12 @@ import Ilkokul from '../pages/Okullar/Ilkokul.vue'
 import Ortaokul from '../pages/Okullar/Ortaokul.vue'
 
 import AnaokuluSinif from '../pages/Okullar/Anaokulu/Siniflar.vue'
-import AnaokuluDersProgrami from '../pages/Okullar/Anaokulu/DersProgramı.vue'
+import AnaokuluDersProgrami from '../pages/Okullar/Anaokulu/DersProgrami.vue'
 import AnaokuluHakkinda from '../pages/Okullar/Anaokulu/Hakkinda.vue'
 import Anaokuluingilizce from '../pages/Okullar/Anaokulu/ingilizce.vue'
 import AnaokuluRehberlik from '../pages/Okullar/Anaokulu/Rehberlik.vue'
 import AnaokuluEgitimModeli from '../pages/Okullar/Anaokulu/EgitimModeli.vue'
 import AnaokuluHocalar from '../pages/Okullar/Anaokulu/Hocalar.vue'
-import AnaokuluOgrenmeTakvimi from '../pages/Okullar/Anaokulu/OgrenmeTakvimi.vue'
 import IlkokulSinif from '../pages/Okullar/Ilkokul/Siniflar.vue'
 import IlkokulHocalar from '../pages/Okullar/Ilkokul/Hocalar.vue'
 import OrtaokulSinif from '../pages/Okullar/Ortaokul/Siniflar.vue'
@@ -112,10 +111,6 @@ const router = new VueRouter({
             {
               path: 'hocalar',
               component: AnaokuluHocalar
-            },
-            {
-              path: 'ogrenme-takvimi',
-              component: AnaokuluOgrenmeTakvimi
             }
           ]
         },
