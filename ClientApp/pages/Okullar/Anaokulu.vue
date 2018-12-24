@@ -14,7 +14,7 @@
                     <a href="/anaokulu/Rehberlik">Rehberlik</a>
                     <a href="/anaokulu/ingilizce">İngilizce</a>
                     <a href="#">Haftalık Öğrenme <br>Takvimi</a>
-                    <a href="#">Ders <br>Programı</a>
+                    <a href="/anaokulu/AnaokuluDersProgrami">Ders <br>Programı</a>
                     <a href="#">Etkinlik <br>Takvimi</a>
                     <a href="#">Galeri</a>
                 </span>

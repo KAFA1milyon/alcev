@@ -1,4 +1,4 @@
-import Vue from 'vue'
+﻿import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import ErrorPage from '../pages/ErrorPage.vue'
@@ -17,6 +17,7 @@ import Ilkokul from '../pages/Okullar/Ilkokul.vue'
 import Ortaokul from '../pages/Okullar/Ortaokul.vue'
 
 import AnaokuluSinif from '../pages/Okullar/Anaokulu/Siniflar.vue'
+import AnaokuluDersProgrami from '../pages/Okullar/Anaokulu/DersProgramı.vue'
 import AnaokuluHakkinda from '../pages/Okullar/Anaokulu/Hakkinda.vue'
 import Anaokuluingilizce from '../pages/Okullar/Anaokulu/ingilizce.vue'
 import AnaokuluRehberlik from '../pages/Okullar/Anaokulu/Rehberlik.vue'
@@ -99,7 +100,11 @@ const router = new VueRouter({
             {
               path: 'EgitimModeli',
               component: AnaokuluEgitimModeli
-            },
+              },
+              {
+                  path: 'AnaokuluDersProgrami',
+                  component: AnaokuluDersProgrami
+              },
             {
               path: 'ingilizce',
               component: Anaokuluingilizce
