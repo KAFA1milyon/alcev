@@ -41,6 +41,7 @@ import VakifTarihce from '../pages/Static/VakifTarihce.vue'
 import VakifYK from '../pages/Static/VakifYK.vue'
 import OkulMudur from '../pages/Static/OkulMudur.vue'
 import OkulMudurYardimcilari from '../pages/Static/OkulMudurYardimcilari.vue'
+import BasariSertifikalarimiz from '../pages/Static/BasariSertifikalarimiz.vue'
 import PersonelKadrosu from '../pages/Static/PersonelKadrosu.vue'
 import FizikiYapi from '../pages/Static/FizikiYapi.vue'
 import HizmetStandartlari from '../pages/Static/HizmetStandartlari.vue'
@@ -153,6 +154,7 @@ const router = new VueRouter({
         { path: '/yonetim-kurulu', component: VakifYK },
         { path: '/okul-mudur', component: OkulMudur },
         { path: '/okul-mudur-yardimcilari', component: OkulMudurYardimcilari },
+        { path: '/basari-sertifikalarimiz', component: BasariSertifikalarimiz },
         { path: '/personel-kadrosu', component: PersonelKadrosu },
         { path: '/fiziki-yapi', component: FizikiYapi }, 
         { path: '/hizmet-standartlarimiz', component: HizmetStandartlari },
