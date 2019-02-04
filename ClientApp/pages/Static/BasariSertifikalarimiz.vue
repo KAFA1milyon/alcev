@@ -35,7 +35,7 @@
                                 </div>
 
                                 <div class="userprofile-info">
-                                    <span class="name"><a href="https://hsgm.saglik.gov.tr/tr/okul-sagligi/beslenme-dostu-okullar-program%C4%B1.htmlhttps://hsgm.saglik.gov.tr/tr/okul-sagligi/beslenme-dostu-okullar-program%C4%B1.html" target="_blank">Beslenme Dostu</a></span>
+                                    <span class="name"><a href="https://hsgm.saglik.gov.tr/tr/okul-sagligi/beslenme-dostu-okullar-program%C4%B1.html" target="_blank">Beslenme Dostu</a></span>
                                 </div>
                             </div>
                         </div>

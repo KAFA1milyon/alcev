@@ -60,18 +60,31 @@
 
                 <div class="container">
                     <div class="feedback-box">
-                        2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
+                        2 yıldır ALÇEV velisiyim. Devlet okulundan geldim. Okulumuz her yönden kendimizi geliştirmemize destek oldu. Güler yüzlü personel ve öğretmenler sayesinde akademik ve duygusal gelişimi üst noktaya çıktı. İyi bir eğitim alıp başarılı olacağına eminim. Emeği geçen herkese teşekkür ederiz. İyi ki ALÇEV liyiz.
 
                         <div class="feedback-user">
                             <i class="icon icon-user-man"></i>
 
                             <div class="userinfo">
-                                Erhan ERDOĞAN
-                                <span class="user-title">Müdür</span>
+                                Ayla Yıldız Özjan
+                                <span class="user-title">Veli</span>
                             </div>
                         </div>
                     </div>
                     <div class="feedback-box">
+                        3 yıldır ALÇEV velisiyim. Öğretmenlerimizin ilgisinden, güler yüzünden çok memnunuz. Çocuklarımız okulu evi gibi görüyor. Öğretmenlerini çok seviyorlar. Akademik olarak her türlü desteği görüyoruz. Özel günlerde hazırladıkları etkinliklerle çocuklarımızla gurur duyuyoruz. ALÇEV velisi olarak başarılı bir eğitim yılı diliyorum. İyi ki ALÇEV liyiz.
+
+                        <div class="feedback-user">
+                            <i class="icon icon-user-man"></i>
+
+                            <div class="userinfo">
+                                Tülay Kavas
+                                <span class="user-title">Veli</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<div class="feedback-box">
                         2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
 
                         <div class="feedback-user">
@@ -82,20 +95,7 @@
                                 <span class="user-title">Müdür</span>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="feedback-box">
-                        2 çocuğumu da Alçev’den mezun ettim. Şimdi birisi CERN’de bilim insanı, diğeriyse dünyaca ünlü bir piyanist. Tüm Alçev ailesine ve değerli hocalarımıza teşekkürler!
-
-                        <div class="feedback-user">
-                            <i class="icon icon-user-man"></i>
-
-                            <div class="userinfo">
-                                Erhan ERDOĞAN
-                                <span class="user-title">Müdür</span>
-                            </div>
-                        </div>
-                    </div>
+                    </div>-->
                 </div>
             </section>
         </div>
