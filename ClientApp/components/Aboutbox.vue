@@ -43,11 +43,11 @@
                     <div class="box-title">Başarı ve Sertifikalarımız</div>
 
                     <div class="box-content">
-                        Geçtiğimiz yıllarda “Sağlıklı Okul, Temiz Okul” kampanyası ve “Beyaz Bayrak” projelerinde ödüllendirildik.
+                        Okulumuz, beyaz bayrak,eko okul ve beslenme dostu okul projeleri kapsamında ödüllendirilmiştir.
                     </div>
 
                     <div class="box-button">
-                        <a href="#" class="button secondary-action">Detaylar</a>
+                        <router-link class="button secondary-action" to="/basari-sertifikalarimiz">Başarı Sertifalarımız</router-link>
                     </div>
                 </div>
             </div>
