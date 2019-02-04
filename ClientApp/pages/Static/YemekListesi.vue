@@ -35,6 +35,227 @@
                             <tbody>
                                 <tr>
                                     <td>
+                                        01.03.2019 <br>
+                                        Cuma
+                                    </td>
+                                    <td>K. Mısır çorbası</td>
+                                    <td>Kıymalı Pide</td>
+                                    <td>Patates Cips</td>
+                                    <td>Ayran</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        28.02.2019 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>Ezogelin Çorba</td>
+                                    <td>Tavuk Döner</td>
+                                    <td>Pirinç Pilavı</td>
+                                    <td>Ayran</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        27.02.2019 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>Anamaşı çorbası</td>
+                                    <td>Balık</td>
+                                    <td>Makarna</td>
+                                    <td>Helva</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        26.02.2019 <br>
+                                        Salı
+                                    </td>
+                                    <td>K. Domates Çorbası</td>
+                                    <td>Tavuk Ogreten</td>
+                                    <td>Yoğurt Soslu Makarna</td>
+                                    <td>Meyve</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        25.02.2019 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>Mercimek çorbası</td>
+                                    <td>Rosto köfte</td>
+                                    <td>Şehriyeli Pirinç Pilavı</td>
+                                    <td>Kadayıf</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        22.02.2019 <br>
+                                        Cuma
+                                    </td>
+                                    <td>Anadolu çorbası</td>
+                                    <td>Kabak Dolma</td>
+                                    <td>Ispanaklı Börek</td>
+                                    <td>Yoğurt</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        21.02.2019 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>Toyga çorbası</td>
+                                    <td>Z. Y. Ispanak</td>
+                                    <td>Sebzeli Erişte</td>
+                                    <td>Yoğurt</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        20.02.2019 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>K. Sebze çorbası</td>
+                                    <td>Patlıcan Musakka</td>
+                                    <td>Pirinç Pilavı</td>
+                                    <td>Cacık</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        19.02.2019 <br>
+                                        Salı
+                                    </td>
+                                    <td>S. Şehriye çorbası</td>
+                                    <td>Nohut</td>
+                                    <td>Bulgur Pilavı</td>
+                                    <td>Üzüm Hoşafı</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        18.02.2019 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>Yayla çorbası</td>
+                                    <td>KAşarlı Fırın Tavuk</td>
+                                    <td>Havuçlu Pirinç Pilavı</td>
+                                    <td>Sütlaç</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        15.02.2019 <br>
+                                        Cuma
+                                    </td>
+                                    <td>K. Domates çorbası</td>
+                                    <td>ISpanak</td>
+                                    <td>Kavurma Makarna</td>
+                                    <td>Meyve Suyu</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        14.02.2019 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>K. Havuç çorbası</td>
+                                    <td>Mantı</td>
+                                    <td>Şakşuka</td>
+                                    <td>Yoğurt</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        13.02.2019 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>Alaca çorba</td>
+                                    <td>Çıtır Tavuk</td>
+                                    <td>Arpa Şehriye Pilavı</td>
+                                    <td>Ayran</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12.02.2019 <br>
+                                        Salı
+                                    </td>
+                                    <td>K. Mantar çorbası</td>
+                                    <td>Patates Musakka</td>
+                                    <td>Soslu Makarna</td>
+                                    <td>Cacık</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        11.02.2019 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>Tarhana çorbası</td>
+                                    <td>Ekşili Köfte</td>
+                                    <td>Pirinç Pilavı</td>
+                                    <td>Profiterol</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        08.02.2019 <br>
+                                        Cuma
+                                    </td>
+                                    <td>Ezogelin çorbası</td>
+                                    <td>Balık</td>
+                                    <td>Napoliten soslu spagetti</td>
+                                    <td>Helva</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        07.02.2019 <br>
+                                        Perşembe
+                                    </td>
+                                    <td>Etli çorba</td>
+                                    <td>Garnitürlü Sebze</td>
+                                    <td>Portakallı P. Pilavı</td>
+                                    <td>Yoğurt</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        06.02.2019 <br>
+                                        Çarşamba
+                                    </td>
+                                    <td>Anamaşı çorbası</td>
+                                    <td>Piliç Kavurma</td>
+                                    <td>Fırın Makarna</td>
+                                    <td>Meyve</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        05.02.2019 <br>
+                                        Salı
+                                    </td>
+                                    <td>T. Tavuk çorbası</td>
+                                    <td>Kuru Fasülye</td>
+                                    <td>Pirinç Pilavı</td>
+                                    <td>Cacık</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        04.02.2019 <br>
+                                        Pazartesi
+                                    </td>
+                                    <td>Mercimek Çorbası</td>
+                                    <td>Çiftlik Kebabı</td>
+                                    <td>Bulgur Pilavı</td>
+                                    <td>Revani</td>
+                                    <td>Salata Köşesi</td>
+                                </tr>
+                                <tr>
+                                    <td>
                                         11.01.2019 <br>
                                         Cuma
                                     </td>
