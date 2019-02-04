@@ -62,7 +62,6 @@ module.exports = () => {
                   loader: 'css-loader',
                   options: {
                     url: false,
-                    minimize: isProd ? true : false,
                     sourceMap: true
                   }
               }]
@@ -78,7 +77,6 @@ module.exports = () => {
               loader: "css-loader",
               options: {
                   url: false,
-                  minimize: isProd ? true : false,
                   sourceMap: true
               }
           }, {
