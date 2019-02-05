@@ -166,6 +166,9 @@ module.exports = () => {
         ] : []
     },
     plugins: [
+      new webpack.LoaderOptionsPlugin({
+        minimize: true
+      }),
       new CleanWebpackPlugin([path.resolve(__dirname, './wwwroot')]),
       new FriendlyErrorsPlugin(),
       new VueLoaderPlugin(),

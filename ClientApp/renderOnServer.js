@@ -15,7 +15,7 @@ module.exports = prerendering.createServerRenderer(function(params) {
 	return new Promise(function(resolve, reject) {
 		// console.log('#prerendering#',params)
 		const context = {
-		  url: params.url,
+		  	url: params.url,
 			absoluteUrl: params.absoluteUrl,
 			baseUrl: params.baseUrl,
 			data: params.data,
@@ -27,12 +27,13 @@ module.exports = prerendering.createServerRenderer(function(params) {
 			)
 		};
 		vueRenderer.renderToString(context, (err, _html) => {
+			console.log('_html', err, _html);
 			if (err) {
 				reject(err.message);
 			}
 			resolve({
 				html: _html,
-				globals: {
+				globals: {			
 					__INITIAL_STATE__: context.state
 				}
 			});
